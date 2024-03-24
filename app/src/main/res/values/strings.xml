@@ -11,4 +11,18 @@
     <string name="contrasena">Contraseña</string>
     <string name="iniciar_sesion">Iniciar Sesión</string>
     <string name="usuario">Usuario</string>
+    <string name="UsuarioRegistro">TextView</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="contrasenaRegistro">Contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="tipo_de_usuario">Tipo de Usuario</string>
+    <string name="Registro">Usuario</string>
+    <string name="registrarseboton">Registrarse</string>
+    <string name="artistas_destacados">Artistas Destacados</string>
+    <string name="nuevos_eventos">Nuevos Eventos</string>
+    <string name="todo">TODO</string>
+    <string name="kiki">TODO</string>
+    <string name="nicky">TODO</string>
 </resources>
