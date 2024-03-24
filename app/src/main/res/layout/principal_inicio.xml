@@ -9,6 +9,67 @@
     tools:layout_editor_absoluteY="-42dp">
 
     <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="410dp"
+        android:layout_height="52dp"
+        android:background="#46BCF3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/toast_frame"
+        android:contentDescription="@string/fondoarriba" />
+
+    <TextView
+        android:id="@+id/PefilEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/iniciotitulo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tresrayas"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="676dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/imagentitulo" />
+
+    <ImageView
+        android:id="@+id/lupa"
+        android:layout_width="44dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="676dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+        android:contentDescription="@string/lupaimagen" />
+
+    <ImageView
+        android:id="@+id/treapuntos"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="676dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:srcCompat="@drawable/tres_puntos"
+        android:contentDescription="@string/lupa" />
+
+    <ImageView
         android:id="@+id/acdc"
         android:layout_width="308dp"
         android:layout_height="262dp"
@@ -72,4 +133,5 @@
         app:layout_constraintVertical_bias="0.733"
         app:srcCompat="@drawable/fotodemillones"
         android:contentDescription="@string/kiki" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
