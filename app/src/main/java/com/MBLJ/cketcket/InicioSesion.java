@@ -1,24 +1,20 @@
 package com.MBLJ.cketcket;
 
-//Esto es una prueba
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class inicioPrincipal extends AppCompatActivity {
+public class InicioSesion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inicio);
+        setContentView(R.layout.sesion_inicio);
 
     }
-    public void Siguiente(View view){
-        Intent Siguiente = new Intent (this, inicioPrincipal.class);
-        startActivity(Siguiente);
+    public void SiguientePrincipal(View view){
+        Intent siguiente = new Intent (this, InicioPrincipal.class);
+        startActivity(siguiente);
     }
-
-
 }

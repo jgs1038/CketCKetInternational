@@ -1,18 +1,19 @@
 package com.MBLJ.cketcket;
 
-import android.content.Intent;
+//Esto es una prueba
+
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class inicioSesion extends AppCompatActivity {
+public class InicioPrincipal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inicio);
+        setContentView(R.layout.principal_inicio);
 
     }
+
 
 
 }
