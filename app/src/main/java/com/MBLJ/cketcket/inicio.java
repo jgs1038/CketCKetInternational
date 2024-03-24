@@ -13,9 +13,13 @@ public class inicio extends AppCompatActivity  {
         setContentView(R.layout.inicio);
     }
 
-    public void Siguiente(View view){
-        Intent siguiente = new Intent (this, registro.class);
-        startActivity(siguiente);
+    public void SiguienteR(View view){
+        Intent SiguienteR = new Intent (this, registro.class);
+        startActivity(SiguienteR);
+    }
+    public void SiguienteI(View view){
+        Intent SiguienteI = new Intent (this, inicioSesion.class);
+        startActivity(SiguienteI);
     }
 
 }

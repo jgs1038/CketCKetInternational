@@ -17,8 +17,4 @@ public class registro extends AppCompatActivity {
     }
 
 
-    public void Siguiente(View view){
-        Intent siguiente = new Intent (this, registro.class);
-        startActivity(siguiente);
-    }
 }
