@@ -16,7 +16,11 @@ public class InicioPrincipal extends AppCompatActivity {
         setContentView(R.layout.principal_inicio);
     }
     public void SiguienteNicki(View view){
-        Intent siguienteNicki = new Intent (this, PerfilEvento.class);
+        Intent siguienteNicki = new Intent (this, PerfilArtistaNicki.class);
+        startActivity(siguienteNicki);
+    }
+    public void SiguienteKiki(View view){
+        Intent siguienteNicki = new Intent (this, PerfilArtistaKiki.class);
         startActivity(siguienteNicki);
     }
 }

@@ -23,7 +23,19 @@
             android:name=".InicioPrincipal"
             android:exported="false"/>
         <activity
-            android:name=".PerfilEvento"
+            android:name=".PerfilEventoNicki"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilArtistaNicki"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilArtistaKiki"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilEventoKiki"
+            android:exported="false"/>
+        <activity
+            android:name=".HistoriaKiki"
             android:exported="false"/>
         <activity
             android:name=".Inicio"
