@@ -37,30 +37,30 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="408dp"
-        android:layout_height="540dp"
+        android:layout_width="410dp"
+        android:layout_height="538dp"
         android:layout_marginTop="40dp"
         android:contentDescription="@string/fondo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/titulo1"
-        app:layout_constraintVertical_bias="0.227"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/azul2" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="0dp"
         android:layout_height="171dp"
+        android:contentDescription="@string/linea"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196"
-        app:srcCompat="@drawable/linea"
-        android:contentDescription="@string/linea" />
+        app:layout_constraintVertical_bias="0.208"
+        app:srcCompat="@drawable/linea" />
 
     <Button
         android:id="@+id/boton1"
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <Button
         android:id="@+id/boton2"

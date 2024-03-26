@@ -37,14 +37,16 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="410dp"
+        android:layout_height="538dp"
         android:layout_marginTop="48dp"
         android:contentDescription="@string/fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/titulo1"
+        app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@drawable/azul2" />
 
     <ImageView
@@ -74,22 +76,23 @@
 
     <Button
         android:id="@+id/botonRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="133dp"
+        android:layout_height="61dp"
         android:onClick="SiguientePrincipal"
         android:text="@string/registrarseboton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NombreRegistro"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
 
     <TextView
         android:id="@+id/ApellidoRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/apellido"
-        app:layout_constraintBottom_toTopOf="@+id/botonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
@@ -101,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Registro"
-        app:layout_constraintBottom_toTopOf="@+id/botonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/contrasenaRegistro"
-        app:layout_constraintBottom_toTopOf="@+id/botonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,7 +128,7 @@
         android:layout_width="74dp"
         android:layout_height="16dp"
         android:text="@string/confirmar_contrasena"
-        app:layout_constraintBottom_toTopOf="@+id/botonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.314"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,7 +141,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/correo"
-        app:layout_constraintBottom_toTopOf="@+id/botonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
@@ -150,11 +153,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tipo_de_usuario"
-        app:layout_constraintBottom_toTopOf="@+id/botonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CorreoRegistro"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintVertical_bias="0.306" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
