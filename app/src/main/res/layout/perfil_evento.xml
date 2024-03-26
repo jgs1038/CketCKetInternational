@@ -133,7 +133,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/maps"
+        android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ubicacion_pe"
@@ -146,7 +146,7 @@
         app:layout_constraintVertical_bias="0.36" />
 
     <TextView
-        android:id="@+id/maps"
+        android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/precio"
@@ -160,7 +160,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/maps"
+        android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fecha"
@@ -198,7 +198,7 @@
         app:layout_constraintVertical_bias="0.717" />
 
     <TextView
-        android:id="@+id/maps"
+        android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/redes_sociales_del_evento"
@@ -212,7 +212,7 @@
         tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/maps"
+        android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/descripcion"
@@ -265,7 +265,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/linea"
         android:layout_width="51dp"
         android:layout_height="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -291,7 +291,7 @@
         app:srcCompat="@drawable/rrss" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/googleMaps"
         android:layout_width="137dp"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
