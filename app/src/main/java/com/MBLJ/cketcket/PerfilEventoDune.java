@@ -13,8 +13,17 @@ public class PerfilEventoDune extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.perfil_evento_dune);
     }
+    public void SiguienteLupa(View view){
+        Intent siguiente = new Intent (this, BusquedaUsuario.class);
+        startActivity(siguiente);
+    }
+
     public void SiguienteTresRayas(View view){
         Intent siguiente = new Intent (this, TresRayas.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteTresPuntods(View view) {
+        Intent siguiente = new Intent(this, TresPuntos.class);
         startActivity(siguiente);
     }
 }

@@ -15,8 +15,18 @@ public class PerfilArtistaKiki extends AppCompatActivity {
         setContentView(R.layout.perfil_artista_kiki);
 
     }
+
+    public void SiguienteLupa(View view){
+        Intent siguiente = new Intent (this, BusquedaUsuario.class);
+        startActivity(siguiente);
+    }
+
     public void SiguienteTresRayas(View view){
         Intent siguiente = new Intent (this, TresRayas.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteTresPuntods(View view) {
+        Intent siguiente = new Intent(this, TresPuntos.class);
         startActivity(siguiente);
     }
     public void EventoKiki(View view){

@@ -9,7 +9,7 @@
     tools:layout_editor_absoluteY="-42dp">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/fondoAzul"
         android:layout_width="410dp"
         android:layout_height="74dp"
         android:layout_marginEnd="1dp"
@@ -22,6 +22,22 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rectangulo_azul" />
 
+    <TextView
+        android:id="@+id/PerfilEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Perfil del artista"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+
     <ImageButton
         android:id="@+id/tresrayas"
         android:layout_width="70dp"
@@ -29,56 +45,43 @@
         android:importantForAccessibility="no"
         android:onClick="SiguienteTresRayas"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/trespuntos"
+        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.006"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
-    <TextView
-        android:id="@+id/PerfilEvento"
+    <ImageButton
+        android:id="@+id/lupa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Perfil Artista"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toStartOf="@+id/lupa_pi"
-        app:layout_constraintHorizontal_bias="0.537"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageView
-        android:id="@+id/lupa_pi"
-        android:layout_width="50dp"
-        android:layout_height="77dp"
-        android:contentDescription="@string/lupa_pi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.769"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@android:drawable/ic_search_category_default" />
-
-    <ImageView
-        android:id="@+id/trespuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:contentDescription="@string/trespuntos_pi"
+        android:contentDescription="@string/lupaboton"
+        android:onClick="SiguienteLupa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@drawable/tres_puntos" />
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/tresPuntos"
+        android:layout_width="46dp"
+        android:layout_height="67dp"
+        android:contentDescription="@string/tresPuntos"
+        android:onClick="SiguienteTresPuntods"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/tres_puntos"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/nnicki"
@@ -184,8 +187,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.613" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

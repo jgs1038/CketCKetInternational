@@ -16,8 +16,22 @@ public class InicioPrincipal extends AppCompatActivity {
         setContentView(R.layout.principal_inicio);
     }
 
+    public void SiguienteLupa(View view){
+        Intent siguiente = new Intent (this, BusquedaUsuario.class);
+        startActivity(siguiente);
+    }
+
     public void SiguienteTresRayas(View view){
         Intent siguiente = new Intent (this, TresRayas.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteTresPuntods(View view) {
+        Intent siguiente = new Intent(this, TresPuntos.class);
+        startActivity(siguiente);
+    }
+
+    public void BusquedaAvanzada(View view){
+        Intent siguiente = new Intent (this, BusquedaAvanzada.class);
         startActivity(siguiente);
     }
     public void SiguienteNicki(View view){
@@ -32,4 +46,13 @@ public class InicioPrincipal extends AppCompatActivity {
         Intent siguienteACDC = new Intent (this, PerfilEventoACDC.class);
         startActivity(siguienteACDC);
     }
+    public void SiguientePrincipal(View view){
+        Intent siguiente = new Intent (this, InicioPrincipal.class);
+        startActivity(siguiente);
+    }
+    public void PerfilUsuario(View view){
+        Intent siguiente = new Intent (this, PerfilUsuario.class);
+        startActivity(siguiente);
+    }
+
 }
