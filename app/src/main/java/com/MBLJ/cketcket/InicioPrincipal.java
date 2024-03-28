@@ -23,4 +23,8 @@ public class InicioPrincipal extends AppCompatActivity {
         Intent siguienteNicki = new Intent (this, PerfilArtistaKiki.class);
         startActivity(siguienteNicki);
     }
+    public void SiguienteEventoACDC(View view){
+        Intent siguienteACDC = new Intent (this, PerfilEventoACDC.class);
+        startActivity(siguienteACDC);
+    }
 }

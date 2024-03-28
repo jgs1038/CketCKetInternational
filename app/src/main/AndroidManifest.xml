@@ -38,6 +38,24 @@
             android:name=".HistoriaKiki"
             android:exported="false"/>
         <activity
+            android:name=".PerfilEventoACDC"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilArtistaACDC"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilEventoDune"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilEventoBL"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilEventoTeatro"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilUsuario"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
