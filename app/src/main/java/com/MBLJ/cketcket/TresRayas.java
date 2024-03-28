@@ -14,5 +14,24 @@ public class TresRayas extends AppCompatActivity  {
         setContentView(R.layout.tres_rayas);
     }
 
-
+    public void SiguienteMisEntradas(View view){
+        Intent siguiente = new Intent (this, MisEntradas.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteForo(View view){
+        Intent siguiente = new Intent (this, ForoDudas.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteAsistencia(View view){
+        Intent siguiente = new Intent (this, AsistenciaTecnica.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteChat(View view){
+        Intent siguiente = new Intent (this, Chat.class);
+        startActivity(siguiente);
+    }
+    public void SiguientePuntos(View view){
+        Intent siguiente = new Intent (this, MisPuntos.class);
+        startActivity(siguiente);
+    }
 }

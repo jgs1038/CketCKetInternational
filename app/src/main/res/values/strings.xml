@@ -109,4 +109,12 @@
     <string name="mis_entradas">Mis Entradas</string>
     <string name="mis_puntos">Mis Puntos</string>
     <string name="tresrayasdune">TODO</string>
+    <string name="enviar_mensaje_fd">Enviar mensaje</string>
+    <string name="a_adir_archivo">Añadir Archivo</string>
+    <string name="canjear_puntos">Canjear puntos</string>
+    <string name="_4500_puntos">4500 puntos</string>
+    <string name="movimientos">Movimientos:</string>
+    <string name="_100_puntos_inicio_sesi_n_diario">100 puntos- Inicio sesión Diario</string>
+    <string name="_500_puntos_compra_de_entradas">500 puntos- Compra de entradas</string>
+    <string name="_250_puntos_rese_a_registrada">250 puntos- Reseña registrada</string>
 </resources>

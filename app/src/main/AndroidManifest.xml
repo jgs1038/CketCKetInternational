@@ -59,6 +59,21 @@
             android:name=".TresRayas"
             android:exported="false"/>
         <activity
+            android:name=".MisEntradas"
+            android:exported="false"/>
+        <activity
+            android:name=".ForoDudas"
+            android:exported="false"/>
+        <activity
+            android:name=".AsistenciaTecnica"
+            android:exported="false"/>
+        <activity
+            android:name=".Chat"
+            android:exported="false"/>
+        <activity
+            android:name=".MisPuntos"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
