@@ -20,6 +20,11 @@ public class InicioPrincipal extends AppCompatActivity {
         Intent siguiente = new Intent (this, TresRayas.class);
         startActivity(siguiente);
     }
+
+    public void SiguienteLupa(View view){
+        Intent siguiente = new Intent (this, BusquedaAvanzada.class);
+        startActivity(siguiente);
+    }
     public void SiguienteNicki(View view){
         Intent siguienteNicki = new Intent (this, PerfilArtistaNicki.class);
         startActivity(siguienteNicki);

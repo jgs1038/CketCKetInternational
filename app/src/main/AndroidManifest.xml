@@ -74,6 +74,12 @@
             android:name=".MisPuntos"
             android:exported="false"/>
         <activity
+            android:name=".TiendaPuntos"
+            android:exported="false"/>
+        <activity
+            android:name=".BusquedaAvanzada"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>

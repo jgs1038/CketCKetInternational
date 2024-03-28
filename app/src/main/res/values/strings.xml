@@ -117,4 +117,10 @@
     <string name="_100_puntos_inicio_sesi_n_diario">100 puntos- Inicio sesión Diario</string>
     <string name="_500_puntos_compra_de_entradas">500 puntos- Compra de entradas</string>
     <string name="_250_puntos_rese_a_registrada">250 puntos- Reseña registrada</string>
+    <string name="lupaboton">TODO</string>
+    <string name="barra">TODO</string>
+    <string name="lupa_ba">TODO</string>
+    <string name="lupa_bu">TODO</string>
+    <string name="evento">EVENTO</string>
+    <string name="merchandising">MERCHANDISING</string>
 </resources>
