@@ -13,6 +13,11 @@ public class PerfilUsuario extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.perfil_usuario);
     }
+
+    public void SiguienteTresRayas(View view){
+        Intent siguiente = new Intent (this, TresRayas.class);
+        startActivity(siguiente);
+    }
     public void SiguienteChiara(View view){
         Intent siguiente = new Intent (this, PerfilArtistaKiki.class);
         startActivity(siguiente);

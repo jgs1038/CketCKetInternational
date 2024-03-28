@@ -22,32 +22,18 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rectangulo_azul" />
 
-    <ImageView
-        android:id="@+id/tresrayas_pi"
-        android:layout_width="59dp"
-        android:layout_height="62dp"
-        android:contentDescription="@string/tesrallas_pi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/lupa_pi"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        tools:ignore="ImageContrastCheck" />
-
     <TextView
         android:id="@+id/PerfilEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         android:text="Perfil Evento"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
         app:layout_constraintEnd_toStartOf="@+id/lupa_pi"
-        app:layout_constraintHorizontal_bias="0.214"
-        app:layout_constraintStart_toEndOf="@+id/tresrayas_pi"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.027"
         tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
@@ -295,5 +281,19 @@
         app:layout_constraintVertical_bias="0.714"
         app:srcCompat="@drawable/maps"
         android:contentDescription="@string/maps" />
+
+    <ImageButton
+        android:id="@+id/tresrayas"
+        android:layout_width="70dp"
+        android:layout_height="66dp"
+        android:importantForAccessibility="no"
+        android:onClick="SiguienteTresRayas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/trespuntos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

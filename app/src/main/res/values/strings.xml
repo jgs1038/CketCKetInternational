@@ -101,4 +101,12 @@
     <string name="nicki_nicole_pu">Nicki Nicole</string>
     <string name="abre_su_alma_pu">Abre su alma</string>
     <string name="power_up_pu">Power Up</string>
+    <string name="acceso_directo">Acceso Directo</string>
+    <string name="linea_horizontal">TODO</string>
+    <string name="asistencia_t_cnica">Asistencia Técnica</string>
+    <string name="chats">Chats</string>
+    <string name="foro_de_dudas">Foro de Dudas</string>
+    <string name="mis_entradas">Mis Entradas</string>
+    <string name="mis_puntos">Mis Puntos</string>
+    <string name="tresrayasdune">TODO</string>
 </resources>

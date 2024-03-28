@@ -15,6 +15,10 @@ public class PerfilArtistaACDC extends AppCompatActivity {
         setContentView(R.layout.perfil_artista_kiki);
 
     }
+    public void SiguienteTresRayas(View view){
+        Intent siguiente = new Intent (this, TresRayas.class);
+        startActivity(siguiente);
+    }
     public void SiguienteEACDC(View view){
         Intent siguiente = new Intent (this, PerfilEventoACDC.class);
         startActivity(siguiente);

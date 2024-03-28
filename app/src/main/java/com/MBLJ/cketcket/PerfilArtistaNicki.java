@@ -15,6 +15,10 @@ public class PerfilArtistaNicki extends AppCompatActivity {
         setContentView(R.layout.perfil_artista_nicki);
 
     }
+    public void SiguienteTresRayas(View view){
+        Intent siguiente = new Intent (this, TresRayas.class);
+        startActivity(siguiente);
+    }
     public void EventoNicki(View view){
         Intent evento = new Intent (this, PerfilEventoNicki.class);
         startActivity(evento);

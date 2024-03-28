@@ -56,6 +56,9 @@
             android:name=".PerfilUsuario"
             android:exported="false"/>
         <activity
+            android:name=".TresRayas"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
