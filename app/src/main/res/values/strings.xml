@@ -123,25 +123,4 @@
     <string name="lupa_bu">TODO</string>
     <string name="evento">EVENTO</string>
     <string name="merchandising">MERCHANDISING</string>
-    <string name="live_activities">Live Activities</string>
-    <string name="usuarios_bloqueados">Usuarios Bloqueados</string>
-    <string name="accesos_privados">Accesos Privados</string>
-    <string name="merchandising_tp">Merchandising</string>
-    <string name="tresPuntos">TODO</string>
-    <string name="camiseta">TODO</string>
-    <string name="boton_compra">TODO</string>
-    <string name="boton_compra2">TODO</string>
-    <string name="boton_compra3">TODO</string>
-    <string name="botonCompra">TODO</string>
-    <string name="gorra">TODO</string>
-    <string name="gafas_mala_costumbre">Gafas Mala Costumbre</string>
-    <string name="disco_alma">Disco Alma</string>
-    <string name="camiseta_nicki_nicole">Camiseta Nicki Nicole</string>
-    <string name="gorra_ac_dc">Gorra AC/DC</string>
-    <string name="mas">TODO</string>
-    <string name="ayuda">TODO</string>
-    <string name="merch">TODO</string>
-    <string name="inicioboton">TODO</string>
-    <string name="introduce_el_nombre_de_usuario">INTRODUCE EL NOMBRE DE USUARIO</string>
-    <string name="ver_historia_kiki">Ver historia</string>
 </resources>

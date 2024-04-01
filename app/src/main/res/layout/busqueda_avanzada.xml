@@ -2,7 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     android:id="@+id/eventob"
+=======
+    android:id="@+id/trespuntos_pi"
+>>>>>>> origin/master
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Inicio"
@@ -10,7 +14,11 @@
     tools:layout_editor_absoluteY="-42dp">
 
     <ImageView
+<<<<<<< HEAD
         android:id="@+id/fondoAzul"
+=======
+        android:id="@+id/imageView4"
+>>>>>>> origin/master
         android:layout_width="410dp"
         android:layout_height="74dp"
         android:layout_marginEnd="1dp"
@@ -23,10 +31,27 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rectangulo_azul" />
 
+<<<<<<< HEAD
+=======
+    <ImageView
+        android:id="@+id/trespuntos"
+        android:layout_width="46dp"
+        android:layout_height="67dp"
+        android:contentDescription="@string/trespuntos_pi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/tres_puntos" />
+
+>>>>>>> origin/master
     <TextView
         android:id="@+id/PerfilEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="24dp"
         android:text="Búsqueda Avanzada"
         android:textSize="20sp"
@@ -38,11 +63,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+=======
+        android:text="Busqueda avanzada"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        tools:ignore="HardcodedText,MissingConstraints" />
+>>>>>>> origin/master
 
     <ImageButton
         android:id="@+id/tresrayas"
         android:layout_width="70dp"
         android:layout_height="66dp"
+<<<<<<< HEAD
         android:importantForAccessibility="no"
         android:onClick="SiguienteTresRayas"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -83,6 +121,17 @@
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
         tools:ignore="TouchTargetSizeCheck" />
+=======
+        android:onClick="SiguienteTresRayas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/trespuntos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        android:importantForAccessibility="no" />
+>>>>>>> origin/master
 
     <ImageView
         android:id="@+id/barra"
@@ -93,11 +142,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
+=======
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+>>>>>>> origin/master
         app:layout_constraintVertical_bias="0.117"
         app:srcCompat="@drawable/barrabusqueda"
         tools:ignore="ImageContrastCheck" />
 
+<<<<<<< HEAD
+=======
+    <ImageButton
+        android:id="@+id/lupa_ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lupa_bu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+>>>>>>> origin/master
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
@@ -116,7 +186,10 @@
         android:id="@+id/Evento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:onClick="Evento"
+=======
+>>>>>>> origin/master
         android:text="@string/evento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -130,7 +203,10 @@
         android:id="@+id/MERCHANDISING"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:onClick="Merchandising"
+=======
+>>>>>>> origin/master
         android:text="@string/merchandising"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
