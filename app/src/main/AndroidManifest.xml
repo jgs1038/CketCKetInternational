@@ -101,9 +101,6 @@
             android:name=".TresPuntos"
             android:exported="false"/>
         <activity
-            android:name=".TresRayas"
-            android:exported="false"/>
-        <activity
             android:name=".UsuariosBloqueados"
             android:exported="false"/>
         <activity
