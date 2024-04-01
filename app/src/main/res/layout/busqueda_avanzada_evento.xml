@@ -72,7 +72,7 @@
         android:id="@+id/tresPuntos"
         android:layout_width="46dp"
         android:layout_height="67dp"
-        android:contentDescription="@string/tresPuntos"
+        android:contentDescription="@string/trespuntos"
         android:onClick="SiguienteTresPuntods"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,14 +116,14 @@
         android:id="@+id/ayuda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/ayuda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ayuda"
-        android:contentDescription="@string/ayuda" />
+        app:srcCompat="@drawable/ayuda" />
 
     <ImageView
         android:id="@+id/imageView7"

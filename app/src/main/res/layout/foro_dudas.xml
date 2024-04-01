@@ -72,7 +72,7 @@
         android:id="@+id/tresPuntos"
         android:layout_width="46dp"
         android:layout_height="67dp"
-        android:contentDescription="@string/tresPuntos"
+        android:contentDescription="@string/tresPuntos_ba"
         android:onClick="SiguienteTresPuntods"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"

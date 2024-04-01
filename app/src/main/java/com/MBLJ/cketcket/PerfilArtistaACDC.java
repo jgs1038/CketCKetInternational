@@ -12,7 +12,7 @@ public class PerfilArtistaACDC extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.perfil_artista_kiki);
+        setContentView(R.layout.perfil_artista_acdc);
 
     }
     public void SiguienteLupa(View view){

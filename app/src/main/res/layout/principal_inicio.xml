@@ -201,7 +201,6 @@
         android:id="@+id/tresPuntos"
         android:layout_width="46dp"
         android:layout_height="67dp"
-        android:contentDescription="@string/tresPuntos"
         android:onClick="SiguienteTresPuntods"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -211,13 +210,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
 
     <ImageButton
         android:id="@+id/inicio"
         android:layout_width="95dp"
         android:layout_height="65dp"
-        android:contentDescription="@string/inicioboton"
         android:onClick="BusquedaAvanzada"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -227,13 +226,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993"
         app:srcCompat="@drawable/busqueda"
-        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck"
+        android:importantForAccessibility="no" />
 
     <ImageButton
         android:id="@+id/inicio"
         android:layout_width="84dp"
         android:layout_height="63dp"
-        android:contentDescription="@string/inicioboton"
         android:onClick="SiguientePrincipal"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -243,13 +242,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"
         app:srcCompat="@drawable/inicio_icono"
-        tools:ignore="DuplicateIds,ImageContrastCheck" />
+        tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck"
+        android:importantForAccessibility="no" />
 
     <ImageButton
         android:id="@+id/inicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/inicioboton"
         android:onClick="PerfilUsuario"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -259,7 +258,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.996"
         app:srcCompat="@drawable/perfil"
-        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
 
     <ImageButton
         android:id="@+id/lupa_inicio"

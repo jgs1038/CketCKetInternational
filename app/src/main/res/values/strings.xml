@@ -129,4 +129,15 @@
     <string name="Evento">Button</string>
     <string name="evento1">Evento</string>
     <string name="merchandising1">Merchandising</string>
+    <string name="tres_puntos">TODO</string>
+    <string name="ayuda">ayuda</string>
+    <string name="tresPuntos_ba">TODO</string>
+    <string name="merchandising_ba">TODO</string>
+    <string name="tresPuntos_busa">TODO</string>
+    <string name="introduce_el_nombre_de_usuario">INTRODUCE EL NOMBRE DE USUARIO</string>
+    <string name="tresPuntos_chat">TODO</string>
+    <string name="tresPuntos_live">TODO</string>
+    <string name="mas">TODO</string>
+    <string name="TresPuntos_merch">TODO</string>
+    <string name="camiseta_nicky">TODO</string>
 </resources>

@@ -9,7 +9,7 @@
         android:id="@+id/accesoDirecto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/accesos_privados"
+        android:text="Acceso Privado"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.059"
-        tools:ignore="VisualLintOverlap" />
+        tools:ignore="HardcodedText,VisualLintOverlap" />
 
     <ImageView
         android:id="@+id/lineahorizontal"
@@ -37,38 +37,41 @@
         android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:onClick="UsuariosBloqueados"
-        android:text="@string/usuarios_bloqueados"
+        android:text="Usuarios Bloqueados"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.147"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/ForoDudas"
         android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:onClick="LiveActivities"
-        android:text="@string/live_activities"
+        android:text="Live activities"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.259"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/AsistenciaTecnica"
         android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:onClick="Merchandising"
-        android:text="@string/merchandising_tp"
+        android:text="Merchandising"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.368"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

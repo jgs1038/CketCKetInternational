@@ -85,7 +85,6 @@
         android:id="@+id/tresPuntos"
         android:layout_width="46dp"
         android:layout_height="67dp"
-        android:contentDescription="@string/tresPuntos"
         android:onClick="SiguienteTresPuntods"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,7 +94,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:contentDescription="@string/tresPuntos_ba" />
 
     <ImageView
         android:id="@+id/barra"
@@ -137,6 +137,6 @@
         app:layout_constraintVertical_bias="0.394"
         app:srcCompat="@drawable/merchb"
         tools:ignore="ImageContrastCheck"
-        android:contentDescription="@string/merch" />
+        android:contentDescription="@string/merchandising_ba" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

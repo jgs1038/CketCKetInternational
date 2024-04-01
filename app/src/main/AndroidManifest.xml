@@ -74,6 +74,39 @@
             android:name=".MisPuntos"
             android:exported="false"/>
         <activity
+            android:name=".Bloqueado"
+            android:exported="false"/>
+        <activity
+            android:name=".BusquedaAvanzada"
+            android:exported="false"/>
+        <activity
+            android:name=".BusquedaAvanzadaEvento"
+            android:exported="false"/>
+        <activity
+            android:name=".BusquedaAvanzadaMerchandising"
+            android:exported="false"/>
+        <activity
+            android:name=".BusquedaUsuario"
+            android:exported="false"/>
+        <activity
+            android:name=".LiveActivities"
+            android:exported="false"/>
+        <activity
+            android:name=".Merchandising"
+            android:exported="false"/>
+        <activity
+            android:name=".TiendaPuntos"
+            android:exported="false"/>
+        <activity
+            android:name=".TresPuntos"
+            android:exported="false"/>
+        <activity
+            android:name=".TresRayas"
+            android:exported="false"/>
+        <activity
+            android:name=".UsuariosBloqueados"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
