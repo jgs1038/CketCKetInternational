@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/trespuntos_pi"
+    android:id="@+id/eventob"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Inicio"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="-42dp">
+    tools:layout_editor_absoluteY="-42dp"
+    tools:ignore="ExtraText">
 
     <ImageView
         android:id="@+id/acdc"
@@ -75,7 +76,7 @@
         app:srcCompat="@drawable/fotodemillones" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/fondoAzul"
         android:layout_width="410dp"
         android:layout_height="74dp"
         android:layout_marginEnd="1dp"
@@ -86,9 +87,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
+        app:srcCompat="@drawable/rectangulo_azul" /><![CDATA[
 
-    <ImageView
+="MissingConstraints"="MissingConstraints" />="MissingConstraints"="MissingConstraints"="MissingConstraints" />
+
+
+
+    ="MissingConstraints" />
+
+    ="MissingConstraints"
+
+
+    ]]><ImageView
         android:id="@+id/trespuntos"
         android:layout_width="46dp"
         android:layout_height="67dp"
@@ -101,6 +111,7 @@
         app:layout_constraintVertical_bias="0.006"
         app:srcCompat="@drawable/tres_puntos" />
 
+>>>>>>> origin/master
     <TextView
         android:id="@+id/PerfilEvento"
         android:layout_width="wrap_content"
@@ -154,25 +165,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
         app:layout_constraintVertical_bias="0.481" />
 
     <ImageButton
         android:id="@+id/tresrayas"
         android:layout_width="70dp"
         android:layout_height="66dp"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteTresRayas"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/trespuntos"
+        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
     <ImageButton
-        android:id="@+id/lupa"
+        android:id="@+id/lupa_inicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/lupaboton"
@@ -184,6 +195,85 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,DuplicateClickableBoundsCheck" />
+
+    <ImageButton
+        android:id="@+id/tresPuntos"
+        android:layout_width="46dp"
+        android:layout_height="67dp"
+        android:contentDescription="@string/tresPuntos"
+        android:onClick="SiguienteTresPuntods"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/tres_puntos"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:contentDescription="@string/inicioboton"
+        android:onClick="BusquedaAvanzada"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        app:srcCompat="@drawable/busqueda"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="63dp"
+        android:contentDescription="@string/inicioboton"
+        android:onClick="SiguientePrincipal"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/inicio_icono"
+        tools:ignore="DuplicateIds,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/inicioboton"
+        android:onClick="PerfilUsuario"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/perfil"
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/lupa_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lupaboton"
+        android:onClick="SiguienteLupa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:ignore="DuplicateIds,DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

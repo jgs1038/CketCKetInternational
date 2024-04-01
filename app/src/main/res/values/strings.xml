@@ -124,4 +124,9 @@
     <string name="evento">EVENTO</string>
     <string name="merchandising">MERCHANDISING</string>
     <string name="ver_historia_kiki">Ver historia</string>
+    <string name="lupa_tienda">TODO</string>
+    <string name="Merchandising">Button</string>
+    <string name="Evento">Button</string>
+    <string name="evento1">Evento</string>
+    <string name="merchandising1">Merchandising</string>
 </resources>
