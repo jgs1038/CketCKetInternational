@@ -140,4 +140,6 @@
     <string name="mas">TODO</string>
     <string name="TresPuntos_merch">TODO</string>
     <string name="camiseta_nicky">TODO</string>
+    <string name="compradas">compradas</string>
+    <string name="vendidas">vendidas</string>
 </resources>

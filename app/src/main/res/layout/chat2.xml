@@ -28,12 +28,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Búsqueda Usuario"
+        android:text="Chat"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -82,32 +82,117 @@
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
         tools:ignore="TouchTargetSizeCheck"
-        android:contentDescription="@string/tresPuntos_busa" />
+        android:contentDescription="@string/tresPuntos_chat" />
+
+    <ImageButton
+        android:id="@+id/chat1"
+        android:layout_width="412dp"
+        android:layout_height="86dp"
+        android:background="#FDFCFC"
+        android:onClick="Chat"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        app:srcCompat="@drawable/chat1"
+        android:importantForAccessibility="no"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
-        android:id="@+id/barra"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/barra"
+        android:id="@+id/chat2"
+        android:layout_width="409dp"
+        android:layout_height="142dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.168"
-        app:srcCompat="@drawable/barrabusqueda"
+        app:layout_constraintVertical_bias="0.258"
+        app:srcCompat="@drawable/chat2"
         tools:ignore="ImageContrastCheck" />
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageButton
+        android:id="@+id/mas_azul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/introduce_el_nombre_de_usuario"
+        android:background="#F3EEEE"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/mas"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/usuarios"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFCFC"
+        android:importantForAccessibility="no"
+        android:onClick="UsuariosBloqueados"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/bloquear_usuarios" />
+
+    <ImageButton
+        android:id="@+id/buscar_usuarios"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:background="#EFEDED"
+        android:importantForAccessibility="no"
+        android:onClick="BuscarUsuario"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/buscar_usuarios" />
+
+    <ImageButton
+        android:id="@+id/Compradas"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:background="#EFEBEB"
+        android:importantForAccessibility="no"
+        android:onClick="EntradasCompradas"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725"
+        app:srcCompat="@drawable/entradas_compradas" />
+
+    <ImageButton
+        android:id="@+id/Vendidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EDECEC"
+        android:importantForAccessibility="no"
+        android:onClick="EntradasVendidas"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/entradas_vendidas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

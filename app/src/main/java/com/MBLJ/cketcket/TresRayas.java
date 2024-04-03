@@ -27,7 +27,7 @@ public class TresRayas extends AppCompatActivity  {
         startActivity(siguiente);
     }
     public void SiguienteChat(View view){
-        Intent siguiente = new Intent (this, Chat.class);
+        Intent siguiente = new Intent (this, Chat1.class);
         startActivity(siguiente);
     }
     public void SiguientePuntos(View view){

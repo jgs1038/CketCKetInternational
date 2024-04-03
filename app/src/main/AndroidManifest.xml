@@ -71,6 +71,12 @@
             android:name=".Chat"
             android:exported="false"/>
         <activity
+            android:name=".Chat1"
+            android:exported="false"/>
+        <activity
+            android:name=".Chat2"
+            android:exported="false"/>
+        <activity
             android:name=".MisPuntos"
             android:exported="false"/>
         <activity
@@ -102,6 +108,12 @@
             android:exported="false"/>
         <activity
             android:name=".UsuariosBloqueados"
+            android:exported="false"/>
+        <activity
+            android:name=".EntradasCompradas"
+            android:exported="false"/>
+        <activity
+            android:name=".EntradasVendidas"
             android:exported="false"/>
         <activity
             android:name=".Inicio"
