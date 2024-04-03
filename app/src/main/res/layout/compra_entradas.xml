@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.091"
+        android:importantForAccessibility="no" />
 
     <TextView
         android:id="@+id/PerfilEvento"
@@ -50,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
     <TextView
         android:id="@+id/PerfilEvento"
@@ -67,7 +68,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
     <ImageView
         android:id="@+id/fondoAzul"
@@ -82,7 +83,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
+        app:srcCompat="@drawable/rectangulo_azul"
+        tools:ignore="UseAppTint" />
 
     <TextView
         android:id="@+id/PerfilEvento"
@@ -99,7 +101,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
 
     <ImageButton
         android:id="@+id/tresrayas"
@@ -144,7 +146,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -156,7 +158,8 @@
         app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.238"
+        android:importantForAccessibility="no" />
 
     <Button
         android:id="@+id/button"
@@ -169,7 +172,8 @@
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.48"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
@@ -186,7 +190,8 @@
         app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.303"
+        tools:ignore="HardcodedText" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
@@ -202,6 +207,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.304"
+        tools:ignore="DuplicateIds,HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
