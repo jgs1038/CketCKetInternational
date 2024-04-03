@@ -10,18 +10,30 @@ import android.view.View;
 import android.widget.EditText;
 
 public class Registro extends AppCompatActivity {
-    private EditText nombre;
+    private EditText tipo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registro);
-        nombre = (EditText) findViewById(R.id.Nombre);
+        tipo = (EditText) findViewById(R.id.tipoUsuario);
 
     }
 
     public void SiguientePrincipal(View view){
-        Intent siguiente = new Intent (this, InicioPrincipal.class);
-        startActivity(siguiente);
+        String tipoUsuario = tipo.getText().toString();
+        Intent siguiente;
+        if (tipoUsuario.equals("1")) {
+            siguiente = new Intent(this, InicioPrincipal.class);
+            startActivity(siguiente);
+        }
+        if (tipoUsuario.equals("2")) {
+            siguiente = new Intent(this, Inicio.class);
+            startActivity(siguiente);
+        }
+        if (tipoUsuario.equals("3")) {
+            siguiente = new Intent(this, InicioOrganizador.class);
+            startActivity(siguiente);
+        }
     }
 
 
