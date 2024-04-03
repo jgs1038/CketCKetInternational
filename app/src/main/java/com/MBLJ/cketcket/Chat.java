@@ -10,8 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class Chat extends AppCompatActivity  {
-    private EditText et2;
-    private TextView tv1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
