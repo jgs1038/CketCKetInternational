@@ -24,15 +24,12 @@ public class Registro extends AppCompatActivity {
         Intent siguiente = null ;
         if (tipoUsuario.equals("1")) {
             siguiente = new Intent(this, InicioPrincipal.class);
-
         }
         if (tipoUsuario.equals("2")) {
-            siguiente = new Intent(this, Inicio.class);
-
+            siguiente = new Intent(this, InicioArtista.class);
         }
         if (tipoUsuario.equals("3")) {
             siguiente = new Intent(this, InicioOrganizador.class);
-
         }
         if(siguiente != null){
             startActivity(siguiente);
