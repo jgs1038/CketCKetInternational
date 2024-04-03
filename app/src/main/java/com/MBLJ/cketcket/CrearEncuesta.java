@@ -7,13 +7,12 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class LiveActivities1 extends AppCompatActivity  {
+public class CrearEncuesta extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.live_activities1);
+        setContentView(R.layout.crear_encuesta);
     }
-
     public void SiguienteLupa(View view){
         Intent siguiente = new Intent (this, BusquedaUsuario.class);
         startActivity(siguiente);
@@ -27,20 +26,5 @@ public class LiveActivities1 extends AppCompatActivity  {
         Intent siguiente = new Intent(this, TresPuntos.class);
         startActivity(siguiente);
     }
-    public void Directo(View view) {
-        Intent siguiente = new Intent(this, EmpezarDirecto.class);
-        startActivity(siguiente);
-    }
-    public void Encuesta(View view) {
-        Intent siguiente = new Intent(this, CrearEncuesta.class);
-        startActivity(siguiente);
-    }
-    public void PregunstasRespuestas(View view) {
-        Intent siguiente = new Intent(this, PreguntasRespuestas.class);
-        startActivity(siguiente);
-    }
-    public void Historia(View view) {
-        Intent siguiente = new Intent(this, AñadirHistoria.class);
-        startActivity(siguiente);
-    }
+
 }

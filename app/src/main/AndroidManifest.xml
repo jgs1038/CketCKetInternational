@@ -122,6 +122,12 @@
             android:name=".EmpezarDirecto"
             android:exported="false"/>
         <activity
+            android:name=".CrearEncuesta"
+            android:exported="false"/>
+        <activity
+            android:name=".PreguntasRespuestas"
+            android:exported="false"/>
+        <activity
             android:name=".AñadirHistoria"
             android:exported="false"/>
         <activity
