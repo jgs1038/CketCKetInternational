@@ -9,23 +9,6 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="-42dp">
 
-    <ImageButton
-        android:id="@+id/mas_azul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#F3EEEE"
-        android:importantForAccessibility="no"
-        android:onClick="LiveActivities"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975"
-        app:srcCompat="@drawable/mas"
-        tools:ignore="ImageContrastCheck" />
-
     <ImageView
         android:id="@+id/fondoAzul"
         android:layout_width="410dp"
@@ -34,7 +17,7 @@
         android:contentDescription="@string/trespuntos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -50,7 +33,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -98,21 +81,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck"
-        android:contentDescription="@string/tresPuntos_live" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck"
+        android:importantForAccessibility="no" />
 
     <ImageView
-        android:id="@+id/acdc"
-        android:layout_width="408dp"
-        android:layout_height="554dp"
-        android:contentDescription="@string/todo"
+        android:id="@+id/rectangulo_negro"
+        android:layout_width="445dp"
+        android:layout_height="142dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418"
-        app:srcCompat="@drawable/live"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rectangulo_negro"
+        android:importantForAccessibility="no"
+        tools:ignore="VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/directo_intagram"
+        android:layout_width="423dp"
+        android:layout_height="597dp"
+        android:layout_marginStart="16dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fondoAzul"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/live_instragram"
         tools:ignore="VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

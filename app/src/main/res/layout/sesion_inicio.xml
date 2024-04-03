@@ -71,33 +71,22 @@
         android:text="@string/iniciar_sesion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
 
     <TextView
         android:id="@+id/Usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/usuario"
-        app:layout_constraintBottom_toTopOf="@+id/IniciarSesion"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.319"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo1"
         app:layout_constraintVertical_bias="0.383" />
-
-    <TextView
-        android:id="@+id/Contraseña"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:text="@string/contrasena"
-        app:layout_constraintBottom_toTopOf="@+id/IniciarSesion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.328"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Usuario"
-        app:layout_constraintVertical_bias="0.443" />
 
     <ImageView
         android:id="@+id/linea_horizontal"
@@ -109,7 +98,7 @@
         app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437"
+        app:layout_constraintVertical_bias="0.55"
         app:srcCompat="@drawable/lineahorizontal"
         tools:ignore="DuplicateIds" />
 
@@ -120,11 +109,23 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583"
+        app:layout_constraintVertical_bias="0.672"
         app:srcCompat="@drawable/lineahorizontal"
         tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/Contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contrasena"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Usuario"
+        app:layout_constraintVertical_bias="0.202" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

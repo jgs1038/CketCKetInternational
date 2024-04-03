@@ -98,6 +98,9 @@
             android:name=".LiveActivities"
             android:exported="false"/>
         <activity
+            android:name=".LiveActivities1"
+            android:exported="false"/>
+        <activity
             android:name=".Merchandising"
             android:exported="false"/>
         <activity
@@ -114,6 +117,12 @@
             android:exported="false"/>
         <activity
             android:name=".EntradasVendidas"
+            android:exported="false"/>
+        <activity
+            android:name=".EmpezarDirecto"
+            android:exported="false"/>
+        <activity
+            android:name=".AñadirHistoria"
             android:exported="false"/>
         <activity
             android:name=".Inicio"
