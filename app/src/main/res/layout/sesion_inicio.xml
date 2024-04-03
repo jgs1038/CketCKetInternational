@@ -6,6 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".Inicio">
 
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="410dp"
+        android:layout_height="538dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/azul2" />
+
+    <ImageView
+        android:id="@+id/linea_titulo"
+        android:layout_width="426dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/linea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/linea"
+        tools:ignore="VisualLintBounds" />
+
     <TextView
         android:id="@+id/titulo1"
         android:layout_width="203dp"
@@ -35,31 +63,6 @@
         app:layout_constraintVertical_bias="0.123"
         app:srcCompat="@drawable/ticket" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:contentDescription="@string/fondo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/titulo1"
-        app:srcCompat="@drawable/azul2" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="0dp"
-        android:layout_height="171dp"
-        android:contentDescription="@string/linea"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201"
-        app:srcCompat="@drawable/linea" />
-
     <Button
         android:id="@+id/IniciarSesion"
         android:layout_width="wrap_content"
@@ -69,9 +72,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/Usuario"
@@ -97,5 +98,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Usuario"
         app:layout_constraintVertical_bias="0.443" />
+
+    <ImageView
+        android:id="@+id/linea_horizontal"
+        android:layout_width="242dp"
+        android:layout_height="32dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437"
+        app:srcCompat="@drawable/lineahorizontal"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/linea_horizontal"
+        android:layout_width="242dp"
+        android:layout_height="32dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583"
+        app:srcCompat="@drawable/lineahorizontal"
+        tools:ignore="DuplicateIds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

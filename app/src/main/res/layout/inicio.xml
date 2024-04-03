@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/ticket" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/fondo"
         android:layout_width="410dp"
         android:layout_height="538dp"
         android:layout_marginTop="40dp"
@@ -50,17 +50,18 @@
         app:srcCompat="@drawable/azul2" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="0dp"
-        android:layout_height="171dp"
+        android:id="@+id/linea_titulo"
+        android:layout_width="426dp"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/linea"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208"
-        app:srcCompat="@drawable/linea" />
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/linea"
+        tools:ignore="VisualLintBounds" />
 
     <Button
         android:id="@+id/boton1"
