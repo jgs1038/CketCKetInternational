@@ -137,6 +137,12 @@
             android:name=".InicioArtista"
             android:exported="false"/>
         <activity
+            android:name=".SolicitudEventoArtista"
+            android:exported="false"/>
+        <activity
+            android:name=".SolicitudEventoOrganizador"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
