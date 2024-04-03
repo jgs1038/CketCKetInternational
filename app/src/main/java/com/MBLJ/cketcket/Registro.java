@@ -21,17 +21,20 @@ public class Registro extends AppCompatActivity {
 
     public void SiguientePrincipal(View view){
         String tipoUsuario = tipo.getText().toString();
-        Intent siguiente;
+        Intent siguiente = null ;
         if (tipoUsuario.equals("1")) {
             siguiente = new Intent(this, InicioPrincipal.class);
-            startActivity(siguiente);
+
         }
         if (tipoUsuario.equals("2")) {
             siguiente = new Intent(this, Inicio.class);
-            startActivity(siguiente);
+
         }
         if (tipoUsuario.equals("3")) {
             siguiente = new Intent(this, InicioOrganizador.class);
+
+        }
+        if(siguiente != null){
             startActivity(siguiente);
         }
     }
