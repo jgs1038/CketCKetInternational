@@ -128,7 +128,7 @@
             android:name=".PreguntasRespuestas"
             android:exported="false"/>
         <activity
-            android:name=".AñadirHistoria"
+            android:name=".AnadirHistoria"
             android:exported="false"/>
         <activity
             android:name=".Inicio"
