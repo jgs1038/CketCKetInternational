@@ -109,19 +109,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.46" />
 
-    <ImageView
-        android:id="@+id/eventonicki"
-        android:layout_width="250dp"
-        android:layout_height="134dp"
-        android:contentDescription="@string/eventoNicki"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"
-        app:srcCompat="@drawable/acdc_pwruptour" />
-
     <TextView
         android:id="@+id/otrosEvetosNicki"
         android:layout_width="wrap_content"
@@ -178,15 +165,19 @@
         tools:ignore="ImageContrastCheck"
         tools:srcCompat="@drawable/evento3acdc" />
 
-    <Button
-        android:id="@+id/Ir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/PowerUp_acdc"
+        android:layout_width="285dp"
+        android:layout_height="166dp"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteEACDC"
-        android:text="@string/ir"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.953"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613"
+        app:srcCompat="@drawable/acdc_pwruptour" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

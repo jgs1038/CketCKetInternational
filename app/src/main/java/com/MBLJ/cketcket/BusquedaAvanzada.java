@@ -35,5 +35,17 @@ public class BusquedaAvanzada extends AppCompatActivity  {
         Intent siguiente = new Intent(this, BusquedaAvanzadaMerchandising.class);
         startActivity(siguiente);
     }
+    public void SiguientePrincipal(View view){
+        Intent siguiente = new Intent (this, InicioPrincipal.class);
+        startActivity(siguiente);
+    }
+    public void PerfilUsuario(View view){
+        Intent siguiente = new Intent (this, PerfilUsuario.class);
+        startActivity(siguiente);
+    }
+    public void BusquedaAvanzada(View view){
+        Intent siguiente = new Intent (this, BusquedaAvanzada.class);
+        startActivity(siguiente);
+    }
 
 }

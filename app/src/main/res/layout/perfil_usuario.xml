@@ -8,6 +8,57 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="-42dp">
 
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="BusquedaAvanzada"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        app:srcCompat="@drawable/busqueda"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="63dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="SiguientePrincipal"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/inicio_noazul"
+        tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="PerfilUsuario"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/perfil_azul"
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
+
     <ImageView
         android:id="@+id/fondoAzul"
         android:layout_width="410dp"
@@ -107,20 +158,8 @@
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
-
-    <ImageView
-        android:id="@+id/eventonicki"
-        android:layout_width="402dp"
-        android:layout_height="108dp"
-        android:contentDescription="@string/eventoNicki"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
-        app:srcCompat="@drawable/seguidos" />
+        app:layout_constraintVertical_bias="0.478"
+        tools:ignore="VisualLintOverlap" />
 
     <TextView
         android:id="@+id/otrosEvetosNicki"
@@ -133,36 +172,7 @@
         app:layout_constraintHorizontal_bias="0.158"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
-
-    <ImageView
-        android:id="@+id/evento1N"
-        android:layout_width="208dp"
-        android:layout_height="117dp"
-        android:contentDescription="@string/evento1N"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922"
-        app:srcCompat="@drawable/nicki_portada"
-        tools:srcCompat="@drawable/nicki_portada" />
-
-    <ImageView
-        android:id="@+id/evento3N"
-        android:layout_width="186dp"
-        android:layout_height="126dp"
-        android:contentDescription="@string/evento3N"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92"
-        app:srcCompat="@drawable/acdc_pwruptour"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@drawable/acdc_pwruptour" />
+        app:layout_constraintVertical_bias="0.706" />
 
     <Button
         android:id="@+id/Enviar"
@@ -175,7 +185,8 @@
         app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintVertical_bias="0.409"
+        tools:ignore="VisualLintOverlap" />
 
     <Button
         android:id="@+id/bloquear"
@@ -188,69 +199,86 @@
         app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintVertical_bias="0.409"
+        tools:ignore="VisualLintOverlap" />
 
-    <Button
-        android:id="@+id/chiara"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SiguienteChiara"
-        android:text="@string/chiara"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698"
-        tools:ignore="DuplicateSpeakableTextCheck" />
-
-    <Button
-        android:id="@+id/nic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SiguienteNicki"
-        android:text="@string/nicki_nicole_pu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
-
-    <Button
-        android:id="@+id/acdc_pu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SiguienteACDC"
-        android:text="@string/ac_dc"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
-
-    <Button
-        android:id="@+id/AbreSuAlma_pu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/EventoNickiPU"
+        android:layout_width="208dp"
+        android:layout_height="117dp"
+        android:background="#FFFFFF"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteENicki"
-        android:text="@string/abre_su_alma_pu"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.882"
+        app:srcCompat="@drawable/nicki_portada" />
 
-    <Button
-        android:id="@+id/powerUp_PU"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/EventoACDC"
+        android:layout_width="186dp"
+        android:layout_height="117dp"
+        android:background="#FFFFFF"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteEACDC"
-        android:text="@string/power_up_pu"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882"
+        app:srcCompat="@drawable/acdc_pwruptour" />
+
+    <ImageButton
+        android:id="@+id/perfilKiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:onClick="SiguienteChiara"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597"
+        app:srcCompat="@drawable/perfil_kiki"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/PerfilNicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:onClick="SiguienteNicki"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/perfil_nicki"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/PerfilAcDc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:onClick="SiguienteACDC"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/perfil_acdc"
+        android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

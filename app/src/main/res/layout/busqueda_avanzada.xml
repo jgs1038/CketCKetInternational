@@ -9,6 +9,57 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="-42dp">
 
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="BusquedaAvanzada"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        app:srcCompat="@drawable/busqueda_azul"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="63dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="SiguientePrincipal"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/inicio_noazul"
+        tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="PerfilUsuario"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/perfil"
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
+
     <ImageView
         android:id="@+id/fondoAzul"
         android:layout_width="410dp"

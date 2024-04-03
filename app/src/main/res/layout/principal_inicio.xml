@@ -10,19 +10,6 @@
     tools:layout_editor_absoluteY="-42dp"
     tools:ignore="ExtraText">
 
-    <ImageView
-        android:id="@+id/acdc"
-        android:layout_width="308dp"
-        android:layout_height="262dp"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.228"
-        app:srcCompat="@drawable/acdc_pwruptour" />
-
     <TextView
         android:id="@+id/NuevosEventos"
         android:layout_width="wrap_content"
@@ -48,32 +35,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.518" />
-
-    <ImageView
-        android:id="@+id/nicky"
-        android:layout_width="177dp"
-        android:layout_height="172dp"
-        android:contentDescription="@string/nicky"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.738"
-        app:srcCompat="@drawable/nicki_nicole" />
-
-    <ImageView
-        android:id="@+id/kiki"
-        android:layout_width="177dp"
-        android:layout_height="169dp"
-        android:contentDescription="@string/kiki"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.931"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.733"
-        app:srcCompat="@drawable/fotodemillones" />
 
     <ImageView
         android:id="@+id/fondoAzul"
@@ -128,46 +89,6 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText,MissingConstraints" />
 
-    <Button
-        android:id="@+id/Kiki_pi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SiguienteNicki"
-        android:text="@string/nicki_nicole_pi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nicky"
-        app:layout_constraintVertical_bias="0.183" />
-
-    <Button
-        android:id="@+id/Kiki_pi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SiguienteKiki"
-        android:text="@string/chiara_oliver_pi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kiki"
-        app:layout_constraintVertical_bias="0.215"
-        tools:ignore="DuplicateIds" />
-
-    <Button
-        android:id="@+id/eventoacdc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SiguienteEventoACDC"
-        android:text="@string/power_up"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.914"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.481" />
-
     <ImageButton
         android:id="@+id/tresrayas"
         android:layout_width="70dp"
@@ -217,6 +138,8 @@
         android:id="@+id/inicio"
         android:layout_width="95dp"
         android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
         android:onClick="BusquedaAvanzada"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -226,13 +149,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993"
         app:srcCompat="@drawable/busqueda"
-        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck"
-        android:importantForAccessibility="no" />
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/inicio"
         android:layout_width="84dp"
         android:layout_height="63dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
         android:onClick="SiguientePrincipal"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -242,24 +166,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"
         app:srcCompat="@drawable/inicio_icono"
-        tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck"
-        android:importantForAccessibility="no" />
+        tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
         android:onClick="PerfilUsuario"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintHorizontal_bias="0.801"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.996"
         app:srcCompat="@drawable/perfil"
-        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck"
-        android:importantForAccessibility="no" />
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/lupa_inicio"
@@ -275,5 +199,50 @@
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@android:drawable/ic_search_category_default"
         tools:ignore="DuplicateIds,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/PowerUp"
+        android:layout_width="317dp"
+        android:layout_height="184dp"
+        android:onClick="SiguienteEventoACDC"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298"
+        app:srcCompat="@drawable/acdc_pwruptour"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/Nicki_Nicole"
+        android:layout_width="177dp"
+        android:layout_height="172dp"
+        android:onClick="SiguienteNicki"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737"
+        app:srcCompat="@drawable/nicki_nicole"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/Chiara"
+        android:layout_width="177dp"
+        android:layout_height="172dp"
+        android:onClick="SiguienteKiki"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        app:srcCompat="@drawable/fotodemillones"
+        android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -83,19 +83,6 @@
         tools:ignore="TouchTargetSizeCheck"
         android:importantForAccessibility="no" />
 
-    <ImageView
-        android:id="@+id/nnicki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/foto_perfil_nicki"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117"
-        app:srcCompat="@drawable/kikiinsta" />
-
     <TextView
         android:id="@+id/EvebtoPricipal"
         android:layout_width="wrap_content"
@@ -108,19 +95,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.46" />
-
-    <ImageView
-        android:id="@+id/eventonicki"
-        android:layout_width="250dp"
-        android:layout_height="134dp"
-        android:contentDescription="@string/eventoNicki"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"
-        app:srcCompat="@drawable/mckiki" />
 
     <TextView
         android:id="@+id/otrosEvetosNicki"
@@ -176,32 +150,60 @@
         app:srcCompat="@drawable/firmadiscos"
         tools:ignore="ImageContrastCheck" />
 
-    <Button
-        android:id="@+id/Ir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/EventoKiki"
+        android:layout_width="258dp"
+        android:layout_height="159dp"
         android:onClick="EventoKiki"
-        android:text="@string/ir"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677" />
+        app:layout_constraintVertical_bias="0.629"
+        app:srcCompat="@drawable/mckiki"
+        android:importantForAccessibility="no" />
 
-    <Button
-        android:id="@+id/historia"
-        android:layout_width="112dp"
-        android:layout_height="73dp"
+    <ImageButton
+        android:id="@+id/fotoKiki"
+        android:layout_width="199dp"
+        android:layout_height="194dp"
+        android:background="#FFFFFF"
+        android:importantForAccessibility="no"
         android:onClick="HistoriaKiki"
-        android:text="@string/ver_historia_kiki"
-        android:visibility="visible"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/nnicki"
-        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/perfilkiki" />
+
+    <ImageView
+        android:id="@+id/instaKiki"
+        android:layout_width="399dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/instakiki"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/perfilesKiki"
+        android:layout_width="199dp"
+        android:layout_height="194dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/perfileskiki" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
