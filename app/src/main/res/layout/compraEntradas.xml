@@ -169,7 +169,7 @@
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.48" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
@@ -194,8 +194,8 @@
         android:checked="true"
         android:clickable="true"
         android:text="ToggleButton"
-        android:textOff="Elegir mis asientos"
-        android:textOn="Elegir mis asientos"
+        android:textOff="Por Precios"
+        android:textOn="Por Precios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
