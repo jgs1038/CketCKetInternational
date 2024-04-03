@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Directo"
+        android:text="Crear Encuesta"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
@@ -51,7 +51,8 @@
         app:layout_constraintStart_toStartOf="@+id/fondoAzul"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageButton
         android:id="@+id/lupa_inicio"
@@ -85,31 +86,18 @@
         android:importantForAccessibility="no" />
 
     <ImageView
-        android:id="@+id/rectangulo_negro"
-        android:layout_width="445dp"
-        android:layout_height="142dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/rectangulo_negro"
-        android:importantForAccessibility="no"
-        tools:ignore="VisualLintBounds" />
-
-    <ImageView
         android:id="@+id/directo_intagram"
-        android:layout_width="423dp"
-        android:layout_height="597dp"
+        android:layout_width="406dp"
+        android:layout_height="590dp"
         android:layout_marginStart="16dp"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fondoAzul"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/live_instragram"
-        tools:ignore="VisualLintBounds" />
+        app:srcCompat="@drawable/crear_encuesta"
+        tools:ignore="VisualLintBounds,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
