@@ -30,7 +30,7 @@ public class Registro extends AppCompatActivity {
             siguiente = new Intent(this, Inicio.class);
             startActivity(siguiente);
         }
-        if (tipoUsuario.equals("2")) {
+        if (tipoUsuario.equals("3")) {
             siguiente = new Intent(this, InicioOrganizador.class);
             startActivity(siguiente);
         }
