@@ -134,6 +134,9 @@
             android:name=".InicioOrganizador"
             android:exported="false"/>
         <activity
+            android:name=".InicioArtista"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
