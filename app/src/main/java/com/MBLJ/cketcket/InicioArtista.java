@@ -27,4 +27,9 @@ public class InicioArtista extends AppCompatActivity  {
         startActivity(siguiente);
     }
 
+    public void SolicitudEvento(View view) {
+        Intent siguiente = new Intent(this, SolicitudEventoArtista.class);
+        startActivity(siguiente);
+    }
+
 }
