@@ -76,56 +76,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.841" />
 
-    <TextView
-        android:id="@+id/Usuario"
+    <EditText
+        android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/usuario"
+        android:ems="10"
+        android:hint="'introduce tu usuario'"
+        android:inputType="text"
+        android:text="Usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.319"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo1"
-        app:layout_constraintVertical_bias="0.383" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
+        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
+    <EditText
         android:id="@+id/Contraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/contrasena"
+        android:ems="10"
+        android:hint="'Introduce tu contraseña'"
+        android:inputType="text"
+        android:text="Contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Usuario"
-        app:layout_constraintVertical_bias="0.202" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

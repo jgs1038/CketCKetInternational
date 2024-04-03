@@ -40,7 +40,7 @@ public class LiveActivities1 extends AppCompatActivity  {
         startActivity(siguiente);
     }
     public void Historia(View view) {
-        Intent siguiente = new Intent(this, AñadirHistoria.class);
+        Intent siguiente = new Intent(this, AnadirHistoria.class);
         startActivity(siguiente);
     }
 }

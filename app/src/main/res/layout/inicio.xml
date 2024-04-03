@@ -10,29 +10,31 @@
         android:id="@+id/titulo1"
         android:layout_width="203dp"
         android:layout_height="82dp"
+        android:layout_marginBottom="43dp"
         android:text="@string/cketcket"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/fondo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="109dp"
         android:layout_height="69dp"
+        android:layout_marginBottom="43dp"
         android:contentDescription="@string/titulo"
         android:rotation="-33"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/fondo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.317"
         app:layout_constraintStart_toEndOf="@+id/titulo1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ticket" />
 
     <ImageView

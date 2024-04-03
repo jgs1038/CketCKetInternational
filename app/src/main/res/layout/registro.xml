@@ -14,7 +14,7 @@
         android:contentDescription="@string/fondo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -33,104 +33,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/linea"
         tools:ignore="VisualLintBounds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/linea_horizontal"
-        android:layout_width="242dp"
-        android:layout_height="32dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436"
-        app:srcCompat="@drawable/lineahorizontal"
-        tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/titulo1"
@@ -161,19 +63,6 @@
         app:layout_constraintVertical_bias="0.123"
         app:srcCompat="@drawable/ticket" />
 
-    <TextView
-        android:id="@+id/NombreRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/nombre"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linea_titulo"
-        app:layout_constraintVertical_bias="0.038" />
-
     <Button
         android:id="@+id/botonRegistro"
         android:layout_width="133dp"
@@ -187,78 +76,124 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.949" />
 
-    <TextView
-        android:id="@+id/ApellidoRegistro"
+    <EditText
+        android:id="@+id/Nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/apellido"
+        android:ems="10"
+        android:hint="'Introduce tu nombre'"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NombreRegistro"
-        app:layout_constraintVertical_bias="0.077"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
-    <TextView
-        android:id="@+id/UsuarioRegistro"
+    <EditText
+        android:id="@+id/editTextText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Registro"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/introduce_tus_apellidos"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/apellidos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ApellidoRegistro"
-        app:layout_constraintVertical_bias="0.093" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
 
-    <TextView
-        android:id="@+id/ContraseñaRegistro"
+    <EditText
+        android:id="@+id/editTextText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/contrasenaRegistro"
+        android:ems="10"
+        android:hint="'Introduce tu nombre de usuario'"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="Usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UsuarioRegistro"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/ConfirmarRegistro"
-        android:layout_width="74dp"
-        android:layout_height="16dp"
-        android:text="@string/confirmar_contrasena"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.314"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ContraseñaRegistro"
-        app:layout_constraintVertical_bias="0.129"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/CorreoRegistro"
+    <EditText
+        android:id="@+id/editTextText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/correo"
+        android:ems="10"
+        android:hint="'Introduce una contraseña'"
+        android:inputType="text"
+        android:text="Contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ConfirmarRegistro"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
-    <TextView
-        android:id="@+id/TipoUsuario"
+    <EditText
+        android:id="@+id/editTextText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tipo_de_usuario"
+        android:ems="10"
+        android:hint="'Confirma tu contraseña'"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="Confirmar contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CorreoRegistro"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="'Introduce tu correo'"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Correo"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="'Introduce tu tipo de usuario'"
+        android:inputType="text"
+        android:text="Tipo de usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

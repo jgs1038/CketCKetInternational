@@ -142,4 +142,6 @@
     <string name="camiseta_nicky">TODO</string>
     <string name="compradas">compradas</string>
     <string name="vendidas">vendidas</string>
+    <string name="introduce_tus_apellidos">\'Introduce tus apellidos\'</string>
+    <string name="apellidos">Apellidos</string>
 </resources>
