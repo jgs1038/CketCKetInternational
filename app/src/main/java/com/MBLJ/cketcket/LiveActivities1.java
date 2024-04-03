@@ -35,7 +35,7 @@ public class LiveActivities1 extends AppCompatActivity  {
         Intent siguiente = new Intent(this, CrearEncuesta.class);
         startActivity(siguiente);
     }
-    public void PregunstasRespuestas(View view) {
+    public void PreguntasRespuestas(View view) {
         Intent siguiente = new Intent(this, PreguntasRespuestas.class);
         startActivity(siguiente);
     }
