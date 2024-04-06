@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inicio">
+    tools:context=".CompraEntradasACDC">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -16,10 +16,11 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.091"
+        android:contentDescription="@string/imagenartista" />
 
     <TextView
-        android:id="@+id/PerfilEvento"
+        android:id="@+id/Cabecera1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
@@ -36,7 +37,7 @@
         tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
     <TextView
-        android:id="@+id/PerfilEvento"
+        android:id="@+id/Cabecera2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
@@ -53,7 +54,7 @@
         tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
     <TextView
-        android:id="@+id/PerfilEvento"
+        android:id="@+id/Cabecera3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -157,28 +158,33 @@
         app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.238"
+        android:contentDescription="@string/information" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="388dp"
-        android:layout_height="374dp"
-        android:src="@drawable/acdc_mapa"
+        android:layout_width="405dp"
+        android:layout_height="437dp"
         android:onClick="cambiarImagen"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="293dp" />
+        android:src="@drawable/acdc_mapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921"
+        android:contentDescription="@string/mapaevento" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/ElegirAsientos"
         android:layout_width="205dp"
         android:layout_height="71dp"
         android:background="#00BCD4"
         android:checked="true"
         android:clickable="true"
-        android:text="ToggleButton"
+        android:text="@string/togglebutton"
         android:textColor="#FFFFFF"
-        android:textOff="Elegir mis asientos"
-        android:textOn="Elegir mis asientos"
+        android:textOff="@string/elegir_mis_asientos"
+        android:textOn="@string/elegir_mis_asientos"
         android:theme="@style/ToggleButtonA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -188,16 +194,16 @@
         app:layout_constraintVertical_bias="0.303" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/PorPrecios"
         android:layout_width="205dp"
         android:layout_height="72dp"
         android:background="#00BCD4"
         android:checked="false"
         android:clickable="true"
-        android:text="ToggleButton"
+        android:text="@string/togglebutton"
         android:textColor="#FFFFFF"
-        android:textOff="Por Precios"
-        android:textOn="Por Precios"
+        android:textOff="@string/por_precios"
+        android:textOn="@string/por_precios"
         android:theme="@style/ToggleButtonN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
