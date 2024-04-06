@@ -75,14 +75,14 @@
         android:layout_height="75dp"
         android:layout_marginEnd="1dp"
         android:contentDescription="@string/trespuntos"
-        android:tint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
+        app:srcCompat="@drawable/rectangulo_azul"
+        app:tint="#00BCD4" />
 
     <TextView
         android:id="@+id/PerfilEvento"
@@ -150,6 +150,7 @@
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="SiguientePEAcdc"
         android:src="@drawable/info2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -158,29 +159,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.238" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00BCD4"
-        android:text="Elegir mis Asientos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="388dp"
+        android:layout_height="374dp"
+        android:src="@drawable/acdc_mapa"
+        android:onClick="cambiarImagen"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="293dp" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
-        android:layout_width="204dp"
-        android:layout_height="72dp"
+        android:layout_width="205dp"
+        android:layout_height="71dp"
         android:background="#00BCD4"
         android:checked="true"
         android:clickable="true"
         android:text="ToggleButton"
+        android:textColor="#FFFFFF"
         android:textOff="Elegir mis asientos"
         android:textOn="Elegir mis asientos"
+        android:theme="@style/ToggleButtonA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.004"
@@ -190,13 +189,16 @@
 
     <ToggleButton
         android:id="@+id/toggleButton"
-        android:layout_width="207dp"
-        android:layout_height="71dp"
-        android:checked="true"
+        android:layout_width="205dp"
+        android:layout_height="72dp"
+        android:background="#00BCD4"
+        android:checked="false"
         android:clickable="true"
         android:text="ToggleButton"
+        android:textColor="#FFFFFF"
         android:textOff="Por Precios"
         android:textOn="Por Precios"
+        android:theme="@style/ToggleButtonN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
