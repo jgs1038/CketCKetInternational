@@ -26,4 +26,8 @@ public class PerfilEventoACDC extends AppCompatActivity {
         Intent siguiente = new Intent(this, TresPuntos.class);
         startActivity(siguiente);
     }
+    public void SiguienteCompraACDC(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasACDC.class);
+        startActivity(siguiente);
+    }
 }
