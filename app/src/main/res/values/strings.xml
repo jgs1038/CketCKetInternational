@@ -144,4 +144,10 @@
     <string name="vendidas">vendidas</string>
     <string name="introduce_tus_apellidos">\'Introduce tus apellidos\'</string>
     <string name="apellidos">Apellidos</string>
+    <string name="por_precios">Por Precios</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="elegir_mis_asientos">Elegir mis asientos</string>
+    <string name="mapaevento">MapaEvento</string>
+    <string name="information">information</string>
+    <string name="imagenartista">ImagenArtista</string>
 </resources>
