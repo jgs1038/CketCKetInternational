@@ -137,7 +137,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.164"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -151,7 +153,9 @@
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.164"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -165,7 +169,9 @@
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.23" />
+        app:layout_constraintVertical_bias="0.23"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -179,7 +185,9 @@
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintVertical_bias="0.295"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -193,7 +201,9 @@
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.361"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -207,7 +217,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.23" />
+        app:layout_constraintVertical_bias="0.23"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -221,7 +233,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintVertical_bias="0.295"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -235,7 +249,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.361"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -249,7 +265,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.438" />
+        app:layout_constraintVertical_bias="0.438"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -263,7 +281,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -277,7 +297,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.634" />
+        app:layout_constraintVertical_bias="0.634"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -291,7 +313,9 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.867" />
+        app:layout_constraintVertical_bias="0.867"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -305,7 +329,9 @@
         app:layout_constraintHorizontal_bias="0.848"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.801"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -319,6 +345,8 @@
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.801"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
