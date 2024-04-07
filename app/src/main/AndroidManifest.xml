@@ -146,6 +146,9 @@
             android:name=".CompraEntradasACDC"
             android:exported="false"/>
         <activity
+            android:name=".ModificarDatosEvento"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>

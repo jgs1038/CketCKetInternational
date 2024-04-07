@@ -7,11 +7,11 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class InicioArtista extends AppCompatActivity  {
+public class ModificarDatosEvento extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inicio_artista);
+        setContentView(R.layout.modificar_datos_evento);
     }
     public void SiguienteLupa(View view){
         Intent siguiente = new Intent (this, BusquedaUsuario.class);
@@ -24,16 +24,6 @@ public class InicioArtista extends AppCompatActivity  {
     }
     public void SiguienteTresPuntods(View view) {
         Intent siguiente = new Intent(this, TresPuntos.class);
-        startActivity(siguiente);
-    }
-
-    public void SolicitudEvento(View view) {
-        Intent siguiente = new Intent(this, SolicitudEventoArtista.class);
-        startActivity(siguiente);
-    }
-
-    public void DatosEvento(View view) {
-        Intent siguiente = new Intent(this, ModificarDatosEvento.class);
         startActivity(siguiente);
     }
 
