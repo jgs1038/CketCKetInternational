@@ -24,96 +24,44 @@ public class InicioArtista extends AppCompatActivity  {
     }
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.tres_rayas, menu);
+        menuInflater.inflate(R.menu.tres_rayas_artista, menu);
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         int id = item.getItemId();
-        if (id == R.id.mis_entradas){
-            Intent siguiente = new Intent (this, MisEntradas.class);
+        if (id == R.id.solicitud_evento){
+            Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
             startActivity(siguiente);
         }
-        if (id == R.id.ForoDudas){
-            Intent siguiente = new Intent (this, ForoDudas.class);
+        if (id == R.id.ver_perfil){
+            Intent siguiente = new Intent (this, PerfilArtistaKiki.class);
             startActivity(siguiente);
         }
-        if (id == R.id.asistencia_tecnica){
-            Intent siguiente = new Intent (this, AsistenciaTecnica.class);
+        if (id == R.id.datos_evento){
+            Intent siguiente = new Intent (this, ModificarDatosEvento.class);
             startActivity(siguiente);
         }
-        if (id == R.id.chat){
-            Intent siguiente = new Intent (this, Chat1.class);
+        if (id == R.id.directo){
+            Intent siguiente = new Intent (this, EmpezarDirecto.class);
             startActivity(siguiente);
         }
-        if (id == R.id.mis_puntos){
-            Intent siguiente = new Intent (this, MisPuntos.class);
+        if (id == R.id.encuesta){
+            Intent siguiente = new Intent (this, CrearEncuesta.class);
             startActivity(siguiente);
         }
-        if (id == R.id.usuarios_bloqueados){
-            Intent siguiente = new Intent (this, UsuariosBloqueados.class);
+        if (id == R.id.preguntas_respuestas){
+            Intent siguiente = new Intent (this, PreguntasRespuestas.class);
             startActivity(siguiente);
         }
-        if (id == R.id.live_activities){
-            Intent siguiente = new Intent (this, LiveActivities.class);
+        if (id == R.id.historia){
+            Intent siguiente = new Intent (this, AnadirHistoria.class);
             startActivity(siguiente);
         }
-        if (id == R.id.merchandising){
-            Intent siguiente = new Intent (this, Merchandising.class);
-            startActivity(siguiente);
-        }
+
 
         //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
         //return super.onOptionsItemSelected(item);
         return true;
-    }
-
-    /*
-    public void SiguienteLupa(View view){
-        Intent siguiente = new Intent (this, BusquedaUsuario.class);
-        startActivity(siguiente);
-    }
-
-    public void SiguienteTresRayas(View view){
-        Intent siguiente = new Intent (this, TresRayas.class);
-        startActivity(siguiente);
-    }
-    public void SiguienteTresPuntods(View view) {
-        Intent siguiente = new Intent(this, TresPuntos.class);
-        startActivity(siguiente);
-    }*/
-
-    public void SolicitudEvento(View view) {
-        Intent siguiente = new Intent(this, SolicitudEventoArtista.class);
-        startActivity(siguiente);
-    }
-
-    public void IrPerfil(View view) {
-        Intent siguiente = new Intent(this, PerfilArtistaKiki.class);
-        startActivity(siguiente);
-    }
-    public void DatosEvento(View view) {
-        Intent siguiente = new Intent(this, ModificarDatosEvento.class);
-        startActivity(siguiente);
-    }
-
-    public void IrDirectoInstagram(View view) {
-        Intent siguiente = new Intent(this, EmpezarDirecto.class);
-        startActivity(siguiente);
-    }
-
-    public void Encuestas(View view) {
-        Intent siguiente = new Intent(this, CrearEncuesta.class);
-        startActivity(siguiente);
-    }
-
-    public void Preguntas(View view) {
-        Intent siguiente = new Intent(this, PreguntasRespuestas.class);
-        startActivity(siguiente);
-    }
-
-    public void HistoriaInstagram(View view) {
-        Intent siguiente = new Intent(this, AnadirHistoria.class);
-        startActivity(siguiente);
     }
 }

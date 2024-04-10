@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/solicitud_evento"
+        android:title="Solivitud evento"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/ver_perfil"
+        android:title="Ver perfil"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/datos_evento"
+        android:title="Modificar datos evento"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/directo"
+        android:title="Empezar Directo "
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/encuesta"
+        android:title="Crear Encuestas"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/preguntas_respuestas"
+        android:title="Empezar preguntas y respuestas"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/historia"
+        android:title="Añadir historia "
+        tools:ignore="HardcodedText" />
+</menu>
