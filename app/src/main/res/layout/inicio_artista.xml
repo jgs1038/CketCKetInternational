@@ -43,6 +43,7 @@
         android:id="@+id/tresrayas"
         android:layout_width="70dp"
         android:layout_height="66dp"
+        android:backgroundTint="#E1DFDF"
         android:importantForAccessibility="no"
         android:onClick="SiguienteTresRayas"
         app:layout_constraintBottom_toBottomOf="parent"
