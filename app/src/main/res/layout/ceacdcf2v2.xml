@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CeAcdcF2">
+    tools:context=".CeAcdcF2V2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -22,8 +22,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.75"
-            app:srcCompat="@drawable/seleccion" />
+            app:layout_constraintVertical_bias="0.706"
+            app:srcCompat="@drawable/seleccion2" />
 
         <TextView
             android:id="@+id/textView16"
@@ -263,8 +263,8 @@
             android:layout_height="36dp"
             android:background="#CCCCCC"
             android:backgroundTint="#CCCCCCCC"
-            android:onClick="SiguienteMayorMenor"
-            android:text="@string/menor_a_mayor"
+            android:onClick="SiguienteMenorMayor"
+            android:text="@string/mayor_a_menor"
             android:textColor="#000000"
             android:textColorLink="#CCCCCC"
             android:textSize="12sp"

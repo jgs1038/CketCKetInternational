@@ -150,6 +150,9 @@
             android:name=".CeAcdcF2"
             android:exported="false"/>
         <activity
+            android:name=".CeAcdcF2V2"
+            android:exported="false"/>
+        <activity
             android:name=".ModificarDatosEvento"
             android:exported="false"/>
         <activity

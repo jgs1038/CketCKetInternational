@@ -1,9 +1,11 @@
 package com.MBLJ.cketcket;
+
 import android.content.Intent;
 import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class CeAcdcF2 extends AppCompatActivity{
+public class CeAcdcF2V2 extends AppCompatActivity{
     public void SiguienteLupa(View view){
         Intent siguiente = new Intent (this, BusquedaUsuario.class);
         startActivity(siguiente);
@@ -25,8 +27,8 @@ public class CeAcdcF2 extends AppCompatActivity{
         Intent siguiente = new Intent(this, CompraEntradasACDC.class);
         startActivity(siguiente);
     }
-    public void SiguienteMayorMenor(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2V2.class);
+    public void SiguienteMenorMayor(View view) {
+        Intent siguiente = new Intent(this, CeAcdcF2.class);
         startActivity(siguiente);
     }
 }
