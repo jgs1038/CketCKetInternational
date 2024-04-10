@@ -155,4 +155,32 @@
         app:layout_constraintVertical_bias="0.569"
         tools:ignore="HardcodedText" />
 
+    <Button
+        android:id="@+id/datosEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Preguntas"
+        android:text="Empezar Preguntas y Respuestas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/datosEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="HistoriaInstagram"
+        android:text="Añadir historia Imstagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768"
+        tools:ignore="HardcodedText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
