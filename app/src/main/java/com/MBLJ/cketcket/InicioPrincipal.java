@@ -32,9 +32,29 @@ public class InicioPrincipal extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         int id = item.getItemId();
         if (id == R.id.mis_entradas){
-            Toast.makeText(this,"Opcion 1", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent (this, MisEntradas.class);
+            startActivity(siguiente);
         }
-        return super.onOptionsItemSelected(item);
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, ForoDudas.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, AsistenciaTecnica.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, Chat1.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, MisPuntos.class);
+            startActivity(siguiente);
+        }
+
+        //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
+        //return super.onOptionsItemSelected(item);
+        return true;
     }
 
     public void SiguienteLupa(View view){
