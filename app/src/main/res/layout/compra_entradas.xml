@@ -166,7 +166,6 @@
         android:layout_width="405dp"
         android:layout_height="437dp"
         android:contentDescription="@string/mapaevento"
-        android:onClick="cambiarImagen"
         android:src="@drawable/acdc_mapa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
