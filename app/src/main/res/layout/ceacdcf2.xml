@@ -49,7 +49,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.474"
-            app:srcCompat="@drawable/MENOS" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView18"
@@ -255,7 +255,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.384"
-            app:srcCompat="@drawable/ordenarPor" />
+            app:srcCompat="@drawable/ordenarpor" />
 
         <Button
             android:id="@+id/button7"
@@ -298,7 +298,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.474"
-            app:srcCompat="@drawable/MENOS" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView22"
@@ -322,7 +322,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.798"
-            app:srcCompat="@drawable/MENOS" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView24"
@@ -349,6 +349,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.788" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ordenar Por:"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.392" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -388,7 +401,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -400,7 +413,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <TextView
         android:id="@+id/textView747"
@@ -464,7 +477,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.587"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <TextView
         android:id="@+id/textView10"
@@ -490,7 +503,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.474"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -686,18 +699,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.304" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="488dp"
-        android:layout_height="143dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384"
-        app:srcCompat="@drawable/ordenarPor" />
-
     <Button
         android:id="@+id/button4"
         android:layout_width="176dp"
@@ -739,7 +740,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.474"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView26"
