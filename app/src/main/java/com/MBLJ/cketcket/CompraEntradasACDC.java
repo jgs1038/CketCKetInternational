@@ -27,19 +27,4 @@ public class CompraEntradasACDC extends AppCompatActivity {
         Intent siguiente = new Intent(this, CeAcdcF2.class);
         startActivity(siguiente);
     }
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.compra_entradas);
-    }
-    public ImageView imageView;
-    private boolean imagen1 = true;
-    public void cambiarImagen(View view) {
-        if (imagen1) {
-            imageView.setImageResource(R.drawable.acdcmapa2);
-        } else {
-            imageView.setImageResource(R.drawable.acdc_mapa);
-        }
-        imagen1 = !imagen1;
-    }
 }
