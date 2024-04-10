@@ -96,6 +96,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fondoAzul"
         app:layout_constraintVertical_bias="0.169"
         app:srcCompat="@drawable/solicitudes"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@drawable/solicitudes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
