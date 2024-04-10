@@ -5,34 +5,56 @@ package com.MBLJ.cketcket;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import java.util.Arrays;
-import java.util.List;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+//imports del menu
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import androidx.annotation.NonNull;
+import android.view.Menu;
+import android.widget.Toast;
 
 public class InicioPrincipal extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
-    private MyRvAdapter adapter;
-    private List<String> dataSource;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_inicio); // Asegúrate de que este es el layout correcto
+        setContentView(R.layout.principal_inicio);
+    }
 
-        // Inicialización de la fuente de datos
-        dataSource = Arrays.asList("Hello", "World", "To", "The", "Code", "City", "******");
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.tres_rayas, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        int id = item.getItemId();
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, MisEntradas.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, ForoDudas.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, AsistenciaTecnica.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, Chat1.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.mis_entradas){
+            Intent siguiente = new Intent (this, MisPuntos.class);
+            startActivity(siguiente);
+        }
 
-        // Configuración del RecyclerView
-        recyclerView = findViewById(R.id.myRecyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-
-        // Configuración del adaptador
-        adapter = new MyRvAdapter(this, dataSource);
-        recyclerView.setAdapter(adapter);
+        //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
+        //return super.onOptionsItemSelected(item);
+        return true;
     }
 
     public void SiguienteLupa(View view){
