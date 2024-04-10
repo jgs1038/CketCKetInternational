@@ -4,9 +4,21 @@ package com.MBLJ.cketcket;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+//imports del menu
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import androidx.annotation.NonNull;
+import android.view.Menu;
+import android.widget.Toast;
 
 public class InicioPrincipal extends AppCompatActivity {
 
@@ -15,6 +27,22 @@ public class InicioPrincipal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.principal_inicio);
     }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.tres_rayas, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        int id = item.getItemId();
+        if (id == R.id.mis_entradas){
+            Toast.makeText(this,"Opcion 1", Toast.LENGTH_SHORT).show();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
 
     public void SiguienteLupa(View view){
         Intent siguiente = new Intent (this, BusquedaUsuario.class);
