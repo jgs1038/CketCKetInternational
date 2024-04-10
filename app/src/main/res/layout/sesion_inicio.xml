@@ -35,6 +35,48 @@
         tools:ignore="VisualLintBounds" />
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="364dp"
+        android:layout_height="40dp"
+        android:text="INTRODUCE EL NÚMERO QUE CORRESPONDA CON TU TIPO DE USUARIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/tipoUsuario"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Tipo de usuario"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Usuario normal 2. Artista 3. Organización"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664"
+        tools:ignore="HardcodedText" />
+
+    <TextView
         android:id="@+id/titulo1"
         android:layout_width="203dp"
         android:layout_height="82dp"

@@ -104,10 +104,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.46" />
+        app:layout_constraintTop_toBottomOf="@+id/nnicki"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/otrosEvetosNicki"
@@ -117,63 +117,65 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintTop_toBottomOf="@+id/EventoNicki"
+        app:layout_constraintVertical_bias="0.06" />
 
     <ImageView
         android:id="@+id/evento1N"
         android:layout_width="126dp"
         android:layout_height="126dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/evento1N"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/evento2N"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922"
-        app:srcCompat="@drawable/evento2nicki"
-        android:contentDescription="@string/evento1N" />
+        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
+        app:layout_constraintVertical_bias="0.425"
+        app:srcCompat="@drawable/evento2nicki" />
 
     <ImageView
         android:id="@+id/evento2N"
         android:layout_width="126dp"
         android:layout_height="126dp"
+        android:contentDescription="@string/evento2N"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toStartOf="@+id/evento3N"
+        app:layout_constraintHorizontal_bias="0.905"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922"
-        app:srcCompat="@drawable/evento1nicki"
-        android:contentDescription="@string/evento2N" />
+        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
+        app:layout_constraintVertical_bias="0.564"
+        app:srcCompat="@drawable/evento1nicki" />
 
     <ImageView
         android:id="@+id/evento3N"
         android:layout_width="126dp"
         android:layout_height="126dp"
+        android:contentDescription="@string/evento3N"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922"
-        app:srcCompat="@drawable/evento3nicki"
-        android:contentDescription="@string/evento3N" />
+        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
+        app:layout_constraintVertical_bias="0.564"
+        app:srcCompat="@drawable/evento3nicki" />
 
     <ImageButton
         android:id="@+id/EventoNicki"
-        android:layout_width="258dp"
-        android:layout_height="147dp"
+        android:layout_width="277dp"
+        android:layout_height="138dp"
+        android:background="#F6F4F4"
+        android:importantForAccessibility="no"
         android:onClick="EventoNicki"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
-        app:srcCompat="@drawable/nicki_portada"
-        android:importantForAccessibility="no" />
+        app:layout_constraintTop_toBottomOf="@+id/EvebtoPricipal"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/nicki_portada" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

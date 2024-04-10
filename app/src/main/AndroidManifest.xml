@@ -147,7 +147,13 @@
             android:name=".CompraEntradasACDC"
             android:exported="false"/>
         <activity
+            android:name=".CeAcdcF2"
+            android:exported="false"/>
+        <activity
             android:name=".ModificarDatosEvento"
+            android:exported="false"/>
+        <activity
+            android:name=".AceptarSolicitud"
             android:exported="false"/>
         <activity
             android:name=".Inicio"

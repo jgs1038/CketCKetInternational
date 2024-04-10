@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Inicio Artista"
+        android:text="Aceptar Solicitud"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
@@ -43,7 +43,6 @@
         android:id="@+id/tresrayas"
         android:layout_width="70dp"
         android:layout_height="66dp"
-        android:backgroundTint="#E1DFDF"
         android:importantForAccessibility="no"
         android:onClick="SiguienteTresRayas"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,46 +84,19 @@
         tools:ignore="TouchTargetSizeCheck"
         android:contentDescription="@string/tresPuntos_chat" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="SolicitudEvento"
-        android:text="Solicitud evento"
+    <ImageView
+        android:id="@+id/chat2"
+        android:layout_width="411dp"
+        android:layout_height="545dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197"
-        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="IrPerfil"
-        android:text="Ver perfil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.292"
-        tools:ignore="HardcodedText" />
-
-    <Button
-        android:id="@+id/datosEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="DatosEvento"
-        android:text="Modificar datos evento"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.314"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintTop_toBottomOf="@+id/fondoAzul"
+        app:layout_constraintVertical_bias="0.169"
+        app:srcCompat="@drawable/solicitudes"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@drawable/solicitudes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
