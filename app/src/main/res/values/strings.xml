@@ -150,4 +150,5 @@
     <string name="mapaevento">MapaEvento</string>
     <string name="information">information</string>
     <string name="imagenartista">ImagenArtista</string>
+    <string name="mayor_a_menor">Mayor a Menor</string>
 </resources>
