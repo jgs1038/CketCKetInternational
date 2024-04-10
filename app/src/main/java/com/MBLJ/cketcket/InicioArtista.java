@@ -32,6 +32,10 @@ public class InicioArtista extends AppCompatActivity  {
         startActivity(siguiente);
     }
 
+    public void IrPerfil(View view) {
+        Intent siguiente = new Intent(this, PerfilArtistaKiki.class);
+        startActivity(siguiente);
+    }
     public void DatosEvento(View view) {
         Intent siguiente = new Intent(this, ModificarDatosEvento.class);
         startActivity(siguiente);
