@@ -73,6 +73,7 @@
         android:id="@+id/tresPuntos"
         android:layout_width="46dp"
         android:layout_height="67dp"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteTresPuntods"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -82,8 +83,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck"
-        android:importantForAccessibility="no" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/directo_intagram"
