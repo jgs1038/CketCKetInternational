@@ -8,12 +8,33 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+//imports del menu
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import androidx.annotation.NonNull;
+import android.view.Menu;
+import android.widget.Toast;
+
 public class InicioPrincipal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.principal_inicio);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.tres_rayas, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        int id = item.getItemId();
+        if (id == R.id.mis_entradas){
+            Toast.makeText(this,"Opcion 1", Toast.LENGTH_SHORT).show();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public void SiguienteLupa(View view){
