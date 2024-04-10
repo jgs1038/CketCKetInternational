@@ -50,4 +50,14 @@ public class InicioArtista extends AppCompatActivity  {
         Intent siguiente = new Intent(this, CrearEncuesta.class);
         startActivity(siguiente);
     }
+
+    public void Preguntas(View view) {
+        Intent siguiente = new Intent(this, PreguntasRespuestas.class);
+        startActivity(siguiente);
+    }
+
+    public void HistoriaInstagram(View view) {
+        Intent siguiente = new Intent(this, AnadirHistoria.class);
+        startActivity(siguiente);
+    }
 }
