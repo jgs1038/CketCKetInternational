@@ -322,7 +322,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.798"
-            app:srcCompat="@drawable/MENOS" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView24"
@@ -388,7 +388,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -400,7 +400,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <TextView
         android:id="@+id/textView747"
@@ -464,7 +464,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.587"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <TextView
         android:id="@+id/textView10"
@@ -490,7 +490,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.474"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -739,7 +739,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.474"
-        app:srcCompat="@drawable/MENOS" />
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView26"
