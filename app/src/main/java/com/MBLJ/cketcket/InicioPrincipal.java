@@ -35,20 +35,32 @@ public class InicioPrincipal extends AppCompatActivity {
             Intent siguiente = new Intent (this, MisEntradas.class);
             startActivity(siguiente);
         }
-        if (id == R.id.mis_entradas){
+        if (id == R.id.ForoDudas){
             Intent siguiente = new Intent (this, ForoDudas.class);
             startActivity(siguiente);
         }
-        if (id == R.id.mis_entradas){
+        if (id == R.id.asistencia_tecnica){
             Intent siguiente = new Intent (this, AsistenciaTecnica.class);
             startActivity(siguiente);
         }
-        if (id == R.id.mis_entradas){
+        if (id == R.id.chat){
             Intent siguiente = new Intent (this, Chat1.class);
             startActivity(siguiente);
         }
-        if (id == R.id.mis_entradas){
+        if (id == R.id.mis_puntos){
             Intent siguiente = new Intent (this, MisPuntos.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.usuarios_bloqueados){
+            Intent siguiente = new Intent (this, UsuariosBloqueados.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.live_activities){
+            Intent siguiente = new Intent (this, LiveActivities.class);
+            startActivity(siguiente);
+        }
+        if (id == R.id.merchandising){
+            Intent siguiente = new Intent (this, Merchandising.class);
             startActivity(siguiente);
         }
 
