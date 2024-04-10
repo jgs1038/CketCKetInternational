@@ -6,8 +6,6 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CompraEntradasACDC extends AppCompatActivity {
-    private ImageView imageView;
-    private boolean imagen1 = true;
     public void SiguienteLupa(View view){
         Intent siguiente = new Intent (this, BusquedaUsuario.class);
         startActivity(siguiente);
@@ -25,13 +23,17 @@ public class CompraEntradasACDC extends AppCompatActivity {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);
     }
+    public void SiguientePorPrecios(View view) {
+        Intent siguiente = new Intent(this, CeAcdcF2.class);
+        startActivity(siguiente);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.compra_entradas);
-
-        imageView = findViewById(R.id.imageView10);
     }
+    public ImageView imageView;
+    private boolean imagen1 = true;
     public void cambiarImagen(View view) {
         if (imagen1) {
             imageView.setImageResource(R.drawable.acdcmapa2);
