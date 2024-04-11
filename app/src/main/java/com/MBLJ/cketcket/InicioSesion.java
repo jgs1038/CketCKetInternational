@@ -29,14 +29,8 @@ public class InicioSesion extends AppCompatActivity {
         guardarTipoUsuario();
         String tipoUsuario = tipo.getText().toString();
         Intent siguiente = null ;
-        if (tipoUsuario.equals("1")) {
+        if (tipoUsuario.equals("1") || tipoUsuario.equals("2") || tipoUsuario.equals("3")) {
             siguiente = new Intent(this, InicioPrincipal.class);
-        }
-        if (tipoUsuario.equals("2")) {
-            siguiente = new Intent(this, InicioArtista.class);
-        }
-        if (tipoUsuario.equals("3")) {
-            siguiente = new Intent(this, InicioOrganizador.class);
         }
         if(siguiente != null){
             startActivity(siguiente);

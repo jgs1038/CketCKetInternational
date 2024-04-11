@@ -15,7 +15,7 @@ public class Formulario extends AppCompatActivity {
     }
 
     public void InicioOrganizador(View view) {
-        Intent siguiente = new Intent(this, InicioOrganizador.class);
+        Intent siguiente = new Intent(this, InicioPrincipal.class);
         startActivity(siguiente);
     }
 

@@ -118,15 +118,8 @@ public class BusquedaAvanzada extends AppCompatActivity  {
         startActivity(siguiente);
     }
     public void SiguientePrincipal(View view){
-        int tipoUsuario=obtenerTipoUsuario();
-        if (tipoUsuario==1) {
-            Intent siguiente = new Intent(this, InicioPrincipal.class);
-            startActivity(siguiente);
-        }
-        if (tipoUsuario==2) {
-            Intent siguiente = new Intent(this, InicioArtista.class);
-            startActivity(siguiente);
-        }
+        Intent siguiente = new Intent(this, InicioPrincipal.class);
+        startActivity(siguiente);
     }
     public void PerfilUsuario(View view){
         int tipoUsuario=obtenerTipoUsuario();

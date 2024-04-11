@@ -118,7 +118,7 @@ public class PerfilArtistaKiki1 extends AppCompatActivity {
     }
 
     public void SiguientePrincipal(View view){
-        Intent siguiente = new Intent (this, InicioArtista.class);
+        Intent siguiente = new Intent (this, InicioPrincipal.class);
         startActivity(siguiente);
     }
     public void BusquedaAvanzada(View view){

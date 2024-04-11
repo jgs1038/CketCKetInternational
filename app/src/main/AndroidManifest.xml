@@ -135,12 +135,6 @@
             android:name=".AnadirHistoria"
             android:exported="false"/>
         <activity
-            android:name=".InicioOrganizador"
-            android:exported="false"/>
-        <activity
-            android:name=".InicioArtista"
-            android:exported="false"/>
-        <activity
             android:name=".SolicitudEventoArtista"
             android:exported="false"/>
         <activity
