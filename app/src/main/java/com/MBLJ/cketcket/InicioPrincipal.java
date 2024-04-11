@@ -39,6 +39,9 @@ public class InicioPrincipal extends AppCompatActivity {
         if (tipoUsuario == 2) {
             menuInflater.inflate(R.menu.tres_rayas_artista, menu);
         }
+        if (tipoUsuario == 3) {
+            menuInflater.inflate(R.menu.tres_rayas_organizador, menu);
+        }
         return true;
     }
     @Override
@@ -102,6 +105,16 @@ public class InicioPrincipal extends AppCompatActivity {
             }
             if (id == R.id.historia){
                 Intent siguiente = new Intent (this, AnadirHistoria.class);
+                startActivity(siguiente);
+            }
+        }
+        if (tipoUsuario==3) {
+            if (id == R.id.publicar_evento) {
+                Intent siguiente = new Intent(this, SolicitudEventoOrganizador.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.modificar_evento) {
+                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
                 startActivity(siguiente);
             }
         }

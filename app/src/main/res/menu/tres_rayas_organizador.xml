@@ -4,11 +4,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/solicitud_evento"
-        android:title="Solivitud evento"
+        android:id="@+id/publicar_evento"
+        android:title="Publicar evento"
         tools:ignore="HardcodedText" />
     <item
-        android:id="@+id/datos_evento"
-        android:title="Modificar datos evento"
+        android:id="@+id/modificar_evento"
+        android:title="Modificar evento"
         tools:ignore="HardcodedText" />
 </menu>
