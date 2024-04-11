@@ -1,5 +1,7 @@
 package com.MBLJ.cketcket;
 
+//Esto es una prueba
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,18 +12,13 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-//imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.widget.Toast;
 
-public class BusquedaAvanzada extends AppCompatActivity  {
+public class PerfilArtistaKiki1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.busqueda_avanzada);
+        setContentView(R.layout.perfil_artista_kiki1);
+
     }
 
     public int obtenerTipoUsuario() {
@@ -109,36 +106,24 @@ public class BusquedaAvanzada extends AppCompatActivity  {
         //return super.onOptionsItemSelected(item);
         return true;
     }
-    public void Evento(View view) {
-        Intent siguiente = new Intent(this, BusquedaAvanzadaEvento.class);
-        startActivity(siguiente);
-    }
-    public void Merchandising(View view) {
-        Intent siguiente = new Intent(this, BusquedaAvanzadaMerchandising.class);
-        startActivity(siguiente);
-    }
-    public void SiguientePrincipal(View view){
-        int tipoUsuario=obtenerTipoUsuario();
-        if (tipoUsuario==1) {
-            Intent siguiente = new Intent(this, InicioPrincipal.class);
-            startActivity(siguiente);
-        }
-        if (tipoUsuario==2) {
-            Intent siguiente = new Intent(this, InicioArtista.class);
-            startActivity(siguiente);
-        }
-    }
-    public void PerfilUsuario(View view){
-        int tipoUsuario=obtenerTipoUsuario();
-        if (tipoUsuario==1) {
-            Intent siguiente = new Intent(this, PerfilUsuario.class);
-            startActivity(siguiente);
-        }
-        if (tipoUsuario==2) {
-            Intent siguiente = new Intent(this, PerfilArtistaKiki1.class);
-            startActivity(siguiente);
-        }
+
+    public void EventoKiki(View view){
+        Intent evento = new Intent (this, PerfilEventoKiki.class);
+        startActivity(evento);
     }
 
+    public void HistoriaKiki(View view){
+        Intent historia = new Intent (this, HistoriaKiki.class);
+        startActivity(historia);
+    }
+
+    public void SiguientePrincipal(View view){
+        Intent siguiente = new Intent (this, InicioArtista.class);
+        startActivity(siguiente);
+    }
+    public void BusquedaAvanzada(View view){
+        Intent siguiente = new Intent (this, BusquedaAvanzada.class);
+        startActivity(siguiente);
+    }
 
 }

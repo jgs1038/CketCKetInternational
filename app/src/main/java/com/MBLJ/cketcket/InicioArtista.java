@@ -82,7 +82,7 @@ public class InicioArtista extends AppCompatActivity  {
         startActivity(siguiente);
     }
     public void PerfilUsuario(View view){
-        Intent siguiente = new Intent (this, PerfilArtistaKiki.class);
+        Intent siguiente = new Intent (this, PerfilArtistaKiki1.class);
         startActivity(siguiente);
     }
 }
