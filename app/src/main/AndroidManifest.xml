@@ -159,6 +159,9 @@
             android:name=".AceptarSolicitud"
             android:exported="false"/>
         <activity
+            android:name=".Formulario"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>

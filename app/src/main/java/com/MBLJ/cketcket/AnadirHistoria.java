@@ -80,10 +80,6 @@ public class AnadirHistoria extends AppCompatActivity  {
                 Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.ver_perfil){
-                Intent siguiente = new Intent (this, PerfilArtistaKiki.class);
-                startActivity(siguiente);
-            }
             if (id == R.id.datos_evento){
                 Intent siguiente = new Intent (this, ModificarDatosEvento.class);
                 startActivity(siguiente);

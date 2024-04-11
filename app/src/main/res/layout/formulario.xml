@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventob"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-42dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATOS DE CONTACTO"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATOS FISCALES"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        tools:ignore="DuplicateIds,HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREFERENCIAS DE FACTURACIÓN"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Razón Social"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CIF"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Provincia"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Código Postal"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Municipio"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre Empresa"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Calle"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pais"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Método de pago"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Forma de pago"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DNI responsable de Pagos"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Teléfono"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Responsble de Pagos"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:onClick="InicioOrganizador"
+        android:text="Finalizar registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText8"
+        app:layout_constraintVertical_bias="0.819" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

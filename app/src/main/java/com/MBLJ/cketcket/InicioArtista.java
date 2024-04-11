@@ -35,10 +35,6 @@ public class InicioArtista extends AppCompatActivity  {
             Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
             startActivity(siguiente);
         }
-        if (id == R.id.ver_perfil){
-            Intent siguiente = new Intent (this, PerfilArtistaKiki.class);
-            startActivity(siguiente);
-        }
         if (id == R.id.datos_evento){
             Intent siguiente = new Intent (this, ModificarDatosEvento.class);
             startActivity(siguiente);
@@ -64,5 +60,29 @@ public class InicioArtista extends AppCompatActivity  {
         //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
         //return super.onOptionsItemSelected(item);
         return true;
+    }
+    public void BusquedaAvanzada(View view){
+        Intent siguiente = new Intent (this, BusquedaAvanzada.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteNicki(View view){
+        Intent siguienteNicki = new Intent (this, PerfilArtistaNicki.class);
+        startActivity(siguienteNicki);
+    }
+    public void SiguienteKiki(View view){
+        Intent siguienteNicki = new Intent (this, PerfilArtistaKiki.class);
+        startActivity(siguienteNicki);
+    }
+    public void SiguienteEventoACDC(View view){
+        Intent siguienteACDC = new Intent (this, PerfilEventoACDC.class);
+        startActivity(siguienteACDC);
+    }
+    public void SiguientePrincipal(View view){
+        Intent siguiente = new Intent (this, InicioPrincipal.class);
+        startActivity(siguiente);
+    }
+    public void PerfilUsuario(View view){
+        Intent siguiente = new Intent (this, PerfilArtistaKiki.class);
+        startActivity(siguiente);
     }
 }

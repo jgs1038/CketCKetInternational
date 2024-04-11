@@ -68,21 +68,6 @@ public class InicioPrincipal extends AppCompatActivity {
         //return super.onOptionsItemSelected(item);
         return true;
     }
-/*
-    public void SiguienteLupa(View view){
-        Intent siguiente = new Intent (this, BusquedaUsuario.class);
-        startActivity(siguiente);
-    }
-
-    public void SiguienteTresRayas(View view){
-        Intent siguiente = new Intent (this, TresRayas.class);
-        startActivity(siguiente);
-    }
-    public void SiguienteTresPuntods(View view) {
-        Intent siguiente = new Intent(this, TresPuntos.class);
-        startActivity(siguiente);
-    }
-*/
     public void BusquedaAvanzada(View view){
         Intent siguiente = new Intent (this, BusquedaAvanzada.class);
         startActivity(siguiente);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/solicitud_evento"
+        android:title="Solivitud evento"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/datos_evento"
+        android:title="Modificar datos evento"
+        tools:ignore="HardcodedText" />
+</menu>
