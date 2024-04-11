@@ -22,6 +22,7 @@ public class InicioArtista extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inicio_artista);
     }
+
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.tres_rayas_artista, menu);
