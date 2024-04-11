@@ -1,5 +1,6 @@
 package com.MBLJ.cketcket;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
@@ -10,9 +11,10 @@ import android.view.Menu;
 import android.widget.Toast;
 
 public class CeAcdcF2 extends AppCompatActivity{
-    public void SiguienteLupa(View view){
-        Intent siguiente = new Intent (this, BusquedaUsuario.class);
-        startActivity(siguiente);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ceacdcf2);
     }
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater menuInflater = getMenuInflater();
@@ -59,15 +61,7 @@ public class CeAcdcF2 extends AppCompatActivity{
         //return super.onOptionsItemSelected(item);
         return true;
     }
-    /*
-    public void SiguienteTresRayas(View view){
-        Intent siguiente = new Intent (this, TresRayas.class);
-        startActivity(siguiente);
-    }
-    public void SiguienteTresPuntods(View view) {
-        Intent siguiente = new Intent(this, TresPuntos.class);
-        startActivity(siguiente);
-    }*/
+
     public void SiguientePEAcdc(View view) {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);
