@@ -100,7 +100,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
 
     <ImageButton
         android:id="@+id/tresrayas"
@@ -145,12 +145,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
         app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/information"
         android:onClick="SiguientePEAcdc"
         android:src="@drawable/info2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -159,19 +160,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.238"
-        android:contentDescription="@string/information" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="405dp"
         android:layout_height="437dp"
         android:contentDescription="@string/mapaevento"
+        android:onClick="cambiarImagen"
         android:src="@drawable/acdc_mapa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945" />
+        app:layout_constraintVertical_bias="0.945"
+        tools:ignore="ImageContrastCheck" />
 
     <ToggleButton
         android:id="@+id/ElegirAsientos"
@@ -190,7 +193,8 @@
         app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.303"
+        tools:ignore="TextContrastCheck" />
 
     <ToggleButton
         android:id="@+id/PorPrecios"
@@ -199,17 +203,18 @@
         android:background="#00BCD4"
         android:checked="false"
         android:clickable="true"
+        android:onClick="SiguientePorPrecios"
         android:text="@string/togglebutton"
         android:textColor="#FFFFFF"
         android:textOff="@string/por_precios"
         android:textOn="@string/por_precios"
         android:theme="@style/ToggleButtonN"
-        android:onClick="SiguientePorPrecios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.304"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
