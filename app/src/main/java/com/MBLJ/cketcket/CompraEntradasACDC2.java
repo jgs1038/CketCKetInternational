@@ -6,23 +6,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.widget.Toast;
 
-public class CompraEntradasACDC extends AppCompatActivity {
+
+public class CompraEntradasACDC2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.compra_entradas);
+        setContentView(R.layout.compra_entradas_2);
     }
 
 
@@ -233,12 +228,12 @@ public class CompraEntradasACDC extends AppCompatActivity {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);
     }
-    public void SiguienteCompraACDC2(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
-        startActivity(siguiente);
-    }
     public void SiguientePorPrecios(View view) {
         Intent siguiente = new Intent(this, CeAcdcF2.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteCompra3(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasACDC3.class);
         startActivity(siguiente);
     }
 }

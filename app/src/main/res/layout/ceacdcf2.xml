@@ -6,6 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".CeAcdcF2">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="209dp"
+        android:layout_height="74dp"
+        android:background="#00BBD3"
+        android:onClick="SiguienteElegirAsientos"
+        android:text="ELEGIR MIS ASIENTOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="203dp"
+        android:layout_height="75dp"
+        android:background="#FF00BBD3"
+        android:onClick="SiguienteMayorMenor"
+        android:text="POR PRECIOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -211,47 +239,6 @@
             app:layout_constraintVertical_bias="0.238"
             tools:ignore="DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
 
-        <ToggleButton
-            android:id="@+id/ElegirAsientos2"
-            android:layout_width="205dp"
-            android:layout_height="71dp"
-            android:background="#00BCD4"
-            android:checked="false"
-            android:clickable="true"
-            android:onClick="SiguienteElegirAsientos"
-            android:text="@string/togglebutton"
-            android:textColor="#FFFFFF"
-            android:textOff="@string/elegir_mis_asientos"
-            android:textOn="@string/elegir_mis_asientos"
-            android:theme="@style/ToggleButtonA"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.004"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.303"
-            tools:ignore="DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,TextContrastCheck,TextContrastCheck,VisualLintOverlap" />
-
-        <ToggleButton
-            android:id="@+id/PorPrecios2"
-            android:layout_width="205dp"
-            android:layout_height="72dp"
-            android:background="#00BCD4"
-            android:checked="true"
-            android:clickable="false"
-            android:text="@string/togglebutton"
-            android:textColor="#FFFFFF"
-            android:textOff="@string/por_precios"
-            android:textOn="@string/por_precios"
-            android:theme="@style/ToggleButtonN"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.304"
-            tools:ignore="TextContrastCheck,VisualLintOverlap" />
-
         <ImageView
             android:id="@+id/imageView20"
             android:layout_width="488dp"
@@ -367,20 +354,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.788"
-            tools:ignore="HardcodedText" />
-
-        <TextView
-            android:id="@+id/textView82"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ordenar Por:"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.143"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.392"
             tools:ignore="HardcodedText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -694,47 +667,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.238"
         tools:ignore="TouchTargetSizeCheck" />
-
-    <ToggleButton
-        android:id="@+id/ElegirAsientos"
-        android:layout_width="205dp"
-        android:layout_height="71dp"
-        android:background="#00BCD4"
-        android:checked="false"
-        android:clickable="true"
-        android:onClick="SiguienteElegirAsientos"
-        android:text="@string/togglebutton"
-        android:textColor="#FFFFFF"
-        android:textOff="@string/elegir_mis_asientos"
-        android:textOn="@string/elegir_mis_asientos"
-        android:theme="@style/ToggleButtonA"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303"
-        tools:ignore="TextContrastCheck" />
-
-    <ToggleButton
-        android:id="@+id/PorPrecios"
-        android:layout_width="205dp"
-        android:layout_height="72dp"
-        android:background="#00BCD4"
-        android:checked="true"
-        android:clickable="false"
-        android:text="@string/togglebutton"
-        android:textColor="#FFFFFF"
-        android:textOff="@string/por_precios"
-        android:textOn="@string/por_precios"
-        android:theme="@style/ToggleButtonN"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
-        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button4"

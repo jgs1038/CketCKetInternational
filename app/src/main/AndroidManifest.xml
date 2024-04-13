@@ -144,6 +144,12 @@
             android:name=".CompraEntradasACDC"
             android:exported="false"/>
         <activity
+            android:name=".CompraEntradasACDC2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasACDC3"
+            android:exported="false"/>
+        <activity
             android:name=".CeAcdcF2"
             android:exported="false"/>
         <activity
