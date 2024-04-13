@@ -16,10 +16,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.73"
+        app:layout_constraintVertical_bias="0.67"
         tools:ignore="DuplicateIds" />
 
     <Button
@@ -30,10 +30,10 @@
         android:text="@string/comprar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.68" />
 
     <ImageView
         android:id="@+id/rrss"
@@ -54,12 +54,12 @@
         android:layout_height="wrap_content"
         android:text="@string/redes_sociales_del_evento"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rrss"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/googleMaps"
-        app:layout_constraintVertical_bias="0.037"
+        app:layout_constraintVertical_bias="0.563"
         tools:ignore="DuplicateIds" />
 
     <ImageView
@@ -69,11 +69,26 @@
         android:contentDescription="@string/maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714"
+        app:layout_constraintTop_toBottomOf="@+id/wizin"
+        app:layout_constraintVertical_bias="0.177"
         app:srcCompat="@drawable/maps" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:text="@string/ubicacion_pe"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/googleMaps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/wizin"
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="DuplicateIds" />
 
     <ImageView
         android:id="@+id/linea"
@@ -89,95 +104,6 @@
         app:srcCompat="@drawable/img_1"
         tools:ignore="ImageContrastCheck" />
 
-    <TextView
-        android:id="@+id/descripcion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ubicacion_pe"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/googleMaps"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.983"
-        tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/fondoAzul"
-        android:layout_width="410dp"
-        android:layout_height="74dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="@string/trespuntos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
-
-    <TextView
-        android:id="@+id/PerfilEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Perfil evento"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageButton
-        android:id="@+id/tresrayas"
-        android:layout_width="70dp"
-        android:layout_height="66dp"
-        android:importantForAccessibility="no"
-        android:onClick="SiguienteTresRayas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
-        android:id="@+id/lupa_inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/lupaboton"
-        android:onClick="SiguienteLupa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresPuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:onClick="SiguienteTresPuntods"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck"
-        android:importantForAccessibility="no" />
-
     <ImageView
         android:id="@+id/nickiNicole"
         android:layout_width="237dp"
@@ -185,11 +111,23 @@
         android:contentDescription="@string/nicki"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/mckiki" />
+
+    <TextView
+        android:id="@+id/AbreSuAlma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/mala_costumbre"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
+        app:layout_constraintTop_toBottomOf="@+id/Nicki" />
 
     <TextView
         android:id="@+id/Nicki"
@@ -200,35 +138,23 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/nickiNicole"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
-
-    <TextView
-        android:id="@+id/AbreSuAlma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/mala_costumbre"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
-        app:layout_constraintTop_toBottomOf="@+id/Nicki" />
+        app:layout_constraintVertical_bias="0.032" />
 
     <TextView
         android:id="@+id/imagenesEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:text="@string/imagenes_del_evento_pe"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/estadio"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nickiNicole"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/descripcion"
@@ -240,7 +166,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.628"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
+        app:layout_constraintTop_toTopOf="@+id/estadio"
         app:layout_constraintVertical_bias="0.479"
         tools:ignore="DuplicateIds" />
 
@@ -254,7 +180,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.622"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
+        app:layout_constraintTop_toTopOf="@+id/estadio"
         app:layout_constraintVertical_bias="0.36"
         tools:ignore="DuplicateIds" />
 
@@ -267,8 +193,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintTop_toTopOf="@+id/estadio"
+        app:layout_constraintVertical_bias="0.514" />
 
     <TextView
         android:id="@+id/textView2"
@@ -279,8 +205,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintTop_toTopOf="@+id/estadio"
+        app:layout_constraintVertical_bias="0.395" />
 
     <ImageView
         android:id="@+id/estadio"
@@ -289,10 +215,10 @@
         android:contentDescription="@string/estadio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/wizin"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479"
+        app:layout_constraintVertical_bias="0.343"
         app:srcCompat="@drawable/actuacionkiki1"
         tools:ignore="ImageContrastCheck" />
 
@@ -303,10 +229,10 @@
         android:contentDescription="@string/wizink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474"
+        app:layout_constraintVertical_bias="0.34"
         app:srcCompat="@drawable/actuacionkiki" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

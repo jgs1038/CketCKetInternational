@@ -60,81 +60,6 @@
         tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/fondoAzul"
-        android:layout_width="410dp"
-        android:layout_height="74dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="@string/trespuntos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
-
-    <TextView
-        android:id="@+id/PerfilEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Perfil Usuario"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageButton
-        android:id="@+id/tresrayas"
-        android:layout_width="70dp"
-        android:layout_height="66dp"
-        android:importantForAccessibility="no"
-        android:onClick="SiguienteTresRayas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
-        android:id="@+id/lupa_inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/lupaboton"
-        android:onClick="SiguienteLupa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresPuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:onClick="SiguienteTresPuntods"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck"
-        android:importantForAccessibility="no" />
-
-    <ImageView
         android:id="@+id/nnicki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -144,22 +69,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/perfilusuario" />
-
-    <TextView
-        android:id="@+id/EvebtoPricipal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/artistas_a_los_que_sigue"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478"
-        tools:ignore="VisualLintOverlap" />
 
     <TextView
         android:id="@+id/otrosEvetosNicki"
@@ -169,10 +80,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706" />
+        app:layout_constraintVertical_bias="0.679" />
 
     <Button
         android:id="@+id/Enviar"
@@ -182,10 +93,10 @@
         android:text="@string/enviar_mensaje"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409"
+        app:layout_constraintVertical_bias="0.346"
         tools:ignore="VisualLintOverlap" />
 
     <Button
@@ -196,10 +107,10 @@
         android:text="@string/bloquear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409"
+        app:layout_constraintVertical_bias="0.346"
         tools:ignore="VisualLintOverlap" />
 
     <ImageButton
@@ -212,10 +123,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882"
+        app:layout_constraintVertical_bias="0.842"
         app:srcCompat="@drawable/nicki_portada" />
 
     <ImageButton
@@ -231,7 +142,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882"
+        app:layout_constraintVertical_bias="0.842"
         app:srcCompat="@drawable/acdc_pwruptour" />
 
     <ImageButton
@@ -239,46 +150,61 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteChiara"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597"
-        app:srcCompat="@drawable/perfil_kiki"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.557"
+        app:srcCompat="@drawable/perfil_kiki" />
 
     <ImageButton
         android:id="@+id/PerfilNicki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteNicki"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599"
-        app:srcCompat="@drawable/perfil_nicki"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.559"
+        app:srcCompat="@drawable/perfil_nicki" />
 
     <ImageButton
         android:id="@+id/PerfilAcDc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteACDC"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintHorizontal_bias="0.856"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599"
-        app:srcCompat="@drawable/perfil_acdc"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.559"
+        app:srcCompat="@drawable/perfil_acdc" />
+
+    <TextView
+        android:id="@+id/EvebtoPricipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/artistas_a_los_que_sigue"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442"
+        tools:ignore="VisualLintOverlap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
