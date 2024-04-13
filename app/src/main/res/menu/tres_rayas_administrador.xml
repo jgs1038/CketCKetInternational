@@ -41,5 +41,6 @@
         tools:ignore="HardcodedText" />
     <item
         android:id="@+id/crear_descuentos"
-        android:title="Crear descuentos" />
+        android:title="Crear descuentos"
+        tools:ignore="HardcodedText" />
 </menu>

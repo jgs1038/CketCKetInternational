@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
+//import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +15,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import android.view.Menu;
-import android.widget.Toast;
+//import android.widget.Toast;
 
 public class SolicitudEventoArtista extends AppCompatActivity  {
     @Override

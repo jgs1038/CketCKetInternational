@@ -5,7 +5,7 @@ package com.MBLJ.cketcket;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
+//import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
@@ -13,7 +13,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import android.view.Menu;
-import android.widget.Toast;
+//import android.widget.Toast;
 
 public class HistoriaKiki extends AppCompatActivity {
     @Override
