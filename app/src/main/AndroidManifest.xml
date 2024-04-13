@@ -162,6 +162,12 @@
             android:name=".CrearDescuentos"
             android:exported="false"/>
         <activity
+            android:name=".PerfilOrganizador"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilAdministrador"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>

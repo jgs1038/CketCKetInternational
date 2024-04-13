@@ -6,22 +6,17 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.widget.Toast;
 
-public class AceptarSolicitud extends AppCompatActivity  {
+
+public class PerfilAdministrador extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.aceptar_solicitud);
+        setContentView(R.layout.perfil_administrador);
     }
 
     public int obtenerTipoUsuario() {
@@ -213,7 +208,7 @@ public class AceptarSolicitud extends AppCompatActivity  {
                 startActivity(siguiente);
             }
             if (id == R.id.aceptar_solicitudes) {
-                Intent siguiente = new Intent(this, AceptarSolicitud.class);
+                Intent siguiente = new Intent(this, PerfilAdministrador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.crear_descuentos) {

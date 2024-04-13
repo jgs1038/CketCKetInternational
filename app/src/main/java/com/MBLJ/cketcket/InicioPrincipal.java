@@ -254,6 +254,14 @@ public class InicioPrincipal extends AppCompatActivity {
             Intent siguiente = new Intent(this, PerfilArtistaKiki1.class);
             startActivity(siguiente);
         }
+        if (tipoUsuario==3) {
+            Intent siguiente = new Intent(this, PerfilOrganizador.class);
+            startActivity(siguiente);
+        }
+        if (tipoUsuario==4) {
+            Intent siguiente = new Intent(this, PerfilAdministrador.class);
+            startActivity(siguiente);
+        }
 
     }
 
