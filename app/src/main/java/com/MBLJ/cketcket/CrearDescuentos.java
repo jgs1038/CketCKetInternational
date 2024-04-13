@@ -6,23 +6,17 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.widget.Toast;
 
-public class PerfilEventoBL extends AppCompatActivity {
 
+public class CrearDescuentos extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.perfil_evento_bl);
+        setContentView(R.layout.crear_descuentos);
     }
 
     public int obtenerTipoUsuario() {
@@ -227,5 +221,6 @@ public class PerfilEventoBL extends AppCompatActivity {
         //return super.onOptionsItemSelected(item);
         return true;
     }
+
 
 }

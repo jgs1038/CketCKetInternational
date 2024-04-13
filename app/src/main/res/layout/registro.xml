@@ -211,7 +211,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1. Usuario normal 2. Artista 3. Organización"
+        android:text="1. Usuario normal 2. Artista 3. Organizador 4. Administrador"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

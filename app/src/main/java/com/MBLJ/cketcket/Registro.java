@@ -32,7 +32,7 @@ public class Registro extends AppCompatActivity {
         guardarTipoUsuario();
         String tipoUsuario = tipo.getText().toString();
         Intent siguiente = null ;
-        if (tipoUsuario.equals("1") || tipoUsuario.equals("2") ) {
+        if (tipoUsuario.equals("1") || tipoUsuario.equals("2") || tipoUsuario.equals("4") ) {
             siguiente = new Intent(this, InicioPrincipal.class);
         }
 
