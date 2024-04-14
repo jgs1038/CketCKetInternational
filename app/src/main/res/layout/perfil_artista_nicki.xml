@@ -48,13 +48,13 @@
         app:layout_constraintVertical_bias="0.06" />
 
     <ImageView
-        android:id="@+id/evento1N"
+        android:id="@+id/eventoNickiNicole"
         android:layout_width="126dp"
         android:layout_height="126dp"
         android:layout_marginTop="15dp"
         android:contentDescription="@string/evento1N"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/evento2N"
+        app:layout_constraintEnd_toStartOf="@+id/eventoACDCAdmin"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
@@ -62,7 +62,7 @@
         app:srcCompat="@drawable/evento2nicki" />
 
     <ImageView
-        android:id="@+id/evento2N"
+        android:id="@+id/eventoACDCAdmin"
         android:layout_width="126dp"
         android:layout_height="126dp"
         android:contentDescription="@string/evento2N"
