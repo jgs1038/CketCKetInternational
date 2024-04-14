@@ -30,6 +30,12 @@
             android:name=".InicioPrincipal3"
             android:exported="false"/>
         <activity
+            android:name=".InicioPrincipal4"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipal5"
+            android:exported="false"/>
+        <activity
             android:name=".InicioPrincipalEvento"
             android:exported="false"/>
         <activity
