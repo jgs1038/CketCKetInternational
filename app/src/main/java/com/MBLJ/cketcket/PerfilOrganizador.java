@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -222,4 +223,12 @@ public class PerfilOrganizador extends AppCompatActivity  {
         return true;
     }
 
+    public void perfilNicki(View view){
+        Intent evento = new Intent (this, PerfilArtistaKiki.class);
+        startActivity(evento);
+    }
+    public void perfilACDC(View view){
+        Intent evento = new Intent (this, PerfilArtistaACDC.class);
+        startActivity(evento);
+    }
 }
