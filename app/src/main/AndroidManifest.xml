@@ -105,6 +105,15 @@
             android:name=".MisPuntos"
             android:exported="false"/>
         <activity
+            android:name=".MisPuntosArtista"
+            android:exported="false"/>
+        <activity
+            android:name=".MisPuntosAdministrador"
+            android:exported="false"/>
+        <activity
+            android:name=".MisPuntosOrganizador"
+            android:exported="false"/>
+        <activity
             android:name=".Bloqueado"
             android:exported="false"/>
         <activity

@@ -143,7 +143,7 @@
         app:srcCompat="@drawable/metodopago" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox1"
         android:layout_width="412dp"
         android:layout_height="49dp"
         android:text="Tarjeta de crédito/ débito"
@@ -155,7 +155,7 @@
         app:layout_constraintVertical_bias="0.62" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox2"
         android:layout_width="412dp"
         android:layout_height="49dp"
         android:text="Pago a contra reembolso"
@@ -167,7 +167,7 @@
         app:layout_constraintVertical_bias="0.692" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox3"
         android:layout_width="412dp"
         android:layout_height="49dp"
         android:text="PayPal"
@@ -179,7 +179,7 @@
         app:layout_constraintVertical_bias="0.763" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox4"
         android:layout_width="412dp"
         android:layout_height="49dp"
         android:text="Tarjeta de Regalo"
@@ -251,7 +251,7 @@
         app:srcCompat="@drawable/regalo" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Introducir Datos"
@@ -260,5 +260,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        app:srcCompat="@drawable/cardcket" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.CheckBox;
 import android.view.View;
+import android.widget.CompoundButton;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,10 +17,78 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class PasarelaPagoACDC extends AppCompatActivity {
 
+    CheckBox checkBox1, checkBox2, checkBox3, checkBox4;
+    Button button99;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pasarela_pago_acdc);
+
+        checkBox1 = findViewById(R.id.checkBox1);
+        checkBox2 = findViewById(R.id.checkBox2);
+        checkBox3 = findViewById(R.id.checkBox3);
+        checkBox4 = findViewById(R.id.checkBox4);
+        button99 = findViewById(R.id.button99);
+
+        checkBox1.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    checkBox2.setChecked(false);
+                    checkBox3.setChecked(false);
+                    checkBox4.setChecked(false);
+                    button99.setEnabled(true);
+                    button99.setOnClickListener(v -> {
+                        Intent intent = new Intent(PasarelaPagoACDC.this, PasarelaPagoACDCTarjeta.class);
+                        startActivity(intent);
+                    });
+                } else {
+                    button99.setEnabled(false);
+                }
+            });
+
+        checkBox2.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    checkBox1.setChecked(false);
+                    checkBox3.setChecked(false);
+                    checkBox4.setChecked(false);
+                    button99.setEnabled(true);
+                    button99.setOnClickListener(v -> {
+                        Intent intent = new Intent(PasarelaPagoACDC.this, PasarelaPagoACDCContrareembolso.class);
+                        startActivity(intent);
+                    });
+                } else {
+                    button99.setEnabled(false);
+                }
+            });
+
+        checkBox3.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                checkBox1.setChecked(false);
+                checkBox2.setChecked(false);
+                checkBox4.setChecked(false);
+                button99.setEnabled(true);
+                button99.setOnClickListener(v -> {
+                    Intent intent = new Intent(PasarelaPagoACDC.this, PasarelaPagoACDCPayPal.class);
+                    startActivity(intent);
+                });
+            } else {
+                button99.setEnabled(false);
+            }
+        });
+        checkBox4.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                checkBox1.setChecked(false);
+                checkBox2.setChecked(false);
+                checkBox3.setChecked(false);
+                button99.setEnabled(true);
+                button99.setOnClickListener(v -> {
+                    Intent intent = new Intent(PasarelaPagoACDC.this, PasarelaPagoACDCRegalo.class);
+                    startActivity(intent);
+                });
+            } else {
+                button99.setEnabled(false);
+            }
+        });
     }
 
 
@@ -100,7 +171,7 @@ public class PasarelaPagoACDC extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosArtista.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -143,7 +214,7 @@ public class PasarelaPagoACDC extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -186,7 +257,7 @@ public class PasarelaPagoACDC extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -222,18 +293,5 @@ public class PasarelaPagoACDC extends AppCompatActivity {
         //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
         //return super.onOptionsItemSelected(item);
         return true;
-    }
-
-    public void SiguientePEAcdc(View view) {
-        Intent siguiente = new Intent(this, PerfilEventoACDC.class);
-        startActivity(siguiente);
-    }
-    public void SiguienteCompraACDC2(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
-        startActivity(siguiente);
-    }
-    public void SiguientePorPrecios(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2.class);
-        startActivity(siguiente);
     }
 }
