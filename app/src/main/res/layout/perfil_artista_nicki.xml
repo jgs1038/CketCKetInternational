@@ -12,14 +12,14 @@
         android:id="@+id/nnicki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/foto_perfil_nicki"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117"
-        app:srcCompat="@drawable/nicki"
-        android:contentDescription="@string/foto_perfil_nicki" />
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/nicki" />
 
     <TextView
         android:id="@+id/EvebtoPricipal"
@@ -58,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
-        app:layout_constraintVertical_bias="0.425"
+        app:layout_constraintVertical_bias="0.354"
         app:srcCompat="@drawable/evento2nicki" />
 
     <ImageView
@@ -68,10 +68,10 @@
         android:contentDescription="@string/evento2N"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/evento3N"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
-        app:layout_constraintVertical_bias="0.564"
+        app:layout_constraintVertical_bias="0.435"
         app:srcCompat="@drawable/evento1nicki" />
 
     <ImageView
@@ -84,7 +84,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
-        app:layout_constraintVertical_bias="0.564"
+        app:layout_constraintVertical_bias="0.435"
         app:srcCompat="@drawable/evento3nicki" />
 
     <ImageButton

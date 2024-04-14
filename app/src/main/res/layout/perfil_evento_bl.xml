@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Inicio"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="-42dp">
+    tools:layout_editor_absoluteX="-2dp"
+    tools:layout_editor_absoluteY="-93dp">
 
     <TextView
         android:id="@+id/descripcion"
@@ -16,10 +16,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.73"
+        app:layout_constraintVertical_bias="0.213"
         tools:ignore="DuplicateIds" />
 
     <Button
@@ -30,10 +30,11 @@
         android:text="@string/comprar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/rrss"
@@ -42,10 +43,10 @@
         android:contentDescription="@string/rrss"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.544"
+        app:layout_constraintVertical_bias="0.303"
         app:srcCompat="@drawable/rrss" />
 
     <TextView
@@ -56,10 +57,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/googleMaps"
-        app:layout_constraintVertical_bias="0.037"
+        app:layout_constraintVertical_bias="0.12"
         tools:ignore="DuplicateIds" />
 
     <ImageView
@@ -69,10 +70,10 @@
         android:contentDescription="@string/maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintHorizontal_bias="0.032"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714"
+        app:layout_constraintVertical_bias="0.573"
         app:srcCompat="@drawable/maps" />
 
     <ImageView
@@ -110,25 +111,12 @@
         android:contentDescription="@string/nicki"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153"
+        app:layout_constraintVertical_bias="0.003"
         app:srcCompat="@drawable/burgosvslevante"
         tools:ignore="ImageContrastCheck" />
-
-    <TextView
-        android:id="@+id/Nicki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/burgos_vs"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
 
     <TextView
         android:id="@+id/Nicki"
@@ -139,10 +127,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toEndOf="@+id/nickiNicole"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
+        app:layout_constraintVertical_bias="0.085"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/Nicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burgos_vs"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
         tools:ignore="DuplicateIds" />
 
     <TextView
@@ -185,7 +188,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
         app:layout_constraintVertical_bias="0.36"
-        tools:ignore="DuplicateIds" />
+        tools:ignore="DuplicateIds,TextContrastCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/Fecha"
@@ -197,7 +200,7 @@
         app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintVertical_bias="0.551" />
 
     <TextView
         android:id="@+id/textView2"
@@ -206,10 +209,10 @@
         android:text="@string/desde_20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintHorizontal_bias="0.662"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintVertical_bias="0.64" />
 
     <ImageView
         android:id="@+id/estadio"
@@ -218,10 +221,10 @@
         android:contentDescription="@string/estadio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toEndOf="@+id/wizin"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479"
+        app:layout_constraintVertical_bias="0.323"
         app:srcCompat="@drawable/burgos"
         tools:ignore="ImageContrastCheck" />
 
@@ -232,10 +235,10 @@
         android:contentDescription="@string/wizink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474"
+        app:layout_constraintVertical_bias="0.32"
         app:srcCompat="@drawable/estadio_burgos1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
