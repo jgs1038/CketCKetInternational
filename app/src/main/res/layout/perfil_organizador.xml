@@ -66,16 +66,17 @@
         app:srcCompat="@drawable/sony_music" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/artistas_asociados"
-        android:text="@string/artistas_asociados"
+        android:text="ARTISTAS ASOCIADOS"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/eventoNickiNicole"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="ARTISTAS ASOCIADOS" />
+        app:layout_constraintTop_toBottomOf="@+id/perfilesKiki"
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -209,7 +209,7 @@ public class PerfilOrganizador extends AppCompatActivity  {
                 startActivity(siguiente);
             }
             if (id == R.id.aceptar_solicitudes) {
-                Intent siguiente = new Intent(this, PerfilOrganizador.class);
+                Intent siguiente = new Intent(this, AceptarSolicitud.class);
                 startActivity(siguiente);
             }
             if (id == R.id.crear_descuentos) {
@@ -224,7 +224,7 @@ public class PerfilOrganizador extends AppCompatActivity  {
     }
 
     public void perfilNicki(View view){
-        Intent evento = new Intent (this, PerfilArtistaKiki.class);
+        Intent evento = new Intent (this, PerfilArtistaNicki.class);
         startActivity(evento);
     }
     public void perfilACDC(View view){
