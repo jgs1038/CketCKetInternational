@@ -18,110 +18,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008"
-        app:srcCompat="@drawable/instakiki" />
-
-    <TextView
-        android:id="@+id/EvebtoPricipal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/evento_pricipal_del_artista"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fotoKiki"
-        app:layout_constraintVertical_bias="0.017" />
-
-    <TextView
-        android:id="@+id/otrosEvetosNicki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/otros_eventos_del_artista"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EventoKiki"
-        app:layout_constraintVertical_bias="0.032" />
+        app:srcCompat="@drawable/barra_sony_music" />
 
     <ImageView
-        android:id="@+id/evento1N"
-        android:layout_width="126dp"
-        android:layout_height="126dp"
+        android:id="@+id/eventoNickiNicole"
+        android:layout_width="176dp"
+        android:layout_height="205dp"
         android:layout_marginTop="30dp"
         android:contentDescription="@string/evento1N"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/evento2N"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/eventoACDCAdmin"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/concierto_ot"
-        tools:srcCompat="@drawable/concierto_ot" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        app:srcCompat="@drawable/perfil_nicki"
+        tools:srcCompat="@drawable/perfil_nicki" />
 
     <ImageView
-        android:id="@+id/evento2N"
-        android:layout_width="126dp"
-        android:layout_height="126dp"
+        android:id="@+id/eventoACDCAdmin"
+        android:layout_width="180dp"
+        android:layout_height="197dp"
         android:layout_marginTop="29dp"
         android:contentDescription="@string/evento2N"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/evento3N"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/idolo1" />
-
-    <ImageView
-        android:id="@+id/evento3N"
-        android:layout_width="126dp"
-        android:layout_height="126dp"
-        android:layout_marginTop="29dp"
-        android:contentDescription="@string/evento3N"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/firmadiscos"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/EventoKiki"
-        android:layout_width="277dp"
-        android:layout_height="138dp"
-        android:layout_marginTop="26dp"
-        android:background="#F6F4F4"
-        android:importantForAccessibility="no"
-        android:onClick="EventoKiki"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EvebtoPricipal"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/mckiki" />
-
-    <ImageButton
-        android:id="@+id/fotoKiki"
-        android:layout_width="199dp"
-        android:layout_height="194dp"
-        android:background="#FFFFFF"
-        android:importantForAccessibility="no"
-        android:onClick="HistoriaKiki"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.93"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122"
-        app:srcCompat="@drawable/perfilkiki" />
+        app:layout_constraintVertical_bias="0.825"
+        app:srcCompat="@drawable/perfil_acdc"
+        tools:srcCompat="@drawable/perfil_acdc" />
 
     <ImageView
         android:id="@+id/perfilesKiki"
@@ -130,10 +57,22 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122"
-        app:srcCompat="@drawable/perfileskiki" />
+        app:layout_constraintVertical_bias="0.197"
+        app:srcCompat="@drawable/sony_music" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/artistas_asociados"
+        android:text="@string/artistas_asociados"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="ARTISTAS ASOCIADOS" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

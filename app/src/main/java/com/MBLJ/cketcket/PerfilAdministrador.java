@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -222,4 +223,17 @@ public class PerfilAdministrador extends AppCompatActivity  {
         return true;
     }
 
+    public void EventoMalaCostumbre(View view){
+        Intent evento = new Intent (this, PerfilEventoKiki.class);
+        startActivity(evento);
+    }
+    public void EventoTeatro(View view){
+        Intent evento = new Intent (this, PerfilEventoTeatro.class);
+        startActivity(evento);
+    }
+
+    public void EventoFutbol(View view){
+        Intent evento = new Intent (this, PerfilEventoBL.class);
+        startActivity(evento);
+    }
 }

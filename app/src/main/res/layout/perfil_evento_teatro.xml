@@ -82,10 +82,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/googleMaps"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978"
+        app:layout_constraintTop_toBottomOf="@+id/wizin"
+        app:layout_constraintVertical_bias="0.571"
         tools:ignore="DuplicateIds" />
 
     <ImageView
@@ -149,15 +149,14 @@
         android:id="@+id/imagenesEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:text="@string/imagenes_del_evento_pe"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/wizin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nickiNicole"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.485" />
 
     <ImageView
         android:id="@+id/wizin"
@@ -192,10 +191,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintHorizontal_bias="0.616"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
-        app:layout_constraintVertical_bias="0.398"
+        app:layout_constraintVertical_bias="0.53"
         tools:ignore="DuplicateIds" />
 
     <TextView
@@ -206,10 +205,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
-        app:layout_constraintVertical_bias="0.505"
+        app:layout_constraintVertical_bias="0.407"
         tools:ignore="DuplicateIds" />
 
     <TextView

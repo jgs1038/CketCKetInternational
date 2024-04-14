@@ -13,89 +13,15 @@
         android:id="@+id/Gafasmc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text=" Disco Alma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintHorizontal_bias="0.664"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.883"
+        app:layout_constraintTop_toBottomOf="@+id/disco"
+        app:layout_constraintVertical_bias="0.024"
         tools:ignore="HardcodedText" />
-
-    <ImageView
-        android:id="@+id/fondoAzul"
-        android:layout_width="410dp"
-        android:layout_height="74dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="@string/trespuntos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
-
-    <TextView
-        android:id="@+id/PerfilEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/merchandising"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageButton
-        android:id="@+id/tresrayas"
-        android:layout_width="70dp"
-        android:layout_height="66dp"
-        android:importantForAccessibility="no"
-        android:onClick="SiguienteTresRayas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
-        android:id="@+id/lupa_inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/lupaboton"
-        android:onClick="SiguienteLupa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresPuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:onClick="SiguienteTresPuntods"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck"
-        android:contentDescription="@string/TresPuntos_merch" />
 
     <ImageView
         android:id="@+id/barra"
@@ -107,9 +33,22 @@
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117"
+        app:layout_constraintVertical_bias="0.001"
         app:srcCompat="@drawable/barrabusqueda"
         tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/filtro"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/filtrar" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
@@ -118,17 +57,17 @@
         app:barrierDirection="top" />
 
     <ImageView
-        android:id="@+id/filtro"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
+        android:id="@+id/camiseta"
+        android:layout_width="169dp"
+        android:layout_height="168dp"
+        android:contentDescription="@string/camiseta_nicky"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182"
-        app:srcCompat="@drawable/filtrar"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.213"
+        app:srcCompat="@drawable/camiseta" />
 
     <ImageView
         android:id="@+id/gafas_mala_costumbre"
@@ -137,50 +76,37 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
+        app:layout_constraintVertical_bias="0.213"
         app:srcCompat="@drawable/gafas_mala_costumbre" />
-
-    <ImageView
-        android:id="@+id/camiseta"
-        android:layout_width="169dp"
-        android:layout_height="168dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/camiseta"
-        android:contentDescription="@string/camiseta_nicky" />
 
     <ImageView
         android:id="@+id/gorra"
         android:layout_width="169dp"
         android:layout_height="168dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804"
-        app:srcCompat="@drawable/gorra"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/gorra" />
 
     <ImageView
         android:id="@+id/disco"
         android:layout_width="169dp"
         android:layout_height="168dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804"
-        app:srcCompat="@drawable/nicki_nicole_disco"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/nicki_nicole_disco" />
 
     <ImageButton
         android:id="@+id/botoncompra"
@@ -189,10 +115,10 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.57"
+        app:layout_constraintTop_toBottomOf="@+id/gafas_mala_costumbre"
+        app:layout_constraintVertical_bias="0.118"
         app:srcCompat="@drawable/boton"
         tools:ignore="DuplicateIds,ImageContrastCheck" />
 
@@ -200,79 +126,87 @@
         android:id="@+id/botoncompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.57"
+        app:layout_constraintTop_toBottomOf="@+id/camiseta"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/boton"
-        tools:ignore="DuplicateIds,ImageContrastCheck"
-        android:importantForAccessibility="no" />
+        tools:ignore="DuplicateIds,ImageContrastCheck" />
 
     <ImageButton
         android:id="@+id/botoncompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.976"
+        app:layout_constraintTop_toBottomOf="@+id/gorra"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/boton"
-        tools:ignore="ContentDescription,DuplicateIds,HardcodedText,ImageContrastCheck"
-        android:contentDescription="TODO" />
+        tools:ignore="ContentDescription,DuplicateIds,HardcodedText,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/botoncompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.976"
+        app:layout_constraintTop_toBottomOf="@+id/disco"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/boton"
-        tools:ignore="DuplicateIds,ImageContrastCheck"
-        android:importantForAccessibility="no" />
+        tools:ignore="DuplicateIds,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/Gafasmc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Gafas Mala Costumbre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
+        app:layout_constraintTop_toBottomOf="@+id/gafas_mala_costumbre"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="DuplicateIds,HardcodedText" />
 
     <TextView
         android:id="@+id/Gafasmc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Camiseta Nicky Nicole"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_bias="0.822"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
+        app:layout_constraintTop_toBottomOf="@+id/camiseta"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="DuplicateIds,HardcodedText" />
 
     <TextView
         android:id="@+id/Gafasmc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Gorra AC/DC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.883"
+        app:layout_constraintTop_toBottomOf="@+id/gorra"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="DuplicateIds,HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

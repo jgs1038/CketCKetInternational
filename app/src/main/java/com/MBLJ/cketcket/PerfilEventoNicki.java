@@ -13,6 +13,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import android.view.Menu;
+import android.view.View;
 //import android.widget.Toast;
 
 public class PerfilEventoNicki extends AppCompatActivity {
@@ -224,6 +225,11 @@ public class PerfilEventoNicki extends AppCompatActivity {
         //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
         //return super.onOptionsItemSelected(item);
         return true;
+    }
+
+    public void Comprar(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasNicki.class);
+        startActivity(siguiente);
     }
 
 }
