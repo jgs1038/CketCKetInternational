@@ -162,6 +162,9 @@
             android:name=".CeAcdcF2V22"
             android:exported="false"/>
         <activity
+            android:name=".PasarelaPagoACDC"
+            android:exported="false"/>
+        <activity
             android:name=".ModificarDatosEvento"
             android:exported="false"/>
         <activity
