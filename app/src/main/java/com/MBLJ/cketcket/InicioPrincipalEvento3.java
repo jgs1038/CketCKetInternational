@@ -13,12 +13,12 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class InicioPrincipalEvento2 extends AppCompatActivity {
+public class InicioPrincipalEvento3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_inicio_evento2);
+        setContentView(R.layout.principal_inicio_evento3);
     }
 
     public int obtenerTipoUsuario() {
@@ -237,19 +237,12 @@ public class InicioPrincipalEvento2 extends AppCompatActivity {
         startActivity(siguienteNicki);
     }
     public void SiguienteEventoACDC(View view){
-        Intent siguienteACDC = new Intent (this, PerfilEventoDune.class);
+        Intent siguienteACDC = new Intent (this, PerfilEventoTeatro.class);
         startActivity(siguienteACDC);
     }
-    public void SiguienteArtista(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipal3.class);
-        startActivity(siguienteACDC);
-    }
-    public void SiguienteEvento(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento3.class);
-        startActivity(siguienteACDC);
-    }
+
     public void AnteriorEvento(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento.class);
+        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento2.class);
         startActivity(siguienteACDC);
     }
 
