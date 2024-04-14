@@ -96,7 +96,7 @@ public class CeAcdcF2 extends AppCompatActivity{
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosArtista.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -139,7 +139,7 @@ public class CeAcdcF2 extends AppCompatActivity{
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -182,7 +182,7 @@ public class CeAcdcF2 extends AppCompatActivity{
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -219,7 +219,6 @@ public class CeAcdcF2 extends AppCompatActivity{
         //return super.onOptionsItemSelected(item);
         return true;
     }
-
     public void SiguientePEAcdc(View view) {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);

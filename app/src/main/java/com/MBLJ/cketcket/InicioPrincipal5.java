@@ -100,7 +100,7 @@ public class InicioPrincipal5 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosArtista.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -143,7 +143,7 @@ public class InicioPrincipal5 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -186,7 +186,7 @@ public class InicioPrincipal5 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
