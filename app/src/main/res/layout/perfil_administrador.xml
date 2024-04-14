@@ -100,16 +100,17 @@
 
     <TextView
         android:id="@+id/admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="26dp"
         android:contentDescription="@string/admin"
         android:text="@string/admin"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintEnd_toEndOf="@+id/instaKiki"
+        app:layout_constraintHorizontal_bias="0.913"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036"
+        app:layout_constraintVertical_bias="0.038"
+        tools:ignore="TextSizeCheck"
         tools:text="(Admin)" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
