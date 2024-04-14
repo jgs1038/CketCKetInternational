@@ -153,4 +153,7 @@
     <string name="mayor_a_menor">Mayor a Menor</string>
     <string name="menor_a_mayor">Menor a Mayor</string>
     <string name="eventos_admnistrados">EVENTOS ADMNISTRADOS</string>
+    <string name="foto_Admin" />
+    <string name="Evento_Kiki" />
+    <string name="AdminArriba" />
 </resources>
