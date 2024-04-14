@@ -26,6 +26,7 @@
         android:layout_height="205dp"
         android:layout_marginTop="30dp"
         android:contentDescription="@string/evento1N"
+        android:onClick="perfilNicki"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/eventoACDCAdmin"
         app:layout_constraintHorizontal_bias="0.476"
@@ -33,6 +34,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.822"
         app:srcCompat="@drawable/perfil_nicki"
+        tools:ignore="DuplicateSpeakableTextCheck"
         tools:srcCompat="@drawable/perfil_nicki" />
 
     <ImageView
@@ -41,6 +43,7 @@
         android:layout_height="197dp"
         android:layout_marginTop="29dp"
         android:contentDescription="@string/evento2N"
+        android:onClick="perfilACDC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.93"
