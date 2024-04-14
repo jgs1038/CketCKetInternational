@@ -21,8 +21,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/administrador_arriba"
-        tools:srcCompat="@drawable/administrador_arriba" />
+        app:srcCompat="@drawable/administrador"
+        tools:srcCompat="@drawable/administrador" />
 
     <TextView
         android:id="@+id/EvebtoPricipal"
