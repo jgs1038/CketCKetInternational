@@ -1,28 +1,25 @@
 package com.MBLJ.cketcket;
-
-//Esto es una prueba
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-//import android.view.View;
-
-import androidx.appcompat.app.AppCompatActivity;
-//imports del menu
+import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
 import android.view.View;
-//import android.widget.Toast;
 
-public class PerfilEventoNicki extends AppCompatActivity {
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+//imports del menu
+
+
+public class CompraEntradasNicki3 extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.perfil_evento_nicki);
-
+        setContentView(R.layout.compra_entradas_nicki_3);
     }
+
 
     public int obtenerTipoUsuario() {
         SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
@@ -227,9 +224,18 @@ public class PerfilEventoNicki extends AppCompatActivity {
         return true;
     }
 
-    public void Comprar(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasNicki.class);
+    public void PerfilNicki(View view) {
+        Intent siguiente = new Intent(this, PerfilEventoNicki.class);
         startActivity(siguiente);
     }
 
+    public void AnteriorCompra(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasNicki2.class);
+        startActivity(siguiente);
+    }
+
+    public void SiguientePorPrecios(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasNickiPrecio.class);
+        startActivity(siguiente);
+    }
 }

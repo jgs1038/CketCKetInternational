@@ -180,6 +180,27 @@
             android:name=".PerfilAdministrador"
             android:exported="false"/>
         <activity
+            android:name=".CompraEntradasNicki"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNicki2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNicki3"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio1_2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio2_2"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>

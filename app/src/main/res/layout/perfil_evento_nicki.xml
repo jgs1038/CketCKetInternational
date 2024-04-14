@@ -105,7 +105,7 @@
         android:id="@+id/compra_nicki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="SiguienteCompraACDC"
+        android:onClick="Comprar"
         android:text="@string/comprar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
