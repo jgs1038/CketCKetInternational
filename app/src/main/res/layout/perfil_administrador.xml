@@ -10,20 +10,6 @@
     tools:layout_editor_absoluteX="-7dp"
     tools:layout_editor_absoluteY="-28dp">
 
-    <ImageView
-        android:id="@+id/instaKiki"
-        android:layout_width="399dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="12dp"
-        android:contentDescription="@string/AdminArriba"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/administrador"
-        tools:srcCompat="@drawable/administrador" />
-
     <TextView
         android:id="@+id/EvebtoPricipal"
         android:layout_width="wrap_content"
