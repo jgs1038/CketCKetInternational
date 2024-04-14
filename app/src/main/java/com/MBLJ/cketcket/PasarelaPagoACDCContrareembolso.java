@@ -26,9 +26,9 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
         return prefs.getInt("tipoUsuario", 0);
     }
 
-    public boolean onCreateOptionsMenu(Menu menu){
+    public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        int tipoUsuario=obtenerTipoUsuario();
+        int tipoUsuario = obtenerTipoUsuario();
 
         if (tipoUsuario == 1) {
             menuInflater.inflate(R.menu.tres_rayas, menu);
@@ -44,11 +44,12 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
         }
         return true;
     }
+
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
-        int tipoUsuario=obtenerTipoUsuario();
-        if (tipoUsuario==1) {
+        int tipoUsuario = obtenerTipoUsuario();
+        if (tipoUsuario == 1) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
                 startActivity(siguiente);
@@ -82,7 +83,7 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
                 startActivity(siguiente);
             }
         }
-        if (tipoUsuario==2) {
+        if (tipoUsuario == 2) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
                 startActivity(siguiente);
@@ -115,17 +116,17 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
                 Intent siguiente = new Intent(this, Merchandising.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.solicitud_evento){
-                Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
+            if (id == R.id.solicitud_evento) {
+                Intent siguiente = new Intent(this, SolicitudEventoArtista.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.datos_evento){
-                Intent siguiente = new Intent (this, ModificarDatosEvento.class);
+            if (id == R.id.datos_evento) {
+                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
                 startActivity(siguiente);
             }
         }
 
-        if (tipoUsuario==3) {
+        if (tipoUsuario == 3) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
                 startActivity(siguiente);
@@ -168,7 +169,7 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
             }
         }
 
-        if (tipoUsuario==4) {
+        if (tipoUsuario == 4) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
                 startActivity(siguiente);
@@ -228,11 +229,14 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);
     }
+
     public void SiguienteCompraACDC2(View view) {
         Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
         startActivity(siguiente);
     }
+
     public void SiguientePorPrecios(View view) {
         Intent siguiente = new Intent(this, CeAcdcF2.class);
         startActivity(siguiente);
     }
+}
