@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fotoJuanjo"
+        app:layout_constraintTop_toBottomOf="@+id/Kiki"
         app:layout_constraintVertical_bias="0.017" />
 
     <TextView
@@ -108,7 +108,7 @@
         app:srcCompat="@drawable/mckiki" />
 
     <ImageButton
-        android:id="@+id/fotoJuanjo"
+        android:id="@+id/Kiki"
         android:layout_width="199dp"
         android:layout_height="194dp"
         android:background="#FFFFFF"
