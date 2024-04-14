@@ -18,7 +18,7 @@ public class InicioPrincipal3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_inicio2);
+        setContentView(R.layout.principal_inicio3);
     }
 
     public int obtenerTipoUsuario() {
@@ -236,13 +236,18 @@ public class InicioPrincipal3 extends AppCompatActivity {
         Intent siguienteNicki = new Intent (this, PerfilArtistaKiki.class);
         startActivity(siguienteNicki);
     }
-    public void SiguienteEventoACDC(View view){
-        Intent siguienteACDC = new Intent (this, PerfilEventoACDC.class);
+
+    public void AnteriorArtista(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento.class);
+        startActivity(siguienteACDC);
+    }
+    public void AnteriorEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipal2.class);
         startActivity(siguienteACDC);
     }
 
-    public void AnteriorArtista(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipal.class);
+    public void SiguienteEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipal4.class);
         startActivity(siguienteACDC);
     }
 

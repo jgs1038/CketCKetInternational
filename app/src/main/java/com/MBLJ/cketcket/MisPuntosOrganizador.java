@@ -1,7 +1,5 @@
 package com.MBLJ.cketcket;
 
-//Esto es una prueba
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,13 +10,14 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+//imports del menu
 
-public class InicioPrincipal2 extends AppCompatActivity {
 
+public class MisPuntosOrganizador extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_inicio2);
+        setContentView(R.layout.mis_puntos_organizador);
     }
 
     public int obtenerTipoUsuario() {
@@ -66,7 +65,7 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -100,7 +99,7 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -143,7 +142,7 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -186,7 +185,7 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -224,52 +223,9 @@ public class InicioPrincipal2 extends AppCompatActivity {
         return true;
     }
 
-    public void BusquedaAvanzada(View view){
-        Intent siguiente = new Intent (this, BusquedaAvanzada.class);
+    public void Canjear(View view){
+        Intent siguiente = new Intent (this, TiendaPuntos.class);
         startActivity(siguiente);
-    }
-    public void SiguienteACDC(View view){
-        Intent siguienteNicki = new Intent (this, PerfilArtistaACDC.class);
-        startActivity(siguienteNicki);
-    }
-    public void SiguienteKiki(View view){
-        Intent siguienteNicki = new Intent (this, PerfilArtistaKiki.class);
-        startActivity(siguienteNicki);
-    }
-    public void SiguienteEventoACDC(View view){
-        Intent siguienteACDC = new Intent (this, PerfilEventoACDC.class);
-        startActivity(siguienteACDC);
-    }
-
-    public void AnteriorArtista(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipal.class);
-        startActivity(siguienteACDC);
-    }
-    public void SiguienteEvento(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipal3.class);
-        startActivity(siguienteACDC);
-    }
-
-
-    public void PerfilUsuario(View view){
-        int tipoUsuario=obtenerTipoUsuario();
-        if (tipoUsuario==1) {
-            Intent siguiente = new Intent(this, PerfilUsuario.class);
-            startActivity(siguiente);
-        }
-        if (tipoUsuario==2) {
-            Intent siguiente = new Intent(this, PerfilArtistaKiki1.class);
-            startActivity(siguiente);
-        }
-        if (tipoUsuario==3) {
-            Intent siguiente = new Intent(this, PerfilOrganizador.class);
-            startActivity(siguiente);
-        }
-        if (tipoUsuario==4) {
-            Intent siguiente = new Intent(this, PerfilAdministrador.class);
-            startActivity(siguiente);
-        }
-
     }
 
 }

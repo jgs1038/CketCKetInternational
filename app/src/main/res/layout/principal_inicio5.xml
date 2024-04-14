@@ -51,7 +51,6 @@
             android:layout_height="wrap_content"
             android:background="#F6F5F5"
             android:importantForAccessibility="no"
-            android:onClick="SiguienteEvento"
             android:scaleType="centerInside"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -119,6 +118,7 @@
             android:layout_height="wrap_content"
             android:background="#F6F5F5"
             android:importantForAccessibility="no"
+            android:onClick="AnteriorEvento"
             android:scaleType="centerInside"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -168,6 +168,7 @@
         android:layout_width="317dp"
         android:layout_height="184dp"
         android:background="#F6F4F4"
+        android:backgroundTint="#000000"
         android:importantForAccessibility="no"
         android:onClick="SiguienteEventoACDC"
         android:scaleType="centerInside"
@@ -177,8 +178,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502"
-        app:srcCompat="@drawable/acdc_pwruptour"
-        tools:ignore="DuplicateIds" />
+        app:srcCompat="@drawable/fantasma_opera"
+        tools:ignore="DuplicateIds,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/NuevosEventos"
