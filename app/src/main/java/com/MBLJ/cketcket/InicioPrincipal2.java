@@ -5,23 +5,20 @@ package com.MBLJ.cketcket;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-//imports del menu
+import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.widget.Toast;
+import android.view.View;
 
-public class InicioPrincipal extends AppCompatActivity {
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class InicioPrincipal2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_inicio);
+        setContentView(R.layout.principal_inicio2);
     }
 
     public int obtenerTipoUsuario() {
@@ -231,8 +228,8 @@ public class InicioPrincipal extends AppCompatActivity {
         Intent siguiente = new Intent (this, BusquedaAvanzada.class);
         startActivity(siguiente);
     }
-    public void SiguienteNicki(View view){
-        Intent siguienteNicki = new Intent (this, PerfilArtistaNicki.class);
+    public void SiguienteACDC(View view){
+        Intent siguienteNicki = new Intent (this, PerfilArtistaACDC.class);
         startActivity(siguienteNicki);
     }
     public void SiguienteKiki(View view){
@@ -244,8 +241,8 @@ public class InicioPrincipal extends AppCompatActivity {
         startActivity(siguienteACDC);
     }
 
-    public void SiguienteArtista(View view){
-        Intent siguienteACDC = new Intent (this, InicioPrincipal2.class);
+    public void AnteriorArtista(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipal.class);
         startActivity(siguienteACDC);
     }
 
