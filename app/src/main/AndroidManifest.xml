@@ -36,6 +36,9 @@
             android:name=".InicioPrincipalEvento2"
             android:exported="false"/>
         <activity
+            android:name=".InicioPrincipalEvento3"
+            android:exported="false"/>
+        <activity
             android:name=".PerfilEventoNicki"
             android:exported="false"/>
         <activity
