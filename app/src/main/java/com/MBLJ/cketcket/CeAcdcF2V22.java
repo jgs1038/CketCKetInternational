@@ -1,4 +1,5 @@
 package com.MBLJ.cketcket;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -6,25 +7,19 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.widget.Toast;
 
-public class CompraEntradasACDC extends AppCompatActivity {
+
+public class CeAcdcF2V22 extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.compra_entradas);
+        setContentView(R.layout.ceacdcf2v22);
     }
-
 
     public int obtenerTipoUsuario() {
         SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
@@ -229,15 +224,16 @@ public class CompraEntradasACDC extends AppCompatActivity {
         return true;
     }
 
+
     public void SiguientePEAcdc(View view) {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);
     }
-    public void SiguienteCompraACDC2(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
+    public void SiguienteElegirAsientos(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasACDC.class);
         startActivity(siguiente);
     }
-    public void SiguientePorPrecios(View view) {
+    public void SiguienteMenorMayor(View view) {
         Intent siguiente = new Intent(this, CeAcdcF2.class);
         startActivity(siguiente);
     }
