@@ -152,4 +152,5 @@
     <string name="imagenartista">ImagenArtista</string>
     <string name="mayor_a_menor">Mayor a Menor</string>
     <string name="menor_a_mayor">Menor a Mayor</string>
+    <string name="eventos_admnistrados">EVENTOS ADMNISTRADOS</string>
 </resources>
