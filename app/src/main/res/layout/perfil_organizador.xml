@@ -24,7 +24,7 @@
         android:id="@+id/EvebtoPricipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/evento_pricipal_del_artista"
+        android:text="@string/artistas_asociados"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
