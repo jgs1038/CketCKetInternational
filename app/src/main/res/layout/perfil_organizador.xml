@@ -18,21 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008"
-        app:srcCompat="@drawable/instakiki" />
-
-    <TextView
-        android:id="@+id/EvebtoPricipal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/artistas_asociados"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515"
-        tools:text="ARTISTAS ASOCIADOS" />
+        app:srcCompat="@drawable/barra_sony_music" />
 
     <ImageView
         android:id="@+id/eventoNickiNicole"
@@ -71,10 +57,22 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182"
-        app:srcCompat="@drawable/perfileskiki" />
+        app:layout_constraintVertical_bias="0.197"
+        app:srcCompat="@drawable/sony_music" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/artistas_asociados"
+        android:text="@string/artistas_asociados"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="ARTISTAS ASOCIADOS" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
