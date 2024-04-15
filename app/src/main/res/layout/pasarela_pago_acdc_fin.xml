@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="179dp"
-        android:layout_height="153dp"
+        android:layout_width="177dp"
+        android:layout_height="154dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.004"
@@ -32,8 +32,8 @@
 
     <ImageView
         android:id="@+id/imageView40"
-        android:layout_width="415dp"
-        android:layout_height="56dp"
+        android:layout_width="421dp"
+        android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,13 +43,14 @@
 
     <ImageView
         android:id="@+id/imageView28"
-        android:layout_width="409dp"
-        android:layout_height="167dp"
+        android:layout_width="412dp"
+        android:layout_height="168dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464"
+        app:layout_constraintVertical_bias="0.455"
         app:srcCompat="@drawable/regcompraacdc" />
 
     <TextView
@@ -108,13 +109,15 @@
         android:id="@+id/button9"
         android:layout_width="107dp"
         android:layout_height="71dp"
+        android:background="#FF00BCD4"
         android:text="Mis entradas"
+        android:onClick="SiguienteMisEntradas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.996"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.631" />
 
     <ImageView
         android:id="@+id/imageView44"
@@ -129,14 +132,15 @@
 
     <ImageView
         android:id="@+id/imageView45"
-        android:layout_width="48dp"
-        android:layout_height="49dp"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:onClick="SiguientePerfilEventoACDC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintHorizontal_bias="0.859"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991"
+        app:layout_constraintVertical_bias="0.979"
         app:srcCompat="@drawable/info" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

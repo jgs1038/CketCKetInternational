@@ -224,19 +224,8 @@ public class PasarelaPagoACDCPayPal extends AppCompatActivity {
         //return super.onOptionsItemSelected(item);
         return true;
     }
-
-    public void SiguientePEAcdc(View view) {
-        Intent siguiente = new Intent(this, PerfilEventoACDC.class);
-        startActivity(siguiente);
-    }
-
-    public void SiguienteCompraACDC2(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
-        startActivity(siguiente);
-    }
-
-    public void SiguientePorPrecios(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2.class);
+    public void SiguienteFin(View view) {
+        Intent siguiente = new Intent(this, PasarelaPagoACDCFin.class);
         startActivity(siguiente);
     }
 }
