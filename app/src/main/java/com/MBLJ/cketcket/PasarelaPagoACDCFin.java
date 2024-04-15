@@ -224,8 +224,13 @@ public class PasarelaPagoACDCFin extends AppCompatActivity {
         //return super.onOptionsItemSelected(item);
         return true;
     }
-    public void SiguientePorPrecios(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2.class);
+
+    public void SiguientePEAcdc(View view) {
+        Intent siguiente = new Intent(this, PerfilEventoACDC.class);
+        startActivity(siguiente);
+    }
+    public void SiguienteMisEntradas(View view) {
+        Intent siguiente = new Intent(this, MisEntradas.class);
         startActivity(siguiente);
     }
 }
