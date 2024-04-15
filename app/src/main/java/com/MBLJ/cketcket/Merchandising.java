@@ -226,5 +226,10 @@ public class Merchandising extends AppCompatActivity  {
         return true;
     }
 
+    public void SiguienteError(View view){
+        Intent siguiente = new Intent (this, Error404.class);
+        startActivity(siguiente);
+    }
+
 
 }

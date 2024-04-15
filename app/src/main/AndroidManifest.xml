@@ -258,6 +258,9 @@
             android:name=".CompraEntradasNickiPrecio2_2"
             android:exported="false"/>
         <activity
+            android:name=".Error404"
+            android:exported="false"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
