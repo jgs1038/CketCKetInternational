@@ -10,19 +10,7 @@
     tools:layout_editor_absoluteY="-42dp">
 
     <ImageView
-        android:id="@+id/perfilesKiki"
-        android:layout_width="199dp"
-        android:layout_height="194dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.121"
-        app:srcCompat="@drawable/sony_music" />
-
-    <ImageView
-        android:id="@+id/instaKiki"
+        android:id="@+id/instaKiki2"
         android:layout_width="399dp"
         android:layout_height="60dp"
         android:layout_marginStart="12dp"
@@ -31,34 +19,60 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008"
-        app:srcCompat="@drawable/barra_sony_music" />
+        app:srcCompat="@drawable/barra_organizador" />
+
+    <ImageView
+        android:id="@+id/redes3"
+        android:layout_width="200dp"
+        android:layout_height="202dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/redes_organizador"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/redes2"
+        android:layout_width="187dp"
+        android:layout_height="189dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119"
+        app:srcCompat="@drawable/sony_music" />
 
     <TextView
         android:id="@+id/puntos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="@string/_4500_puntos"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/perfilesKiki"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintTop_toBottomOf="@+id/redes2"
+        app:layout_constraintVertical_bias="0.094" />
 
     <Button
         android:id="@+id/canjearPuntos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:onClick="Canjear"
         android:text="@string/canjear_puntos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/puntos"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/redes2"
+        app:layout_constraintVertical_bias="0.202" />
 
     <TextView
         android:id="@+id/textView4"
@@ -104,14 +118,13 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:text="@string/_500_puntos_compra_de_entradas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.281"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.699"
+        app:layout_constraintTop_toTopOf="@+id/Movimientos"
+        app:layout_constraintVertical_bias="0.259"
         tools:ignore="DuplicateIds,NotSibling" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
