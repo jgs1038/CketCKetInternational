@@ -213,6 +213,12 @@
             android:name=".PasarelaPagoACDCFin"
             android:exported="false"/>
         <activity
+            android:name=".PasarelaPagoNN"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNTarjeta"
+            android:exported="false"/>
+        <activity
             android:name=".ModificarDatosEvento"
             android:exported="false"/>
         <activity
