@@ -40,6 +40,7 @@ public class CeAcdcF22 extends AppCompatActivity{
         }
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         int id = item.getItemId();
@@ -96,7 +97,7 @@ public class CeAcdcF22 extends AppCompatActivity{
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosArtista.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -139,7 +140,7 @@ public class CeAcdcF22 extends AppCompatActivity{
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -182,7 +183,7 @@ public class CeAcdcF22 extends AppCompatActivity{
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -219,7 +220,6 @@ public class CeAcdcF22 extends AppCompatActivity{
         //return super.onOptionsItemSelected(item);
         return true;
     }
-
     public void SiguientePEAcdc(View view) {
         Intent siguiente = new Intent(this, PerfilEventoACDC.class);
         startActivity(siguiente);
@@ -229,11 +229,15 @@ public class CeAcdcF22 extends AppCompatActivity{
         startActivity(siguiente);
     }
     public void SiguienteMayorMenor(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2V2.class);
+        Intent siguiente = new Intent(this, CeAcdcF2V22.class);
         startActivity(siguiente);
     }
     public void SiguientePago(View view) {
         Intent siguiente = new Intent(this, PasarelaPagoACDC.class);
+        startActivity(siguiente);
+    }
+    public void AnteriorCompra(View view) {
+        Intent siguiente = new Intent(this, CeAcdcF2.class);
         startActivity(siguiente);
     }
 }

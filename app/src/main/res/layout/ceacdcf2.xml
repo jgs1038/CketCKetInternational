@@ -4,285 +4,263 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CeAcdcF2">
+    tools:context=".CeAcdcF2V2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".CeAcdcF2"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-65dp">
 
         <ImageView
-            android:id="@+id/imageView19"
+            android:id="@+id/imageView14"
+            android:layout_width="409dp"
+            android:layout_height="305dp"
+            android:layout_marginBottom="84dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView47"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/seleccion"
+            tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+        <ImageButton
+            android:id="@+id/mas24"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="120dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toStartOf="@+id/textView22"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.916"
+            app:srcCompat="@drawable/menos"
+            tools:ignore="DuplicateIds,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/mas23"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="120dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.615"
+            app:srcCompat="@drawable/menos"
+            tools:ignore="DuplicateIds,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.915"
+            tools:ignore="DuplicateIds,HardcodedText,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.623"
+            tools:ignore="DuplicateIds,HardcodedText,VisualLintOverlap" />
+
+        <ImageButton
+            android:id="@+id/mas20"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="364dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.916"
+            app:srcCompat="@drawable/mas2"
+            tools:ignore="DuplicateIds,ImageContrastCheck,NotSibling,SpeakableTextPresentCheck,VisualLintBounds,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/mas1"
+            android:layout_width="42dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toStartOf="@+id/mas14"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.05"
+            app:srcCompat="@drawable/menos"
+            tools:ignore="DuplicateIds,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.363"
+            tools:ignore="DuplicateIds,HardcodedText,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="244dp"
+            android:text="0"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            app:layout_constraintVertical_bias="0.769"
+            tools:ignore="DuplicateIds,HardcodedText,UnknownIdInLayout,VisualLintOverlap" />
+
+        <ImageButton
+            android:id="@+id/mas15"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView22"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.615"
+            app:srcCompat="@drawable/mas2"
+            tools:ignore="DuplicateIds,ImageContrastCheck,NotSibling,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/mas"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="120dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.368"
+            app:srcCompat="@drawable/menos"
+            tools:ignore="DuplicateIds,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/mas14"
+            android:layout_width="42dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.367"
+            app:srcCompat="@drawable/mas2"
+            tools:ignore="DuplicateIds,ImageContrastCheck,NotSibling,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/mas14"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FAF7F7"
+            android:importantForAccessibility="no"
+            android:onClick="ComprarEntradas"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.072"
+            app:srcCompat="@drawable/mas2"
+            tools:ignore="DuplicateIds,ImageContrastCheck,NotSibling,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="434dp"
+            android:layout_height="50dp"
             android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.701"
-            app:srcCompat="@drawable/seleccion"
-            tools:ignore="ImageContrastCheck" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView18"
+            app:layout_constraintVertical_bias="0.132"
+            app:srcCompat="@drawable/ordenarpor"
+            tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.723"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.446"
-            app:srcCompat="@drawable/menos" />
-
-        <TextView
-            android:id="@+id/textView78"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.838"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.436"
-            tools:ignore="HardcodedText,TextSizeCheck" />
-
-        <ImageView
-            android:id="@+id/imageView21"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.723"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.446"
-            app:srcCompat="@drawable/menos"
-            tools:ignore="ContentDescription" />
-
-        <ImageView
-            android:id="@+id/imageView22"
-            android:layout_width="57dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="176dp"
+            android:layout_height="36dp"
+            android:background="#CCCCCC"
+            android:backgroundTint="#CCCCCCCC"
+            android:onClick="SiguienteMayorMenor"
+            android:text="Menor a Mayor"
+            android:textColor="#000000"
+            android:textColorLink="#CCCCCC"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView47"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.446"
-            app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
-
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="56dp"
-            android:layout_height="53dp"
-            android:importantForAccessibility="no"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.726"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.769"
-            app:srcCompat="@drawable/menos" />
-
-        <ImageView
-            android:id="@+id/imageView24"
-            android:layout_width="57dp"
-            android:layout_height="58dp"
-            android:importantForAccessibility="no"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.775"
-            app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck" />
-
-        <TextView
-            android:id="@+id/textView119"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.823"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.76"
-            tools:ignore="HardcodedText" />
-
-        <ImageView
-            android:id="@+id/imageView23"
-            android:layout_width="57dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck,ImageContrastCheck"
-            tools:layout_editor_absoluteX="354dp"
-            tools:layout_editor_absoluteY="454dp" />
-
-        <TextView
-            android:id="@+id/textView36"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,TextSizeCheck,VisualLintOverlap"
-            tools:layout_editor_absoluteX="322dp"
-            tools:layout_editor_absoluteY="454dp" />
-
-        <ImageView
-            android:id="@+id/imageView35"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/menos"
-            tools:layout_editor_absoluteX="257dp"
-            tools:layout_editor_absoluteY="455dp" />
-
-        <ImageView
-            android:id="@+id/imageView34"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/menos"
-            tools:layout_editor_absoluteX="257dp"
-            tools:layout_editor_absoluteY="455dp" />
-
-        <TextView
-            android:id="@+id/textView747"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,TextSizeCheck"
-            tools:layout_editor_absoluteX="322dp"
-            tools:layout_editor_absoluteY="454dp" />
-
-        <ImageView
-            android:id="@+id/imageView32"
-            android:layout_width="57dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck"
-            tools:layout_editor_absoluteX="354dp"
-            tools:layout_editor_absoluteY="454dp" />
-
-        <ImageView
-            android:id="@+id/imageView120"
-            android:layout_width="57dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck"
-            tools:layout_editor_absoluteX="354dp"
-            tools:layout_editor_absoluteY="379dp" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,TextSizeCheck"
-            tools:layout_editor_absoluteX="322dp"
-            tools:layout_editor_absoluteY="379dp" />
-
-        <ImageView
-            android:id="@+id/imageView30"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/menos"
-            tools:layout_editor_absoluteX="257dp"
-            tools:layout_editor_absoluteY="380dp" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,TextSizeCheck,VisualLintOverlap"
-            tools:layout_editor_absoluteX="322dp"
-            tools:layout_editor_absoluteY="303dp" />
-
-        <ImageView
-            android:id="@+id/imageView29"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/menos"
-            tools:layout_editor_absoluteX="257dp"
-            tools:layout_editor_absoluteY="303dp" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,TextSizeCheck"
-            tools:layout_editor_absoluteX="322dp"
-            tools:layout_editor_absoluteY="303dp" />
-
-        <ImageView
-            android:id="@+id/imageView25"
-            android:layout_width="56dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/menos"
-            tools:layout_editor_absoluteX="257dp"
-            tools:layout_editor_absoluteY="303dp" />
-
-        <ImageView
-            android:id="@+id/imageView26"
-            android:layout_width="57dp"
-            android:layout_height="52dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck"
-            tools:layout_editor_absoluteX="354dp"
-            tools:layout_editor_absoluteY="303dp" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="27dp"
-            android:layout_height="37dp"
-            android:text="0"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.838"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.436"
-            tools:ignore="HardcodedText,TextSizeCheck,VisualLintOverlap" />
+            app:layout_constraintTop_toTopOf="@+id/imageView47"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/imageView18"
-            android:layout_width="411dp"
-            android:layout_height="135dp"
+            android:layout_width="412dp"
+            android:layout_height="136dp"
             android:contentDescription="@string/imagenartista"
             android:src="@drawable/asedese"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -290,41 +268,14 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="209dp"
-            android:layout_height="74dp"
-            android:background="#00BBD3"
-            android:onClick="SiguienteElegirAsientos"
-            android:text="ELEGIR MIS ASIENTOS"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.205" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="203dp"
-            android:layout_height="75dp"
-            android:background="#FF00BBD3"
-            android:onClick="SiguienteMayorMenor"
-            android:text="POR PRECIOS"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.205" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="VisualLintBounds" />
 
         <TextView
             android:id="@+id/Cabecera22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="44dp"
             android:text="mié, 29 may 2024, 21:30mié | Estadio La Cartuja de Sevilla, Sevilla"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -341,7 +292,7 @@
             android:id="@+id/Cabecera31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="72dp"
             android:text="AC/DC Power Up Tour"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
@@ -366,57 +317,55 @@
             app:layout_constraintHorizontal_bias="0.041"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.115"
-            tools:ignore="DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+            app:layout_constraintVertical_bias="0.139"
+            tools:ignore="DuplicateClickableBoundsCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
         <TextView
-            android:id="@+id/Cabecera19"
+            android:id="@+id/Cabecera1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
             android:text="Inicio/Música/Hard Rock/Metal/AC/DC"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.122"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="0.022"
             tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="176dp"
-            android:layout_height="36dp"
-            android:background="#CCCCCC"
-            android:backgroundTint="#CCCCCCCC"
-            android:onClick="SiguienteMayorMenor"
-            android:text="@string/menor_a_mayor"
-            android:textColor="#000000"
-            android:textColorLink="#CCCCCC"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.3"
-            tools:ignore="DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
-
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="434dp"
-            android:layout_height="50dp"
-            android:importantForAccessibility="no"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.306"
-            app:srcCompat="@drawable/ordenarpor"
-            tools:ignore="ImageContrastCheck,VisualLintBounds" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="203dp"
+        android:layout_height="75dp"
+        android:background="#FF00BBD3"
+        android:onClick="SiguienteMayorMenor"
+        android:text="POR PRECIOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="209dp"
+        android:layout_height="74dp"
+        android:background="#00BBD3"
+        android:onClick="SiguienteElegirAsientos"
+        android:text="ELEGIR MIS ASIENTOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

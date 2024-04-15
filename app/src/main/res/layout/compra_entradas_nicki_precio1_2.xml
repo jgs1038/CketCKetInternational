@@ -270,6 +270,7 @@
         android:layout_marginStart="120dp"
         android:background="#FAF7F7"
         android:importantForAccessibility="no"
+        android:onClick="AnteriorPrecios"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toStartOf="@+id/textView20"
