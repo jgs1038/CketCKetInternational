@@ -233,7 +233,12 @@ public class CeAcdcF2V22 extends AppCompatActivity{
         startActivity(siguiente);
     }
     public void SiguienteMenorMayor(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2.class);
+        Intent siguiente = new Intent(this, CeAcdcF22.class);
+        startActivity(siguiente);
+    }
+
+    public void AnteriorCompra(View view) {
+        Intent siguiente = new Intent(this, CeAcdcF2V2.class);
         startActivity(siguiente);
     }
     public void SiguientePago(View view) {

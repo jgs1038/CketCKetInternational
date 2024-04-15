@@ -231,4 +231,8 @@ public class CeAcdcF2 extends AppCompatActivity{
         Intent siguiente = new Intent(this, CeAcdcF2V2.class);
         startActivity(siguiente);
     }
+    public void ComprarEntradas(View view) {
+        Intent siguiente = new Intent(this, CeAcdcF22.class);
+        startActivity(siguiente);
+    }
 }
