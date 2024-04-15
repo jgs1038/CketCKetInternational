@@ -254,6 +254,11 @@ public class InicioPrincipal extends AppCompatActivity {
         startActivity(siguienteACDC);
     }
 
+    public void AnteriorEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento3.class);
+        startActivity(siguienteACDC);
+    }
+
     public void PerfilUsuario(View view){
         int tipoUsuario=obtenerTipoUsuario();
         if (tipoUsuario==1) {

@@ -245,6 +245,10 @@ public class InicioPrincipal5 extends AppCompatActivity {
         Intent siguienteACDC = new Intent (this, InicioPrincipal4.class);
         startActivity(siguienteACDC);
     }
+    public void SiguienteEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipal2.class);
+        startActivity(siguienteACDC);
+    }
     public void AnteriorArtista(View view){
         Intent siguienteACDC = new Intent (this, InicioPrincipalEvento3.class);
         startActivity(siguienteACDC);

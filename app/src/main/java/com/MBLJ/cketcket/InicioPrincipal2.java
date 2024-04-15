@@ -245,6 +245,10 @@ public class InicioPrincipal2 extends AppCompatActivity {
         Intent siguienteACDC = new Intent (this, InicioPrincipal.class);
         startActivity(siguienteACDC);
     }
+    public void AnteriorEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipal5.class);
+        startActivity(siguienteACDC);
+    }
     public void SiguienteEvento(View view){
         Intent siguienteACDC = new Intent (this, InicioPrincipal3.class);
         startActivity(siguienteACDC);

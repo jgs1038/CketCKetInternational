@@ -50,6 +50,7 @@
             android:layout_height="wrap_content"
             android:background="#F6F5F5"
             android:importantForAccessibility="no"
+            android:onClick="SiguienteEvento"
             android:scaleType="centerInside"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
