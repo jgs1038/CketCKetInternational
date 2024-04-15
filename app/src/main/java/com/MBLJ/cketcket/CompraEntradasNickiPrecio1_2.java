@@ -232,4 +232,9 @@ public class CompraEntradasNickiPrecio1_2 extends AppCompatActivity{
         Intent siguiente = new Intent(this, CompraEntradasNickiPrecio2_2.class);
         startActivity(siguiente);
     }
+    public void AnteriorPrecios(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasNickiPrecio.class);
+        startActivity(siguiente);
+    }
+
 }
