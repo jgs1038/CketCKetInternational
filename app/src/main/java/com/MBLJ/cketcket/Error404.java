@@ -1,18 +1,9 @@
 package com.MBLJ.cketcket;
 
-import android.content.Intent;
 import android.os.Bundle;
-//import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-//imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-//import android.widget.EditText;
-//import android.widget.Toast;
-import android.content.SharedPreferences;
 
 public class Error404 extends AppCompatActivity  {
 
@@ -20,6 +11,11 @@ public class Error404 extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.error404);
+    }
+    @Override
+    protected void onResume(){
+        super.onResume();
+        Toast.makeText(this, "Error 404", Toast.LENGTH_SHORT).show();
     }
 
 
