@@ -359,6 +359,7 @@
             android:layout_height="40dp"
             android:background="#FF1B04CC"
             android:text="COMPRAR ENTRADAS"
+            android:onClick="SiguientePago"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.524"

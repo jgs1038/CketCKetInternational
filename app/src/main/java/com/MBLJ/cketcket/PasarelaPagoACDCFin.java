@@ -12,12 +12,12 @@ import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
 
 
-public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
+public class PasarelaPagoACDCFin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pasarela_pago_acdc_contrareembolso);
+        setContentView(R.layout.pasarela_pago_acdc_tarjeta2);
     }
 
 
@@ -224,9 +224,8 @@ public class PasarelaPagoACDCContrareembolso extends AppCompatActivity {
         //return super.onOptionsItemSelected(item);
         return true;
     }
-
-    public void SiguienteConfirmacionGmail(View view) {
-        Intent siguiente = new Intent(this, PasarelaPagoACDCTarjeta2.class);
+    public void SiguientePorPrecios(View view) {
+        Intent siguiente = new Intent(this, CeAcdcF2.class);
         startActivity(siguiente);
     }
 }

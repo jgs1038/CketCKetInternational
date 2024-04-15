@@ -225,18 +225,8 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
         return true;
     }
 
-    public void SiguientePEAcdc(View view) {
-        Intent siguiente = new Intent(this, PerfilEventoACDC.class);
-        startActivity(siguiente);
-    }
-
-    public void SiguienteCompraACDC2(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
-        startActivity(siguiente);
-    }
-
-    public void SiguientePorPrecios(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2.class);
+    public void SiguientePagoTarjeta(View view) {
+        Intent siguiente = new Intent(this, PasarelaPagoACDCTarjeta.class);
         startActivity(siguiente);
     }
 }

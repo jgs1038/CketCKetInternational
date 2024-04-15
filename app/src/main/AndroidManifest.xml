@@ -195,6 +195,24 @@
             android:name=".PasarelaPagoACDC"
             android:exported="false"/>
         <activity
+            android:name=".PasarelaPagoACDCTarjeta"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCTarjeta2"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCContrareembolso"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCRegalo"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCPayPal"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCFin"
+            android:exported="false"/>
+        <activity
             android:name=".ModificarDatosEvento"
             android:exported="false"/>
         <activity

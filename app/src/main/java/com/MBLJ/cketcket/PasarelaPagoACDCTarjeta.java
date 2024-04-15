@@ -229,8 +229,8 @@ public class PasarelaPagoACDCTarjeta extends AppCompatActivity {
         //return super.onOptionsItemSelected(item);
         return true;
     }
-    public void SiguientePorPrecios(View view) {
-        Intent siguiente = new Intent(this, CeAcdcF2.class);
+    public void SiguienteConfirmacionGmail(View view) {
+        Intent siguiente = new Intent(this, PasarelaPagoACDCTarjeta2.class);
         startActivity(siguiente);
     }
 }
