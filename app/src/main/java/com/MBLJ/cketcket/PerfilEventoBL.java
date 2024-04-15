@@ -15,6 +15,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import android.view.Menu;
+import android.view.View;
 //import android.widget.Toast;
 
 public class PerfilEventoBL extends AppCompatActivity {
@@ -228,4 +229,8 @@ public class PerfilEventoBL extends AppCompatActivity {
         return true;
     }
 
+    public void SiguienteError1(View view){
+        Intent siguiente = new Intent (this, Error404.class);
+        startActivity(siguiente);
+    }
 }

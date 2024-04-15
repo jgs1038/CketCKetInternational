@@ -228,4 +228,8 @@ public class PerfilEventoTeatro extends AppCompatActivity {
         return true;
     }
 
+    public void SiguienteError4(View view){
+        Intent siguiente = new Intent (this, Error404.class);
+        startActivity(siguiente);
+    }
 }

@@ -231,4 +231,8 @@ public class PerfilEventoKiki extends AppCompatActivity {
         return true;
     }
 
+    public void SiguienteError3(View view){
+        Intent siguiente = new Intent (this, Error404.class);
+        startActivity(siguiente);
+    }
 }
