@@ -17,7 +17,7 @@ public class PasarelaPagoACDCFin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pasarela_pago_acdc_tarjeta2);
+        setContentView(R.layout.pasarela_pago_acdc_fin);
     }
 
 
