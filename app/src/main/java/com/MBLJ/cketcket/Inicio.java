@@ -13,9 +13,13 @@ public class Inicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inicio);
+
+    }
+    @Override
+    protected void onStart(){
+        super.onStart();
         Toast.makeText(this, "Iniciando", Toast.LENGTH_SHORT).show();
     }
-
     public void SiguienteRegistro(View view) {
         Intent siguiente = new Intent(this, Registro.class);
         startActivity(siguiente);

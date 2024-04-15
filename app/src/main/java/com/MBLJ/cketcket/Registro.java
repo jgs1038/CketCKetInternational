@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.content.SharedPreferences;
+import android.widget.Toast;
 
 public class Registro extends AppCompatActivity {
     private EditText tipo;
@@ -19,6 +20,15 @@ public class Registro extends AppCompatActivity {
         tipo = (EditText) findViewById(R.id.tipoUsuario);
 
     }
+    protected void onStop(){
+        super.onStop();
+        guardarTipoUsuario();
+        String tipoUsuario = tipo.getText().toString();
+        if (tipoUsuario.equals("1") || tipoUsuario.equals("2") || tipoUsuario.equals("4") ) {
+            Toast.makeText(this, "Resgistro Terminado", Toast.LENGTH_SHORT).show();
+            }
+
+        }
 
     public void guardarTipoUsuario() {
         int tipoUsuario = Integer.parseInt(tipo.getText().toString());
