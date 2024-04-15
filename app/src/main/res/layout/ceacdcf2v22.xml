@@ -18,59 +18,30 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/rectanguloboton" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="203dp"
-        android:layout_height="75dp"
-        android:background="#FF00BBD3"
-        android:onClick="SiguienteMayorMenor"
-        android:text="POR PRECIOS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="209dp"
-        android:layout_height="74dp"
-        android:background="#00BBD3"
-        android:text="ELEGIR MIS ASIENTOS"
-        android:onClick="SiguienteElegirAsientos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".CeAcdcF2"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-34dp">
 
         <Button
             android:id="@+id/button6"
             android:layout_width="226dp"
             android:layout_height="40dp"
             android:background="#FF1B04CC"
-            android:text="COMPRAR ENTRADAS"
             android:onClick="SiguientePago"
+            android:text="COMPRAR ENTRADAS"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.524"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/fondoAzul2"
-            app:layout_constraintVertical_bias="0.976" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -78,8 +49,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.706"
             app:srcCompat="@drawable/seleccion2"
-            tools:ignore="ImageContrastCheck"
-            android:importantForAccessibility="no" />
+            tools:ignore="ImageContrastCheck" />
 
         <TextView
             android:id="@+id/textView16"
@@ -100,19 +70,19 @@
             android:id="@+id/imageView17"
             android:layout_width="56dp"
             android:layout_height="52dp"
+            android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.723"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.474"
-            app:srcCompat="@drawable/menos"
-            android:importantForAccessibility="no" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="412dp"
+            android:layout_height="134dp"
             android:contentDescription="@string/imagenartista"
             android:src="@drawable/asedese"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -120,30 +90,13 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.091" />
-
-        <TextView
-            android:id="@+id/Cabecera19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="84dp"
-            android:text="Inicio/Música/Hard Rock/Metal/AC/DC"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.122"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+            app:layout_constraintVertical_bias="0.001" />
 
         <TextView
             android:id="@+id/Cabecera22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="116dp"
+            android:layout_marginTop="48dp"
             android:text="mié, 29 may 2024, 21:30mié | Estadio La Cartuja de Sevilla, Sevilla"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -160,7 +113,7 @@
             android:id="@+id/Cabecera31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="72dp"
             android:text="AC/DC Power Up Tour"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
@@ -174,83 +127,6 @@
             tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
         <ImageView
-            android:id="@+id/fondoAzul2"
-            android:layout_width="411dp"
-            android:layout_height="75dp"
-            android:layout_marginEnd="1dp"
-            android:contentDescription="@string/trespuntos"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/rectangulo_azul"
-            app:tint="#00BCD4" />
-
-        <TextView
-            android:id="@+id/PerfilEvento3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="AC/DC"
-            android:textColor="#FFFFFF"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.411"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
-
-        <ImageButton
-            android:id="@+id/tresrayas2"
-            android:layout_width="70dp"
-            android:layout_height="66dp"
-            android:importantForAccessibility="no"
-            android:onClick="SiguienteTresRayas"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/fondoAzul2"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/fondoAzul2"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.006"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-        <ImageButton
-            android:id="@+id/lupa_inicio2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/lupaboton"
-            android:onClick="SiguienteLupa"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.796"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.004"
-            app:srcCompat="@android:drawable/ic_search_category_default"
-            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,DuplicateClickableBoundsCheck" />
-
-        <ImageButton
-            android:id="@+id/tresPuntos2"
-            android:layout_width="46dp"
-            android:layout_height="67dp"
-            android:contentDescription="@string/tresPuntos_ba"
-            android:onClick="SiguienteTresPuntods"
-            android:scaleType="centerInside"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.983"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.004"
-            app:srcCompat="@drawable/tres_puntos"
-            tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck,ImageContrastCheck,ImageContrastCheck" />
-
-        <ImageView
             android:id="@+id/imageView92"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -262,8 +138,25 @@
             app:layout_constraintHorizontal_bias="0.041"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.238"
+            app:layout_constraintVertical_bias="0.139"
             tools:ignore="DuplicateClickableBoundsCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/Cabecera19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Inicio/Música/Hard Rock/Metal/AC/DC"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.122"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
         <ImageView
             android:id="@+id/imageView20"
@@ -302,19 +195,20 @@
             android:id="@+id/imageView21"
             android:layout_width="56dp"
             android:layout_height="52dp"
+            android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.723"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.474"
-            app:srcCompat="@drawable/menos"
-            android:importantForAccessibility="no" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView22"
             android:layout_width="57dp"
             android:layout_height="52dp"
+            android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -322,26 +216,26 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.474"
             app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck,ImageContrastCheck"
-            android:importantForAccessibility="no" />
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="56dp"
             android:layout_height="53dp"
+            android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.725"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.798"
-            app:srcCompat="@drawable/menos"
-            android:importantForAccessibility="no" />
+            app:srcCompat="@drawable/menos" />
 
         <ImageView
             android:id="@+id/imageView24"
             android:layout_width="57dp"
             android:layout_height="58dp"
+            android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -349,8 +243,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.803"
             app:srcCompat="@drawable/mas2"
-            tools:ignore="ImageContrastCheck"
-            android:importantForAccessibility="no" />
+            tools:ignore="ImageContrastCheck" />
 
         <TextView
             android:id="@+id/textView119"
@@ -366,6 +259,26 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.788"
             tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="209dp"
+            android:layout_height="74dp"
+            android:background="#00BBD3"
+            android:onClick="SiguienteElegirAsientos"
+            android:text="ELEGIR MIS ASIENTOS"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="135dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="203dp"
+            android:layout_height="75dp"
+            android:background="#FF00BBD3"
+            android:onClick="SiguienteMayorMenor"
+            android:text="POR PRECIOS"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="135dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -507,162 +420,6 @@
         app:layout_constraintVertical_bias="0.474"
         app:srcCompat="@drawable/menos"
         android:importantForAccessibility="no" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/imagenartista"
-        android:src="@drawable/asedese"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
-
-    <TextView
-        android:id="@+id/Cabecera1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:text="Inicio/Música/Hard Rock/Metal/AC/DC"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <TextView
-        android:id="@+id/Cabecera2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:text="mié, 29 may 2024, 21:30mié | Estadio La Cartuja de Sevilla, Sevilla"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.313"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <TextView
-        android:id="@+id/Cabecera3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="AC/DC Power Up Tour"
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageView
-        android:id="@+id/fondoAzul"
-        android:layout_width="411dp"
-        android:layout_height="75dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="@string/trespuntos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul"
-        app:tint="#00BCD4" />
-
-    <TextView
-        android:id="@+id/PerfilEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="AC/DC"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.411"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresrayas"
-        android:layout_width="70dp"
-        android:layout_height="66dp"
-        android:importantForAccessibility="no"
-        android:onClick="SiguienteTresRayas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
-        android:id="@+id/lupa_inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/lupaboton"
-        android:onClick="SiguienteLupa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresPuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:contentDescription="@string/tresPuntos_ba"
-        android:onClick="SiguienteTresPuntods"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/information"
-        android:onClick="SiguientePEAcdc"
-        android:src="@drawable/info2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238"
-        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button4"
