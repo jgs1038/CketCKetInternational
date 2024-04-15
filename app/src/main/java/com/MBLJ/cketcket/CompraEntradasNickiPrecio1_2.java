@@ -237,4 +237,9 @@ public class CompraEntradasNickiPrecio1_2 extends AppCompatActivity{
         startActivity(siguiente);
     }
 
+    public void PasarelaPago(View view) {
+        Intent siguiente = new Intent(this, PasarelaPagoNN.class);
+        startActivity(siguiente);
+    }
+
 }

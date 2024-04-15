@@ -119,6 +119,7 @@
         android:layout_width="226dp"
         android:layout_height="40dp"
         android:background="#FF1B04CC"
+        android:onClick="PasarelaPago"
         android:text="COMPRAR ENTRADAS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

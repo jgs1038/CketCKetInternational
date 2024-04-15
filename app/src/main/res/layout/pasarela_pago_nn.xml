@@ -16,7 +16,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/infoeventnn" />
+        app:srcCompat="@drawable/infoeventnn"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -28,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058"
-        app:srcCompat="@drawable/nicki_portada" />
+        app:srcCompat="@drawable/nicki_portada"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -39,7 +41,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/selecpago" />
+        app:srcCompat="@drawable/selecpago"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView28"
@@ -51,7 +54,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
-        app:srcCompat="@drawable/precionn" />
+        app:srcCompat="@drawable/precionn"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView31"
@@ -63,7 +67,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/metodopago" />
+        app:srcCompat="@drawable/metodopago"
+        android:importantForAccessibility="no"
+        tools:ignore="VisualLintBounds" />
 
     <CheckBox
         android:id="@+id/checkBox6"
@@ -75,7 +81,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintVertical_bias="0.646"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
 
     <CheckBox
         android:id="@+id/checkBox7"
@@ -87,7 +94,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718" />
+        app:layout_constraintVertical_bias="0.718"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
 
     <CheckBox
         android:id="@+id/checkBox8"
@@ -99,7 +107,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79" />
+        app:layout_constraintVertical_bias="0.79"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -111,7 +120,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.569"
-        app:srcCompat="@drawable/mastercard" />
+        app:srcCompat="@drawable/mastercard"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView36"
@@ -123,7 +133,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.57"
-        app:srcCompat="@drawable/visa" />
+        app:srcCompat="@drawable/visa"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView37"
@@ -135,7 +146,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.573"
-        app:srcCompat="@drawable/american_express" />
+        app:srcCompat="@drawable/american_express"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView38"
@@ -147,7 +159,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.725"
-        app:srcCompat="@drawable/paypal" />
+        app:srcCompat="@drawable/paypal"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView39"
@@ -159,7 +172,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.782"
-        app:srcCompat="@drawable/regalo" />
+        app:srcCompat="@drawable/regalo"
+        android:importantForAccessibility="no" />
 
     <Button
         android:id="@+id/button66"
@@ -171,7 +185,8 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.896"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView41"
@@ -183,7 +198,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.646"
-        app:srcCompat="@drawable/cardcket" />
+        app:srcCompat="@drawable/cardcket"
+        tools:ignore="ImageContrastCheck"
+        android:importantForAccessibility="no" />
 
     <CheckBox
         android:id="@+id/checkBox5"
@@ -195,6 +212,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
+        app:layout_constraintVertical_bias="0.574"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,VisualLintOverlap" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
     <TextView
         android:id="@+id/Cabecera3"
@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,UnknownIdInLayout" />
 
     <TextView
         android:id="@+id/Cabecera2"
@@ -136,14 +136,15 @@
         android:id="@+id/imageButton2"
         android:layout_width="429dp"
         android:layout_height="424dp"
+        android:layout_marginTop="4dp"
         android:background="#FFFFFF"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/acdcmapa2"
         tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck,VisualLintBounds" />
 

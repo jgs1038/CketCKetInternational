@@ -16,7 +16,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/infoeventnn" />
+        app:srcCompat="@drawable/infoeventnn"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -28,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058"
-        app:srcCompat="@drawable/nicki_portada" />
+        app:srcCompat="@drawable/nicki_portada"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView28"
@@ -40,7 +42,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
-        app:srcCompat="@drawable/precionn" />
+        app:srcCompat="@drawable/precionn"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView40"
@@ -51,7 +54,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/confirmacompra" />
+        app:srcCompat="@drawable/confirmacompra"
+        android:importantForAccessibility="no"
+        tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView12"
@@ -63,7 +68,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.554"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView12"
@@ -75,7 +81,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.892" />
+        app:layout_constraintVertical_bias="0.892"
+        tools:ignore="DuplicateIds,HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView43"
@@ -86,7 +93,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.784"
-        app:srcCompat="@drawable/carga" />
+        app:srcCompat="@drawable/carga"
+        android:importantForAccessibility="no" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -100,6 +108,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/redirpaypal" />
+        app:srcCompat="@drawable/redirpaypal"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintBounds"
+        android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

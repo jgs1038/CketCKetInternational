@@ -16,7 +16,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/infoeventnn" />
+        app:srcCompat="@drawable/infoeventnn"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -28,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058"
-        app:srcCompat="@drawable/nicki_portada" />
+        app:srcCompat="@drawable/nicki_portada"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView28"
@@ -40,7 +42,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
-        app:srcCompat="@drawable/precionn" />
+        app:srcCompat="@drawable/precionn"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/imageView40"
@@ -51,7 +54,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/datostarjetaregalo" />
+        app:srcCompat="@drawable/datostarjetaregalo"
+        android:importantForAccessibility="no"
+        tools:ignore="VisualLintBounds" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -83,7 +88,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.682"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck,VisualLintOverlap" />
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap" />
 
     <EditText
         android:id="@+id/editTextDate"
@@ -97,7 +102,9 @@
         app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753" />
+        app:layout_constraintVertical_bias="0.753"
+        tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -113,7 +120,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.612"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck,VisualLintOverlap" />
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView13"
@@ -127,7 +134,8 @@
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.558"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView14"
@@ -140,7 +148,8 @@
         app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.585"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <Button
         android:id="@+id/button8"
@@ -154,7 +163,8 @@
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintVertical_bias="0.909"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView42"
@@ -166,6 +176,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.781"
-        app:srcCompat="@drawable/regalo" />
+        app:srcCompat="@drawable/regalo"
+        android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

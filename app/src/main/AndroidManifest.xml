@@ -219,6 +219,21 @@
             android:name=".PasarelaPagoNNTarjeta"
             android:exported="false"/>
         <activity
+            android:name=".PasarelaPagoNNTarjeta2"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNContrareembolso"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNRegalo"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNPayPal"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNFin"
+            android:exported="false"/>
+        <activity
             android:name=".ModificarDatosEvento"
             android:exported="false"/>
         <activity
