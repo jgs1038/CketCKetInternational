@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/infoacdc"
+        app:srcCompat="@drawable/infoacdcdc"
         tools:ignore="ImageContrastCheck"
         android:importantForAccessibility="no" />
 
