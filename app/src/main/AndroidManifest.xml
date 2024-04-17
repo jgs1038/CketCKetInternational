@@ -16,268 +16,348 @@
 
         <activity
             android:name=".Registro"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Registro"/>
         <activity
             android:name=".Registro1"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Registro"/>
         <activity
             android:name=".InicioSesion"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio Sesión"/>
         <activity
             android:name=".InicioPrincipal"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipal2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipal3"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipal4"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipal5"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipalEvento"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipalEvento2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".InicioPrincipalEvento3"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Inicio"/>
         <activity
             android:name=".PerfilEventoNicki"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Evento"/>
         <activity
             android:name=".PerfilArtistaNicki"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil del Artista"/>
         <activity
             android:name=".PerfilArtistaKiki"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil del Artista"/>
         <activity
             android:name=".PerfilArtistaKiki1"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil del Artista"/>
         <activity
             android:name=".PerfilEventoKiki"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Evento"/>
         <activity
             android:name=".HistoriaKiki"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Historia"/>
         <activity
             android:name=".PerfilEventoACDC"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Evento"/>
         <activity
             android:name=".PerfilArtistaACDC"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Artista"/>
         <activity
             android:name=".PerfilEventoDune"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Evento"/>
         <activity
             android:name=".PerfilEventoBL"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Evento"/>
         <activity
             android:name=".PerfilEventoTeatro"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Evento"/>
         <activity
             android:name=".PerfilUsuario"
-            android:exported="false"/>
-        <activity
-            android:name=".TresRayas"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Usuario"/>
         <activity
             android:name=".MisEntradas"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Mis Entradas"/>
         <activity
             android:name=".ForoDudas"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Foro Dudas"/>
         <activity
             android:name=".AsistenciaTecnica"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Asistencia Técnica"/>
         <activity
             android:name=".Chat"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Chat"/>
         <activity
             android:name=".Chat1"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Chat"/>
         <activity
             android:name=".Chat2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Chat"/>
         <activity
             android:name=".MisPuntos"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Mis Puntos"/>
         <activity
             android:name=".MisPuntosArtista"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Mis Puntos"/>
         <activity
             android:name=".MisPuntosAdministrador"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Mis Puntos"/>
         <activity
             android:name=".MisPuntosOrganizador"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Mis Puntos"/>
         <activity
             android:name=".Bloqueado"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Bloqueado"/>
         <activity
             android:name=".BusquedaAvanzada"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Búsqueda Avanzada"/>
         <activity
             android:name=".BusquedaAvanzadaEvento"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Búsqueda Avanzada - Evento"/>
         <activity
             android:name=".BusquedaAvanzadaMerchandising"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Búsqueda Avanzada - Merch"/>
         <activity
             android:name=".BusquedaUsuario"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Búsqueda Usuario"/>
         <activity
             android:name=".LiveActivities"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Live Activities"/>
         <activity
             android:name=".LiveActivities1"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Live Activities"/>
         <activity
             android:name=".Merchandising"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Merchandising"/>
         <activity
             android:name=".TiendaPuntos"
-            android:exported="false"/>
-        <activity
-            android:name=".TresPuntos"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Tienda Puntos"/>
         <activity
             android:name=".UsuariosBloqueados"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Usuarios Bloqueados"/>
         <activity
             android:name=".EntradasCompradas"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Chat - Entradas Compradas"/>
         <activity
             android:name=".EntradasVendidas"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Chat - Entradas Vendidas"/>
         <activity
             android:name=".EmpezarDirecto"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Empezar Directo"/>
         <activity
             android:name=".CrearEncuesta"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Crear Encuesta"/>
         <activity
             android:name=".PreguntasRespuestas"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Preguntas y Respuestas"/>
         <activity
             android:name=".AnadirHistoria"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Añadir Historias"/>
         <activity
             android:name=".SolicitudEventoArtista"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Solicitud Evento"/>
         <activity
             android:name=".SolicitudEventoOrganizador"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Publicar Evento"/>
         <activity
             android:name=".CompraEntradasACDC"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasACDC2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasACDC3"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CeAcdcF2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CeAcdcF22"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CeAcdcF2V2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CeAcdcF2V22"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".PasarelaPagoACDC"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoACDCTarjeta"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoACDCTarjeta2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoACDCContrareembolso"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoACDCRegalo"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoACDCPayPal"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoACDCFin"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNN"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNNTarjeta"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNNTarjeta2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNNContrareembolso"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNNRegalo"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNNPayPal"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".PasarelaPagoNNFin"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Pasarela de Pago"/>
         <activity
             android:name=".ModificarDatosEvento"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Modificar Datos Evento"/>
         <activity
             android:name=".AceptarSolicitud"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Aceptar Solicitud"/>
         <activity
             android:name=".Formulario"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Formulario"/>
         <activity
             android:name=".CrearDescuentos"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Crear Descuentos"/>
         <activity
             android:name=".PerfilOrganizador"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Organizador"/>
         <activity
             android:name=".PerfilAdministrador"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Perfil Administrador"/>
         <activity
             android:name=".CompraEntradasNicki"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasNicki2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasNicki3"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasNickiPrecio"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasNickiPrecio2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasNickiPrecio1_2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".CompraEntradasNickiPrecio2_2"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Comprar Entradas"/>
         <activity
             android:name=".Error404"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="Error"/>
         <activity
             android:name=".Inicio"
             android:exported="true">
