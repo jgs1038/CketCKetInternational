@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/foto_juanjo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/foto_Admin"
+    tools:context=".Inicio"
+    tools:layout_editor_absoluteX="-7dp"
+    tools:layout_editor_absoluteY="-28dp">
+
+    <ImageView
+        android:id="@+id/instaKiki"
+        android:layout_width="399dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/AdminArriba"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/administrador_arriba"
+        tools:srcCompat="@drawable/administrador_arriba" />
+
+    <TextView
+        android:id="@+id/EvebtoPricipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventos_admnistrados"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <ImageView
+        android:id="@+id/eventoNickiNicole"
+        android:layout_width="165dp"
+        android:layout_height="169dp"
+        android:contentDescription="@string/evento1N"
+        android:onClick="EventoTeatro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/fantasma_opera"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        tools:srcCompat="@drawable/fantasma_opera" />
+
+    <ImageView
+        android:id="@+id/eventoACDCAdmin"
+        android:layout_width="198dp"
+        android:layout_height="214dp"
+        android:contentDescription="@string/evento2N"
+        android:onClick="EventoFutbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/burgosvslevante"
+        tools:srcCompat="@drawable/burgosvslevante" />
+
+    <ImageButton
+        android:id="@+id/EventoKiki"
+        android:layout_width="293dp"
+        android:layout_height="141dp"
+        android:background="#F6F4F4"
+        android:contentDescription="@string/Evento_Kiki"
+        android:importantForAccessibility="no"
+        android:onClick="EventoMalaCostumbre"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579"
+        app:srcCompat="@drawable/mckiki" />
+
+    <ImageView
+        android:id="@+id/Admin_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/foto_Admin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
+        app:srcCompat="@drawable/juanjo_redondo" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Admin)"
+        app:layout_constraintBottom_toBottomOf="@+id/instaKiki"
+        app:layout_constraintEnd_toEndOf="@+id/instaKiki"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="@+id/instaKiki"
+        app:layout_constraintTop_toTopOf="@+id/instaKiki"
+        app:layout_constraintVertical_bias="0.39"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

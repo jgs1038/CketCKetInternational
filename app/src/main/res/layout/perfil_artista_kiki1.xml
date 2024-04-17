@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    tools:layout_editor_absoluteX="-7dp"
+    tools:layout_editor_absoluteY="-28dp">
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="BusquedaAvanzada"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/busqueda"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="63dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:onClick="SiguientePrincipal"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995"
+        app:srcCompat="@drawable/inicio_noazul"
+        tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/inicio"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:background="#FAFAFA"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        app:srcCompat="@drawable/perfil_azul"
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/instaKiki"
+        android:layout_width="399dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/instakiki" />
+
+    <TextView
+        android:id="@+id/EvebtoPricipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_pricipal_del_artista"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/EventoKiki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Kiki"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/otrosEvetosNicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/otros_eventos_del_artista"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/eventoNickiNicole"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EventoKiki"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <ImageView
+        android:id="@+id/eventoNickiNicole"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/evento1N"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/eventoACDCAdmin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873"
+        app:srcCompat="@drawable/concierto_ot"
+        tools:srcCompat="@drawable/concierto_ot" />
+
+    <ImageView
+        android:id="@+id/eventoACDCAdmin"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:contentDescription="@string/evento2N"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/evento3N"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        app:srcCompat="@drawable/idolo1" />
+
+    <ImageView
+        android:id="@+id/evento3N"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="29dp"
+        android:contentDescription="@string/evento3N"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873"
+        app:srcCompat="@drawable/firmadiscos"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/EventoKiki"
+        android:layout_width="277dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="26dp"
+        android:background="#FDF6FE"
+        android:importantForAccessibility="no"
+        android:onClick="EventoKiki"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        app:srcCompat="@drawable/mckiki" />
+
+    <ImageButton
+        android:id="@+id/Kiki"
+        android:layout_width="199dp"
+        android:layout_height="194dp"
+        android:background="#FFFFFF"
+        android:importantForAccessibility="no"
+        android:onClick="HistoriaKiki"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/perfilkiki" />
+
+    <ImageView
+        android:id="@+id/perfilesKiki"
+        android:layout_width="199dp"
+        android:layout_height="194dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/perfileskiki" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

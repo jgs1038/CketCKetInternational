@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Inicio"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="-42dp">
+    tools:layout_editor_absoluteX="-2dp"
+    tools:layout_editor_absoluteY="-93dp">
 
     <TextView
         android:id="@+id/descripcion"
@@ -16,24 +16,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.73"
+        app:layout_constraintVertical_bias="0.213"
         tools:ignore="DuplicateIds" />
 
     <Button
         android:id="@+id/compra_nicki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="SiguienteCompraACDC"
+        android:onClick="SiguienteError1"
         android:text="@string/comprar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/rrss"
@@ -42,10 +43,10 @@
         android:contentDescription="@string/rrss"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.544"
+        app:layout_constraintVertical_bias="0.303"
         app:srcCompat="@drawable/rrss" />
 
     <TextView
@@ -56,10 +57,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/googleMaps"
-        app:layout_constraintVertical_bias="0.037"
+        app:layout_constraintVertical_bias="0.12"
         tools:ignore="DuplicateIds" />
 
     <ImageView
@@ -69,10 +70,10 @@
         android:contentDescription="@string/maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintHorizontal_bias="0.032"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714"
+        app:layout_constraintVertical_bias="0.573"
         app:srcCompat="@drawable/maps" />
 
     <ImageView
@@ -99,84 +100,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wizin"
         app:layout_constraintVertical_bias="0.983"
         tools:ignore="DuplicateIds" />
-
-    <ImageView
-        android:id="@+id/fondoAzul"
-        android:layout_width="410dp"
-        android:layout_height="74dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="@string/trespuntos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
-
-    <TextView
-        android:id="@+id/PerfilEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Perfil evento"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageButton
-        android:id="@+id/tresrayas"
-        android:layout_width="70dp"
-        android:layout_height="66dp"
-        android:importantForAccessibility="no"
-        android:onClick="SiguienteTresRayas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
-        android:id="@+id/lupa_inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/lupaboton"
-        android:onClick="SiguienteLupa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresPuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:onClick="SiguienteTresPuntods"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck"
-        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/nickiNicole"
@@ -185,25 +111,12 @@
         android:contentDescription="@string/nicki"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153"
+        app:layout_constraintVertical_bias="0.003"
         app:srcCompat="@drawable/burgosvslevante"
         tools:ignore="ImageContrastCheck" />
-
-    <TextView
-        android:id="@+id/Nicki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/burgos_vs"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
 
     <TextView
         android:id="@+id/Nicki"
@@ -214,25 +127,39 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toEndOf="@+id/nickiNicole"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
+        app:layout_constraintVertical_bias="0.085"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/Nicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burgos_vs"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/imagenesEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:text="@string/imagenes_del_evento_pe"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/wizin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nickiNicole"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <TextView
         android:id="@+id/descripcion"
@@ -260,7 +187,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
         app:layout_constraintVertical_bias="0.36"
-        tools:ignore="DuplicateIds" />
+        tools:ignore="DuplicateIds,TextContrastCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/Fecha"
@@ -272,7 +199,7 @@
         app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintVertical_bias="0.551" />
 
     <TextView
         android:id="@+id/textView2"
@@ -281,10 +208,10 @@
         android:text="@string/desde_20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintHorizontal_bias="0.662"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintVertical_bias="0.64" />
 
     <ImageView
         android:id="@+id/estadio"
@@ -293,10 +220,10 @@
         android:contentDescription="@string/estadio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toEndOf="@+id/wizin"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479"
+        app:layout_constraintVertical_bias="0.323"
         app:srcCompat="@drawable/burgos"
         tools:ignore="ImageContrastCheck" />
 
@@ -307,10 +234,10 @@
         android:contentDescription="@string/wizink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474"
+        app:layout_constraintVertical_bias="0.32"
         app:srcCompat="@drawable/estadio_burgos1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

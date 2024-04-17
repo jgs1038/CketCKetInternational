@@ -7,7 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".Inicio"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="-42dp">
+    tools:layout_editor_absoluteY="28dp">
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Municipio"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView6"
@@ -20,83 +36,8 @@
         app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712"
+        app:layout_constraintVertical_bias="0.646"
         tools:ignore="HardcodedText" />
-
-    <ImageView
-        android:id="@+id/fondoAzul"
-        android:layout_width="410dp"
-        android:layout_height="74dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="@string/trespuntos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangulo_azul" />
-
-    <TextView
-        android:id="@+id/PerfilEvento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Formulario Fiscal"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/NuevosEventos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
-
-    <ImageButton
-        android:id="@+id/tresrayas"
-        android:layout_width="70dp"
-        android:layout_height="66dp"
-        android:importantForAccessibility="no"
-        android:onClick="SiguienteTresRayas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/fondoAzul"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/fondoAzul"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
-        android:id="@+id/lupa_inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/lupaboton"
-        android:onClick="SiguienteLupa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/tresPuntos"
-        android:layout_width="46dp"
-        android:layout_height="67dp"
-        android:onClick="SiguienteTresPuntods"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.983"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/tres_puntos"
-        tools:ignore="TouchTargetSizeCheck"
-        android:contentDescription="@string/tresPuntos_chat" />
 
     <TextView
         android:id="@+id/textView6"
@@ -109,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122"
+        app:layout_constraintVertical_bias="0.016"
         tools:ignore="DuplicateIds,HardcodedText" />
 
     <TextView
@@ -123,6 +64,7 @@
         app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
         tools:ignore="DuplicateIds,HardcodedText" />
 
     <EditText
@@ -131,15 +73,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Razón Social"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.164"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -147,15 +89,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="CIF"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.164"
-        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -163,15 +105,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Provincia"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.23"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -179,47 +121,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Código Postal"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.295"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/editTextText8"
-        android:layout_width="166dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Municipio"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.361"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/editTextText8"
-        android:layout_width="166dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Nombre Empresa"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.23"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -227,15 +137,31 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Calle"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre Empresa"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.295"
-        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -243,15 +169,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Número"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.361"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -259,15 +185,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Pais"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.438"
-        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="DuplicateIds,HardcodedText,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -275,15 +201,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Método de pago"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.568"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -291,15 +216,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Forma de pago"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.634"
-        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
+        tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -313,8 +238,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.867"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
         tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
@@ -329,8 +254,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.801"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733"
         tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
@@ -343,10 +268,21 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondoAzul"
-        app:layout_constraintVertical_bias="0.801"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733"
         tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="InicioOrganizador"
+        android:text="Finalizar registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

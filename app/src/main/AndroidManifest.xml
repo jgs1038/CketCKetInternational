@@ -24,6 +24,27 @@
             android:name=".InicioPrincipal"
             android:exported="false"/>
         <activity
+            android:name=".InicioPrincipal2"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipal3"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipal4"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipal5"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipalEvento"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipalEvento2"
+            android:exported="false"/>
+        <activity
+            android:name=".InicioPrincipalEvento3"
+            android:exported="false"/>
+        <activity
             android:name=".PerfilEventoNicki"
             android:exported="false"/>
         <activity
@@ -31,6 +52,9 @@
             android:exported="false"/>
         <activity
             android:name=".PerfilArtistaKiki"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilArtistaKiki1"
             android:exported="false"/>
         <activity
             android:name=".PerfilEventoKiki"
@@ -79,6 +103,15 @@
             android:exported="false"/>
         <activity
             android:name=".MisPuntos"
+            android:exported="false"/>
+        <activity
+            android:name=".MisPuntosArtista"
+            android:exported="false"/>
+        <activity
+            android:name=".MisPuntosAdministrador"
+            android:exported="false"/>
+        <activity
+            android:name=".MisPuntosOrganizador"
             android:exported="false"/>
         <activity
             android:name=".Bloqueado"
@@ -132,12 +165,6 @@
             android:name=".AnadirHistoria"
             android:exported="false"/>
         <activity
-            android:name=".InicioOrganizador"
-            android:exported="false"/>
-        <activity
-            android:name=".InicioArtista"
-            android:exported="false"/>
-        <activity
             android:name=".SolicitudEventoArtista"
             android:exported="false"/>
         <activity
@@ -147,13 +174,106 @@
             android:name=".CompraEntradasACDC"
             android:exported="false"/>
         <activity
+            android:name=".CompraEntradasACDC2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasACDC3"
+            android:exported="false"/>
+        <activity
             android:name=".CeAcdcF2"
+            android:exported="false"/>
+        <activity
+            android:name=".CeAcdcF22"
+            android:exported="false"/>
+        <activity
+            android:name=".CeAcdcF2V2"
+            android:exported="false"/>
+        <activity
+            android:name=".CeAcdcF2V22"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDC"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCTarjeta"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCTarjeta2"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCContrareembolso"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCRegalo"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCPayPal"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoACDCFin"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNN"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNTarjeta"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNTarjeta2"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNContrareembolso"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNRegalo"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNPayPal"
+            android:exported="false"/>
+        <activity
+            android:name=".PasarelaPagoNNFin"
             android:exported="false"/>
         <activity
             android:name=".ModificarDatosEvento"
             android:exported="false"/>
         <activity
             android:name=".AceptarSolicitud"
+            android:exported="false"/>
+        <activity
+            android:name=".Formulario"
+            android:exported="false"/>
+        <activity
+            android:name=".CrearDescuentos"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilOrganizador"
+            android:exported="false"/>
+        <activity
+            android:name=".PerfilAdministrador"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNicki"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNicki2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNicki3"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio1_2"
+            android:exported="false"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio2_2"
+            android:exported="false"/>
+        <activity
+            android:name=".Error404"
             android:exported="false"/>
         <activity
             android:name=".Inicio"

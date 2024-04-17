@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mis_entradas"
+        android:title="Mis entradas"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/ForoDudas"
+        android:title="Foro de Dudas"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/asistencia_tecnica"
+        android:title="Asistencia Técnica"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/chat"
+        android:title="Chat"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/mis_puntos"
+        android:title="Mis Puntos"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/usuarios_bloqueados"
+        android:title="Usuarios Bloqueados"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/live_activities"
+        android:title="Live activities"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/merchandising"
+        android:title="Merchandising"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/aceptar_solicitudes"
+        android:title="Aceptar Solicitudes"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/crear_descuentos"
+        android:title="Crear descuentos"
+        tools:ignore="HardcodedText" />
+</menu>

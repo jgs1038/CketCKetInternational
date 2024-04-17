@@ -3,50 +3,228 @@ package com.MBLJ.cketcket;
 //Esto es una prueba
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import java.util.Arrays;
-import java.util.List;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+//imports del menu
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import androidx.annotation.NonNull;
+import android.view.Menu;
+import android.widget.Toast;
 
 public class InicioPrincipal extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
-    private MyRvAdapter adapter;
-    private List<String> dataSource;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_inicio); // Asegúrate de que este es el layout correcto
-
-        // Inicialización de la fuente de datos
-        dataSource = Arrays.asList("Hello", "World", "To", "The", "Code", "City", "******");
-
-        // Configuración del RecyclerView
-        recyclerView = findViewById(R.id.myRecyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-
-        // Configuración del adaptador
-        adapter = new MyRvAdapter(this, dataSource);
-        recyclerView.setAdapter(adapter);
+        setContentView(R.layout.principal_inicio);
     }
 
-    public void SiguienteLupa(View view){
-        Intent siguiente = new Intent (this, BusquedaUsuario.class);
-        startActivity(siguiente);
+    public int obtenerTipoUsuario() {
+        SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
+        return prefs.getInt("tipoUsuario", 0);
     }
 
-    public void SiguienteTresRayas(View view){
-        Intent siguiente = new Intent (this, TresRayas.class);
-        startActivity(siguiente);
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater menuInflater = getMenuInflater();
+        int tipoUsuario=obtenerTipoUsuario();
+
+        if (tipoUsuario == 1) {
+            menuInflater.inflate(R.menu.tres_rayas, menu);
+        }
+        if (tipoUsuario == 2) {
+            menuInflater.inflate(R.menu.tres_rayas_artista, menu);
+        }
+        if (tipoUsuario == 3) {
+            menuInflater.inflate(R.menu.tres_rayas_organizador, menu);
+        }
+        if (tipoUsuario == 4) {
+            menuInflater.inflate(R.menu.tres_rayas_administrador, menu);
+        }
+        return true;
     }
-    public void SiguienteTresPuntods(View view) {
-        Intent siguiente = new Intent(this, TresPuntos.class);
-        startActivity(siguiente);
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        int id = item.getItemId();
+        int tipoUsuario=obtenerTipoUsuario();
+        if (tipoUsuario==1) {
+            if (id == R.id.mis_entradas) {
+                Intent siguiente = new Intent(this, MisEntradas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ForoDudas) {
+                Intent siguiente = new Intent(this, ForoDudas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.asistencia_tecnica) {
+                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.chat) {
+                Intent siguiente = new Intent(this, Chat1.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.mis_puntos) {
+                Intent siguiente = new Intent(this, MisPuntos.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.usuarios_bloqueados) {
+                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.live_activities) {
+                Intent siguiente = new Intent(this, LiveActivities.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.merchandising) {
+                Intent siguiente = new Intent(this, Merchandising.class);
+                startActivity(siguiente);
+            }
+        }
+        if (tipoUsuario==2) {
+            if (id == R.id.mis_entradas) {
+                Intent siguiente = new Intent(this, MisEntradas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ForoDudas) {
+                Intent siguiente = new Intent(this, ForoDudas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.asistencia_tecnica) {
+                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.chat) {
+                Intent siguiente = new Intent(this, Chat1.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.mis_puntos) {
+                Intent siguiente = new Intent(this, MisPuntosArtista.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.usuarios_bloqueados) {
+                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.live_activities) {
+                Intent siguiente = new Intent(this, LiveActivities.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.merchandising) {
+                Intent siguiente = new Intent(this, Merchandising.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.solicitud_evento){
+                Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.datos_evento){
+                Intent siguiente = new Intent (this, ModificarDatosEvento.class);
+                startActivity(siguiente);
+            }
+        }
+
+        if (tipoUsuario==3) {
+            if (id == R.id.mis_entradas) {
+                Intent siguiente = new Intent(this, MisEntradas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ForoDudas) {
+                Intent siguiente = new Intent(this, ForoDudas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.asistencia_tecnica) {
+                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.chat) {
+                Intent siguiente = new Intent(this, Chat1.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.mis_puntos) {
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.usuarios_bloqueados) {
+                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.live_activities) {
+                Intent siguiente = new Intent(this, LiveActivities.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.merchandising) {
+                Intent siguiente = new Intent(this, Merchandising.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.publicar_evento) {
+                Intent siguiente = new Intent(this, SolicitudEventoOrganizador.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.modificar_evento) {
+                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
+                startActivity(siguiente);
+            }
+        }
+
+        if (tipoUsuario==4) {
+            if (id == R.id.mis_entradas) {
+                Intent siguiente = new Intent(this, MisEntradas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ForoDudas) {
+                Intent siguiente = new Intent(this, ForoDudas.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.asistencia_tecnica) {
+                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.chat) {
+                Intent siguiente = new Intent(this, Chat1.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.mis_puntos) {
+                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.usuarios_bloqueados) {
+                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.live_activities) {
+                Intent siguiente = new Intent(this, LiveActivities.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.merchandising) {
+                Intent siguiente = new Intent(this, Merchandising.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.publicar_evento) {
+                Intent siguiente = new Intent(this, SolicitudEventoOrganizador.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.modificar_evento) {
+                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.aceptar_solicitudes) {
+                Intent siguiente = new Intent(this, AceptarSolicitud.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.crear_descuentos) {
+                Intent siguiente = new Intent(this, CrearDescuentos.class);
+                startActivity(siguiente);
+            }
+        }
+
+        //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
+        //return super.onOptionsItemSelected(item);
+        return true;
     }
 
     public void BusquedaAvanzada(View view){
@@ -65,13 +243,41 @@ public class InicioPrincipal extends AppCompatActivity {
         Intent siguienteACDC = new Intent (this, PerfilEventoACDC.class);
         startActivity(siguienteACDC);
     }
-    public void SiguientePrincipal(View view){
-        Intent siguiente = new Intent (this, InicioPrincipal.class);
-        startActivity(siguiente);
+
+    public void SiguienteArtista(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipal2.class);
+        startActivity(siguienteACDC);
     }
+
+    public void SiguienteEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento.class);
+        startActivity(siguienteACDC);
+    }
+
+    public void AnteriorEvento(View view){
+        Intent siguienteACDC = new Intent (this, InicioPrincipalEvento3.class);
+        startActivity(siguienteACDC);
+    }
+
     public void PerfilUsuario(View view){
-        Intent siguiente = new Intent (this, PerfilUsuario.class);
-        startActivity(siguiente);
+        int tipoUsuario=obtenerTipoUsuario();
+        if (tipoUsuario==1) {
+            Intent siguiente = new Intent(this, PerfilUsuario.class);
+            startActivity(siguiente);
+        }
+        if (tipoUsuario==2) {
+            Intent siguiente = new Intent(this, PerfilArtistaKiki1.class);
+            startActivity(siguiente);
+        }
+        if (tipoUsuario==3) {
+            Intent siguiente = new Intent(this, PerfilOrganizador.class);
+            startActivity(siguiente);
+        }
+        if (tipoUsuario==4) {
+            Intent siguiente = new Intent(this, PerfilAdministrador.class);
+            startActivity(siguiente);
+        }
+
     }
 
 }
