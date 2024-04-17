@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
 
     <TextView
         android:id="@+id/Cabecera3"
@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -67,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.136"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/Cabecera2"
@@ -84,7 +84,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout,TextContrastCheck" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -130,7 +130,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.203"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -177,30 +177,31 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="50dp"
-        android:layout_height="48dp"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:importantForAccessibility="no"
+        android:onClick="SiguienteCero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928"
-        app:srcCompat="@drawable/menos"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/menos" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="59dp"
-        android:layout_height="48dp"
+        android:layout_height="35dp"
         android:clickable="true"
 
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintHorizontal_bias="0.639"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928"
+        app:layout_constraintVertical_bias="0.923"
         app:srcCompat="@drawable/mas2"
         tools:ignore="ImageContrastCheck" />
 

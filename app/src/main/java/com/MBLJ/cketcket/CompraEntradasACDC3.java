@@ -236,4 +236,8 @@ public class CompraEntradasACDC3 extends AppCompatActivity {
         Intent siguiente = new Intent(this, PasarelaPagoACDC.class);
         startActivity(siguiente);
     }
+    public void SiguienteCero(View view) {
+        Intent siguiente = new Intent(this, CompraEntradasACDC2.class);
+        startActivity(siguiente);
+    }
 }
