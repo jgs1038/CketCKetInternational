@@ -7,52 +7,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.content.SharedPreferences;
 import android.widget.Toast;
 
 public class Registro extends AppCompatActivity {
-    private EditText tipo;
+
+    CheckBox checkBox1, checkBox2, checkBox3, checkBox4;
+    Button button99;
+    int tipoUsuario;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registro);
-        tipo = (EditText) findViewById(R.id.tipoUsuario);
-
-    }
-    protected void onStop(){
-        super.onStop();
-        guardarTipoUsuario();
-        String tipoUsuario = tipo.getText().toString();
-        if (tipoUsuario.equals("1") || tipoUsuario.equals("2") || tipoUsuario.equals("4") ) {
-            Toast.makeText(this, "Resgistro Terminado", Toast.LENGTH_SHORT).show();
-            }
-
-        }
-
-    public void guardarTipoUsuario() {
-        int tipoUsuario = Integer.parseInt(tipo.getText().toString());
-        SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        editor.putInt("tipoUsuario", tipoUsuario);
-        editor.apply();
     }
 
-    public void SiguientePrincipal(View view){
-        guardarTipoUsuario();
-        String tipoUsuario = tipo.getText().toString();
-        Intent siguiente = null ;
-        if (tipoUsuario.equals("1") || tipoUsuario.equals("2") || tipoUsuario.equals("4") ) {
-            siguiente = new Intent(this, InicioPrincipal.class);
-        }
-
-        if (tipoUsuario.equals("3")) {
-            siguiente = new Intent(this, Formulario.class);
-        }
-        if(siguiente != null){
-            startActivity(siguiente);
-        }
+    public void Registro1(View view) {
+        Intent siguiente = new Intent(this, Registro1.class);
+        startActivity(siguiente);
     }
-
 
 }
