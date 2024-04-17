@@ -68,96 +68,29 @@
         android:id="@+id/botonRegistro"
         android:layout_width="133dp"
         android:layout_height="61dp"
-        android:onClick="SiguientePrincipal"
+        android:onClick="Registro1"
         android:text="@string/registrarseboton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/artista"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <CheckBox
-        android:id="@+id/usuario"
-        android:layout_width="161dp"
-        android:layout_height="wrap_content"
-        android:text="Usuario"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.148"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825"
-        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds,VisualLintOverlap" />
-
-    <CheckBox
-        android:id="@+id/artista"
-        android:layout_width="161dp"
-        android:layout_height="wrap_content"
-        android:text="Artista"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.148"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896"
-        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
-
-    <CheckBox
-        android:id="@+id/organizador"
-        android:layout_width="161dp"
-        android:layout_height="wrap_content"
-        android:text="Organizador"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825"
-        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tipo Usuario"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/usuario"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="DuplicateIds,HardcodedText" />
-
-    <CheckBox
-        android:id="@+id/administrador"
-        android:layout_width="161dp"
-        android:layout_height="wrap_content"
-        android:text="Administrador"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896"
-        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="226dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Introduce tus apellidos"
         android:inputType="text"
         android:minHeight="48dp"
+        android:text="Introduce tus apellidos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fondo"
-        app:layout_constraintVertical_bias="0.257"
-        tools:ignore="HardcodedText,TextContrastCheck,VisualLintOverlap" />
+        app:layout_constraintTop_toBottomOf="@+id/Nombre"
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="HardcodedText,LabelFor,TextContrastCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView15"
@@ -167,28 +100,44 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextText3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.247"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="DuplicateIds,HardcodedText,VisualLintOverlap" />
 
     <EditText
         android:id="@+id/Nombre"
-        android:layout_width="186dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Introduce tu nombre"
         android:importantForAutofill="no"
         android:inputType="text"
         android:minHeight="48dp"
+        android:text="Introduce tu nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondo"
-        app:layout_constraintVertical_bias="0.107"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.085"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="Confirma contraseña"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+        app:layout_constraintVertical_bias="0.202"
+        tools:ignore="HardcodedText,LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView15"
@@ -198,7 +147,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/Nombre"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.255"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondo"
         app:layout_constraintVertical_bias="1.0"
@@ -212,27 +161,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextText2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondo"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.914"
         tools:ignore="DuplicateIds,HardcodedText" />
 
     <EditText
         android:id="@+id/editTextText3"
-        android:layout_width="186dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nombre de usuario"
         android:importantForAutofill="no"
         android:inputType="text"
+        android:text="Nombre de usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2"
-        app:layout_constraintVertical_bias="0.114"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck,VisualLintOverlap,DuplicateSpeakableTextCheck" />
+        app:layout_constraintVertical_bias="0.063"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,LabelFor,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView15"
@@ -242,11 +191,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextText6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondo"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="DuplicateIds,HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="Confirma tu contraseña"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6"
+        app:layout_constraintVertical_bias="0.114"
+        tools:ignore="HardcodedText,LabelFor,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView15"
@@ -256,7 +221,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextText5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.265"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fondo"
         app:layout_constraintVertical_bias="1.0"
@@ -270,60 +235,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextText4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="DuplicateIds,HardcodedText" />
 
     <EditText
-        android:id="@+id/editTextText4"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Confirma contraseña"
-        android:importantForAutofill="no"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toEndOf="@+id/editTextText5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6"
-        app:layout_constraintVertical_bias="0.463"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck,VisualLintOverlap" />
-
-    <EditText
-        android:id="@+id/editTextText5"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:ems="10"
-        android:hint="Confirma tu contraseña"
-        android:importantForAutofill="no"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck,VisualLintOverlap" />
-
-    <EditText
         android:id="@+id/editTextText6"
-        android:layout_width="170dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Introduce tu correo"
         android:importantForAutofill="no"
         android:inputType="text"
         android:minHeight="48dp"
+        android:text="Introduce tu correo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.878"
-        app:layout_constraintStart_toEndOf="@+id/Nombre"
-        app:layout_constraintTop_toTopOf="@+id/fondo"
-        app:layout_constraintVertical_bias="0.107"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        app:layout_constraintVertical_bias="0.081"
+        tools:ignore="HardcodedText,LabelFor,TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
