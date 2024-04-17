@@ -26,7 +26,7 @@ public class InicioSesion extends AppCompatActivity {
         checkBox3 = findViewById(R.id.organizador);
         checkBox4 = findViewById(R.id.administrador);
         button99 = findViewById(R.id.IniciarSesion);
-
+        checkBox1.setChecked(true);
         checkBox1.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
                 checkBox2.setChecked(false);
