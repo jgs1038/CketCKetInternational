@@ -260,10 +260,10 @@
 
         <ImageView
             android:id="@+id/imageView18"
-            android:layout_width="412dp"
-            android:layout_height="136dp"
+            android:layout_width="414dp"
+            android:layout_height="135dp"
             android:contentDescription="@string/imagenartista"
-            android:src="@drawable/asedese"
+            android:src="@drawable/acdcrojo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
