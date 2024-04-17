@@ -11,7 +11,7 @@
         android:layout_width="443dp"
         android:layout_height="141dp"
         android:contentDescription="@string/imagenartista"
-        android:src="@drawable/asedese"
+        android:src="@drawable/abcd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
