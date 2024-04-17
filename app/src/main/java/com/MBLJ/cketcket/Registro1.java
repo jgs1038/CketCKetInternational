@@ -27,38 +27,26 @@ public class Registro1 extends AppCompatActivity {
         checkBox4 = findViewById(R.id.administrador);
         button99 = findViewById(R.id.botonRegistro);
 
+        checkBox1.setChecked(true);
+        tipoUsuario = 1;
+        button99.setEnabled(true);
+
         checkBox1.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
                 checkBox2.setChecked(false);
                 checkBox3.setChecked(false);
                 checkBox4.setChecked(false);
-                button99.setEnabled(true);
-                button99.setOnClickListener(v -> {
-                    tipoUsuario = 1;
-                    guardarTipoUsuario();
-                    Intent intent = new Intent(Registro1.this, InicioPrincipal.class);
-                    startActivity(intent);
-                });
-            } else {
-                button99.setEnabled(false);
+                tipoUsuario = 1;
             }
         });
-
         checkBox2.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
                 checkBox1.setChecked(false);
                 checkBox3.setChecked(false);
                 checkBox4.setChecked(false);
-                button99.setEnabled(true);
-                button99.setOnClickListener(v -> {
-                    tipoUsuario = 2;
-                    guardarTipoUsuario();
-                    Intent intent = new Intent(Registro1.this, InicioPrincipal.class);
-                    startActivity(intent);
-                });
-            } else {
-                button99.setEnabled(false);
+                tipoUsuario = 2;
             }
+            button99.setEnabled(isChecked);
         });
 
         checkBox3.setOnCheckedChangeListener((buttonView, isChecked) -> {
@@ -66,35 +54,28 @@ public class Registro1 extends AppCompatActivity {
                 checkBox1.setChecked(false);
                 checkBox2.setChecked(false);
                 checkBox4.setChecked(false);
-                button99.setEnabled(true);
-                button99.setOnClickListener(v -> {
-                    tipoUsuario = 3;
-                    guardarTipoUsuario();
-                    Intent intent = new Intent(Registro1.this, Formulario.class);
-                    startActivity(intent);
-                });
-            } else {
-                button99.setEnabled(false);
+                tipoUsuario = 3;
             }
+            button99.setEnabled(isChecked);
         });
+
         checkBox4.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
                 checkBox1.setChecked(false);
                 checkBox2.setChecked(false);
                 checkBox3.setChecked(false);
-                button99.setEnabled(true);
-                button99.setOnClickListener(v -> {
-                    tipoUsuario = 4;
-                    guardarTipoUsuario();
-                    Intent intent = new Intent(Registro1.this, InicioPrincipal.class);
-                    startActivity(intent);
-                });
-            } else {
-                button99.setEnabled(false);
+                tipoUsuario = 4;
             }
+            button99.setEnabled(isChecked);
         });
 
+        button99.setOnClickListener(v -> {
+            guardarTipoUsuario();
+            Intent intent = new Intent(Registro1.this, InicioPrincipal.class);
+            startActivity(intent);
+        });
     }
+
     protected void onStop(){
         super.onStop();
         guardarTipoUsuario();
