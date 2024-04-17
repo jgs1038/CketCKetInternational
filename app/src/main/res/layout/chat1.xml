@@ -26,8 +26,22 @@
         app:srcCompat="@drawable/mas"
         tools:ignore="ImageContrastCheck" />
 
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:onClick="Chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/chatelwey" />
+
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +49,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/chattt" />
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/chatlata" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
