@@ -18,6 +18,9 @@
             android:name=".Registro"
             android:exported="false"/>
         <activity
+            android:name=".Registro1"
+            android:exported="false"/>
+        <activity
             android:name=".InicioSesion"
             android:exported="false"/>
         <activity
