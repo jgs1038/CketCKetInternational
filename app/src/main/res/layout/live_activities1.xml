@@ -73,18 +73,18 @@
 
     <ImageButton
         android:id="@+id/preguntasRespuestas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="206dp"
+        android:layout_height="61dp"
         android:background="#FDFCFC"
         android:importantForAccessibility="no"
         android:onClick="PreguntasRespuestas"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779"
+        app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/pregutas_respuestas" />
 
     <ImageButton
@@ -97,10 +97,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876"
+        app:layout_constraintVertical_bias="0.867"
         app:srcCompat="@drawable/historia_intagram" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
