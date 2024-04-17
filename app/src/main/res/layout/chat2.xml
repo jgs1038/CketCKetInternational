@@ -19,7 +19,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/chattt" />
+        app:srcCompat="@drawable/chattt"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/mas_azul"
@@ -55,19 +56,19 @@
 
     <ImageButton
         android:id="@+id/buscar_usuarios"
-        android:layout_width="228dp"
-        android:layout_height="wrap_content"
+        android:layout_width="216dp"
+        android:layout_height="63dp"
         android:background="#FFFFFF"
         android:importantForAccessibility="no"
         android:onClick="BuscarUsuario"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintHorizontal_bias="0.69"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71"
-        app:srcCompat="@drawable/buscusu" />
+        app:layout_constraintVertical_bias="0.717"
+        app:srcCompat="@drawable/buscar_usuarios_negrita_otravez" />
 
     <ImageButton
         android:id="@+id/Compradas"
