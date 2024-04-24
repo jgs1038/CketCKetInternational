@@ -69,7 +69,7 @@ public class InicioSesionIN extends AppCompatActivity {
 
         button99.setOnClickListener(v -> {
             guardarTipoUsuario();
-            Intent intent = new Intent(InicioSesionIN.this, InicioPrincipal.class);
+            Intent intent = new Intent(InicioSesionIN.this, InicioPrincipalIN.class);
             startActivity(intent);
         });
     }

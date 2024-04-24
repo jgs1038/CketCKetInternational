@@ -72,11 +72,11 @@ public class Registro1IN extends AppCompatActivity {
         button99.setOnClickListener(v -> {
             guardarTipoUsuario();
             if (tipoUsuario == 1 || tipoUsuario == 2 || tipoUsuario == 4) {
-                Intent intent = new Intent(Registro1IN.this, InicioPrincipal.class);
+                Intent intent = new Intent(Registro1IN.this, InicioPrincipalIN.class);
                 startActivity(intent);
             }
             if (tipoUsuario == 3){
-                Intent intent = new Intent(Registro1IN.this, Formulario.class);
+                Intent intent = new Intent(Registro1IN.this, FormularioIN.class);
                 startActivity(intent);
             }
         });

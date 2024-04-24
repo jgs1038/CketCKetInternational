@@ -374,6 +374,42 @@
             android:exported="false"
             android:label="Log In"/>
         <activity
+            android:name=".InicioPrincipalIN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipal2IN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipal3IN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipal4IN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipal5IN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipalEventoIN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipalEvento2IN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".InicioPrincipalEvento3IN"
+            android:exported="false"
+            android:label="Main Start"/>
+        <activity
+            android:name=".FormularioIN"
+            android:exported="false"
+            android:label="Form"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
