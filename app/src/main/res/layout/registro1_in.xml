@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="203dp"
+        android:layout_height="82dp"
+        android:text="@string/cketcket"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="69dp"
+        android:contentDescription="@string/titulo"
+        android:rotation="-33"
+        app:layout_constraintBottom_toTopOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/titulo1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628"
+        app:srcCompat="@drawable/ticket" />
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="413dp"
+        android:layout_height="495dp"
+        android:contentDescription="@string/fondo"
+        android:scaleType="matrix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/azul2"
+        tools:ignore="VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/administrador"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:text="Administrator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/usuario"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:text="User"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/artista"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:text="Artist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.981"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/organizador"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dp"
+        android:layout_marginBottom="224dp"
+        android:text="Organizer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linea_titulo"
+        app:layout_constraintVertical_bias="0.445"
+        tools:ignore="HardcodedText,UnknownIdInLayout,VisualLintBounds,VisualLintButtonSize,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/linea_titulo"
+        android:layout_width="426dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/linea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/linea"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/botonRegistro"
+        android:layout_width="133dp"
+        android:layout_height="61dp"
+        android:onClick="Registro1"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/administrador"
+        app:layout_constraintVertical_bias="0.662"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

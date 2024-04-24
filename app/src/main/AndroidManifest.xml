@@ -359,6 +359,21 @@
             android:exported="false"
             android:label="Error"/>
         <activity
+            android:name=".InicioIN"
+            android:exported="false"/>
+        <activity
+            android:name=".RegistroIN"
+            android:exported="false"
+            android:label="Register"/>
+        <activity
+            android:name=".Registro1IN"
+            android:exported="false"
+            android:label="Register"/>
+        <activity
+            android:name=".InicioSesionIN"
+            android:exported="false"
+            android:label="Log In"/>
+        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>

@@ -1,18 +1,18 @@
 package com.MBLJ.cketcket;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class Inicio extends AppCompatActivity {
+
+public class InicioIN extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inicio);
+        setContentView(R.layout.inicio_in);
 
     }
     @Override
@@ -21,16 +21,16 @@ public class Inicio extends AppCompatActivity {
         Toast.makeText(this, "Iniciando", Toast.LENGTH_SHORT).show();
     }
     public void SiguienteRegistro(View view) {
-        Intent siguiente = new Intent(this, Registro.class);
+        Intent siguiente = new Intent(this, RegistroIN.class);
         startActivity(siguiente);
     }
 
     public void SiguienteInicio(View view) {
-        Intent posterior = new Intent(this, InicioSesion.class);
+        Intent posterior = new Intent(this, InicioSesionIN.class);
         startActivity(posterior);
     }
-    public void Ingles(View view) {
-        Intent posterior = new Intent(this, InicioIN.class);
+    public void Español(View view) {
+        Intent posterior = new Intent(this, Inicio.class);
         startActivity(posterior);
     }
 }
