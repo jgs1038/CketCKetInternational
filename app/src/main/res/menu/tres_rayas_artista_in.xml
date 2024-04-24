@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mis_entradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Mis entradas"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/ForoDudas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Doubts Forum"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/asistencia_tecnica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Technical Assistance"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Chat"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/mis_puntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="My Points"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/usuarios_bloqueados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Banned Users"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/live_activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Live activities"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/merchandising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Merchandising"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/solicitud_evento"
+        android:title="Event Request"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/datos_evento"
+        android:title="Modify Event Data"
+        tools:ignore="HardcodedText" />
+</menu>
