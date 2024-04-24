@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-42dp">
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rrss"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/compra_nicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="SiguienteError4"
+        android:text="@string/comprar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rrss"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <ImageView
+        android:id="@+id/rrss"
+        android:layout_width="406dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/rrss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.453"
+        app:srcCompat="@drawable/rrss" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/redes_sociales_del_evento"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/googleMaps"
+        app:layout_constraintVertical_bias="0.121"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/googleMaps"
+        android:layout_width="137dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/maps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        app:srcCompat="@drawable/maps" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubicacion_pe"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/googleMaps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wizin"
+        app:layout_constraintVertical_bias="0.571"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/linea"
+        android:layout_width="52dp"
+        android:layout_height="115dp"
+        android:contentDescription="@string/rss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wizin"
+        app:layout_constraintVertical_bias="0.143"
+        app:srcCompat="@drawable/img_1"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/nickiNicole"
+        android:layout_width="237dp"
+        android:layout_height="131dp"
+        android:contentDescription="@string/nicki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fantasma_opera"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/Nicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/el_fantasma"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/Nicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/de_la_opera"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/nickiNicole"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/imagenesEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imagenes_del_evento_pe"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/wizin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickiNicole"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <ImageView
+        android:id="@+id/wizin"
+        android:layout_width="186dp"
+        android:layout_height="126dp"
+        android:contentDescription="@string/wizink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/fantopera" />
+
+    <TextView
+        android:id="@+id/Fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_23_05_2024"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estadio"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/precio"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
+        app:layout_constraintVertical_bias="0.53"
+        tools:ignore="DuplicateIds,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenesEvento"
+        app:layout_constraintVertical_bias="0.407"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/desde_25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estadio"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <ImageView
+        android:id="@+id/estadio"
+        android:layout_width="195dp"
+        android:layout_height="132dp"
+        android:contentDescription="@string/estadio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/wizin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        app:srcCompat="@drawable/el_fantasma"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

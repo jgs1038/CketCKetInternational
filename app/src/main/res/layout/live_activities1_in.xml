@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventob"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-42dp">
+
+    <ImageButton
+        android:id="@+id/mas_azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F3EEEE"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acdc"
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/mas"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/acdc"
+        android:layout_width="408dp"
+        android:layout_height="554dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/liveactivities27"
+        tools:ignore="VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/directo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:importantForAccessibility="no"
+        android:onClick="Directo"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        app:srcCompat="@drawable/directo" />
+
+    <ImageButton
+        android:id="@+id/encuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:importantForAccessibility="no"
+        android:onClick="Encuesta"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="@+id/acdc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693"
+        app:srcCompat="@drawable/encuestas" />
+
+    <ImageButton
+        android:id="@+id/preguntasRespuestas"
+        android:layout_width="206dp"
+        android:layout_height="61dp"
+        android:background="#FDFCFC"
+        android:importantForAccessibility="no"
+        android:onClick="PreguntasRespuestas"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78"
+        app:srcCompat="@drawable/pregutas_respuestas" />
+
+    <ImageButton
+        android:id="@+id/historia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:importantForAccessibility="no"
+        android:onClick="Historia"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867"
+        app:srcCompat="@drawable/historia_intagram" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

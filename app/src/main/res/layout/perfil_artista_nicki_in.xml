@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-42dp">
+
+    <ImageView
+        android:id="@+id/nnicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/foto_perfil_nicki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/nicki" />
+
+    <TextView
+        android:id="@+id/EvebtoPricipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_pricipal_del_artista"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nnicki"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/otrosEvetosNicki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otros_eventos_del_artista"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EventoNicki"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ImageView
+        android:id="@+id/eventoNickiNicole"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:contentDescription="@string/evento1N"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99"
+        app:srcCompat="@drawable/evento2nicki" />
+
+    <ImageView
+        android:id="@+id/eventoACDCAdmin"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:contentDescription="@string/evento2N"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/evento3N"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
+        app:layout_constraintVertical_bias="0.435"
+        app:srcCompat="@drawable/evento1nicki" />
+
+    <ImageView
+        android:id="@+id/evento3N"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:contentDescription="@string/evento3N"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otrosEvetosNicki"
+        app:layout_constraintVertical_bias="0.435"
+        app:srcCompat="@drawable/evento3nicki" />
+
+    <ImageButton
+        android:id="@+id/EventoNicki"
+        android:layout_width="277dp"
+        android:layout_height="138dp"
+        android:background="#F6F4F4"
+        android:importantForAccessibility="no"
+        android:onClick="EventoNicki"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EvebtoPricipal"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/nicki_portada" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

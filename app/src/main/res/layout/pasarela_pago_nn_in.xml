@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PasarelaPagoNN">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="233dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/infonnii"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="179dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/nicki_portada"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/selecpago"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="299dp"
+        android:layout_height="111dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/precionn"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="415dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/metodopago"
+        android:importantForAccessibility="no"
+        tools:ignore="VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="412dp"
+        android:layout_height="49dp"
+        android:text="Pago a contra reembolso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="412dp"
+        android:layout_height="49dp"
+        android:text="PayPal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="412dp"
+        android:layout_height="49dp"
+        android:text="Tarjeta de Regalo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="82dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569"
+        app:srcCompat="@drawable/mastercard"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="61dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        app:srcCompat="@drawable/visa"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="62dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
+        app:srcCompat="@drawable/american_express"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="125dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725"
+        app:srcCompat="@drawable/paypal"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782"
+        app:srcCompat="@drawable/regalo"
+        android:importantForAccessibility="no" />
+
+    <Button
+        android:id="@+id/button66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducir Datos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        app:srcCompat="@drawable/cardcket"
+        tools:ignore="ImageContrastCheck"
+        android:importantForAccessibility="no" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="412dp"
+        android:layout_height="49dp"
+        android:text="Tarjeta de crédito/ débito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
