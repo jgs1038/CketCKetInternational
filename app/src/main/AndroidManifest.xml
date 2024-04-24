@@ -376,39 +376,337 @@
         <activity
             android:name=".InicioPrincipalIN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipal2IN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipal3IN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipal4IN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipal5IN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipalEventoIN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipalEvento2IN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
         <activity
             android:name=".InicioPrincipalEvento3IN"
             android:exported="false"
-            android:label="Main Start"/>
+            android:label="Main Satart"/>
+        <activity
+            android:name=".PerfilEventoNickiIN"
+            android:exported="false"
+            android:label="Event Profile"/>
+        <activity
+            android:name=".PerfilArtistaNickiIN"
+            android:exported="false"
+            android:label="Artist Profile"/>
+        <activity
+            android:name=".PerfilArtistaKikiIN"
+            android:exported="false"
+            android:label="Artist Profile"/>
+        <activity
+            android:name=".PerfilArtistaKiki1IN"
+            android:exported="false"
+            android:label="Artist Profile"/>
+        <activity
+            android:name=".PerfilEventoKikiIN"
+            android:exported="false"
+            android:label="Event Profile"/>
+        <activity
+            android:name=".HistoriaKikiIN"
+            android:exported="false"
+            android:label="Story"/>
+        <activity
+            android:name=".PerfilEventoACDCIN"
+            android:exported="false"
+            android:label="Event Profile"/>
+        <activity
+            android:name=".PerfilArtistaACDCIN"
+            android:exported="false"
+            android:label="Artist Profile"/>
+        <activity
+            android:name=".PerfilEventoDuneIN"
+            android:exported="false"
+            android:label="Event Profile"/>
+        <activity
+            android:name=".PerfilEventoBLIN"
+            android:exported="false"
+            android:label="Event Profile"/>
+        <activity
+            android:name=".PerfilEventoTeatroIN"
+            android:exported="false"
+            android:label="Event Profile"/>
+        <activity
+            android:name=".PerfilUsuarioIN"
+            android:exported="false"
+            android:label="User Profile"/>
+        <activity
+            android:name=".MisEntradasIN"
+            android:exported="false"
+            android:label="My Tickets"/>
+        <activity
+            android:name=".ForoDudasIN"
+            android:exported="false"
+            android:label="Doubts Forum"/>
+        <activity
+            android:name=".AsistenciaTecnicaIN"
+            android:exported="false"
+            android:label="Technical Assistance"/>
+        <activity
+            android:name=".ChatIN"
+            android:exported="false"
+            android:label="Chat"/>
+        <activity
+            android:name=".Chat1IN"
+            android:exported="false"
+            android:label="Chat"/>
+        <activity
+            android:name=".Chat2IN"
+            android:exported="false"
+            android:label="Chat"/>
+        <activity
+            android:name=".MisPuntosIN"
+            android:exported="false"
+            android:label="My Points"/>
+        <activity
+            android:name=".MisPuntosArtistaIN"
+            android:exported="false"
+            android:label="My Points"/>
+        <activity
+            android:name=".MisPuntosAdministradorIN"
+            android:exported="false"
+            android:label="My Points"/>
+        <activity
+            android:name=".MisPuntosOrganizadorIN"
+            android:exported="false"
+            android:label="My Points"/>
+        <activity
+            android:name=".BloqueadoIN"
+            android:exported="false"
+            android:label="Banned"/>
+        <activity
+            android:name=".BusquedaAvanzadaIN"
+            android:exported="false"
+            android:label="Advanced Search"/>
+        <activity
+            android:name=".BusquedaAvanzadaEventoIN"
+            android:exported="false"
+            android:label="Advanced Search - Events"/>
+        <activity
+            android:name=".BusquedaAvanzadaMerchandisingIN"
+            android:exported="false"
+            android:label="Advanced Search - Merch"/>
+        <activity
+            android:name=".BusquedaUsuarioIN"
+            android:exported="false"
+            android:label="User Search"/>
+        <activity
+            android:name=".LiveActivitiesIN"
+            android:exported="false"
+            android:label="Live Activities"/>
+        <activity
+            android:name=".LiveActivities1IN"
+            android:exported="false"
+            android:label="Live Activities"/>
+        <activity
+            android:name=".MerchandisingIN"
+            android:exported="false"
+            android:label="Merchandising"/>
+        <activity
+            android:name=".TiendaPuntosIN"
+            android:exported="false"
+            android:label="Points Store"/>
+        <activity
+            android:name=".UsuariosBloqueadosIN"
+            android:exported="false"
+            android:label="Banned Users"/>
+        <activity
+            android:name=".EntradasCompradasIN"
+            android:exported="false"
+            android:label="Chat - Tickets bought"/>
+        <activity
+            android:name=".EntradasVendidasIN"
+            android:exported="false"
+            android:label="Chat - Tickets Sold"/>
+        <activity
+            android:name=".EmpezarDirectoIN"
+            android:exported="false"
+            android:label="Start Direct"/>
+        <activity
+            android:name=".CrearEncuestaIN"
+            android:exported="false"
+            android:label="Create Surveys"/>
+        <activity
+            android:name=".PreguntasRespuestasIN"
+            android:exported="false"
+            android:label="Questions and Answeres"/>
+        <activity
+            android:name=".AnadirHistoriaIN"
+            android:exported="false"
+            android:label="Add Stories"/>
+        <activity
+            android:name=".SolicitudEventoArtistaIN"
+            android:exported="false"
+            android:label="Event Request"/>
+        <activity
+            android:name=".SolicitudEventoOrganizadorIN"
+            android:exported="false"
+            android:label="Post Event"/>
+        <activity
+            android:name=".CompraEntradasACDCIN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasACDC2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasACDC3IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CeAcdcF2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CeAcdcF22IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CeAcdcF2V2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CeAcdcF2V22IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".PasarelaPagoACDCIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoACDCTarjetaIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoACDCTarjeta2IN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoACDCContrareembolsoIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoACDCRegaloIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoACDCPayPalIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoACDCFinIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNTarjetaIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNTarjeta2IN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNContrareembolsoIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNRegaloIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNPayPalIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".PasarelaPagoNNFinIN"
+            android:exported="false"
+            android:label="Payment Gateway"/>
+        <activity
+            android:name=".ModificarDatosEventoIN"
+            android:exported="false"
+            android:label="Modify Event Data"/>
+        <activity
+            android:name=".AceptarSolicitudIN"
+            android:exported="false"
+            android:label="Accept Request"/>
         <activity
             android:name=".FormularioIN"
             android:exported="false"
             android:label="Form"/>
+        <activity
+            android:name=".CrearDescuentosIN"
+            android:exported="false"
+            android:label="Create Discounts"/>
+        <activity
+            android:name=".PerfilOrganizadorIN"
+            android:exported="false"
+            android:label="Organizer Profile"/>
+        <activity
+            android:name=".PerfilAdministradorIN"
+            android:exported="false"
+            android:label="Administrator Profile"/>
+        <activity
+            android:name=".CompraEntradasNickiIN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasNicki2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasNicki3IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecioIN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio1_2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".CompraEntradasNickiPrecio2_2IN"
+            android:exported="false"
+            android:label="Buy Tickets"/>
+        <activity
+            android:name=".Error404IN"
+            android:exported="false"
+            android:label="Error"/>
+
+
         <activity
             android:name=".Inicio"
             android:exported="true">
