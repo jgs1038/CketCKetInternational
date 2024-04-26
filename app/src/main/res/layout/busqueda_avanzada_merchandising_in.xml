@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ayuda" />
+        app:srcCompat="@drawable/barraabajobusqueda_ingles" />
 
     <ImageView
         android:id="@+id/merchb"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.234"
-        app:srcCompat="@drawable/merchb"
+        app:srcCompat="@drawable/busquedamerch_ingles"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018"
-        app:srcCompat="@drawable/barrabusqueda"
+        app:srcCompat="@drawable/barrabusqueda_ingles"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
@@ -57,11 +57,11 @@
         android:contentDescription="@string/lupa_ba"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081"
-        app:srcCompat="@drawable/filtro"
+        app:layout_constraintVertical_bias="0.105"
+        app:srcCompat="@drawable/filtro_ingles"
         tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993"
-        app:srcCompat="@drawable/busqueda_azul"
+        app:srcCompat="@drawable/emotebusquedasi_ingles"
         tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"
-        app:srcCompat="@drawable/inicio_noazul"
+        app:srcCompat="@drawable/emoteiniciono_ingles"
         tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.996"
-        app:srcCompat="@drawable/perfil"
+        app:srcCompat="@drawable/emoteperfilno_ingles"
         tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageView
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/barrabusqueda"
+        app:srcCompat="@drawable/barrabusqueda_ingles"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
@@ -81,11 +81,11 @@
         android:contentDescription="@string/lupa_ba"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085"
-        app:srcCompat="@drawable/filtro"
+        app:layout_constraintVertical_bias="0.113"
+        app:srcCompat="@drawable/filtro_ingles"
         tools:ignore="ImageContrastCheck" />
 
     <Button
@@ -93,7 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Evento"
-        android:text="@string/evento1"
+        android:text="@string/eventoingles"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.784"
