@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/chatelwey"
+        app:srcCompat="@drawable/chat1m_ingles"
         tools:ignore="DuplicateIds" />
 
     <ImageView
@@ -34,9 +34,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/chattt2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/chat1cr_ingles" />
 
     <ImageButton
         android:id="@+id/mas_azul"
@@ -68,23 +68,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.633"
-        app:srcCompat="@drawable/usu" />
+        app:srcCompat="@drawable/desplegable1_ingles" />
 
     <ImageButton
         android:id="@+id/buscar_usuarios"
-        android:layout_width="216dp"
-        android:layout_height="63dp"
+        android:layout_width="228dp"
+        android:layout_height="68dp"
         android:background="#FFFFFF"
         android:importantForAccessibility="no"
         android:onClick="BuscarUsuario"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717"
-        app:srcCompat="@drawable/buscar_usuarios_negrita_otravez" />
+        app:layout_constraintVertical_bias="0.739"
+        app:srcCompat="@drawable/desplegable2_ingles" />
 
     <ImageButton
         android:id="@+id/Compradas"
@@ -99,23 +99,23 @@
         app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78"
-        app:srcCompat="@drawable/entradascomprar" />
+        app:layout_constraintVertical_bias="0.827"
+        app:srcCompat="@drawable/desplegable3_ingles" />
 
     <ImageButton
         android:id="@+id/Vendidas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="327dp"
+        android:layout_height="57dp"
         android:background="#EDECEC"
         android:importantForAccessibility="no"
         android:onClick="EntradasVendidas"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.863"
-        app:srcCompat="@drawable/entradasvender" />
+        app:layout_constraintVertical_bias="0.912"
+        app:srcCompat="@drawable/desplegable4_ingles" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

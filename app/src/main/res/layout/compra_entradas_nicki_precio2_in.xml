@@ -9,16 +9,16 @@
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="434dp"
-        android:layout_height="50dp"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ordenarpor"
+        app:srcCompat="@drawable/ordenarpor_ingles1"
         tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
     <Button
@@ -28,7 +28,7 @@
         android:background="#CCCCCC"
         android:backgroundTint="#CCCCCCCC"
         android:onClick="SiguienteMayorMenor"
-        android:text="Mayor a Menor"
+        android:text="Highest to Lowest"
         android:textColor="#000000"
         android:textColorLink="#CCCCCC"
         android:textSize="12sp"
@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="jue, 21 march 2024, 21:00 jue | WiZink Centre, Madrid"
+        android:text="Thur, 21 march 2024, 9:00pm | WiZink Centre, Madrid"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -110,7 +110,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Inicio/ Música/ Urbano/ Nicki Nicole"
+        android:text="Start/ Music/ Urban/ Nicki Nicole"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -128,7 +128,7 @@
         android:layout_height="74dp"
         android:background="#00BBD3"
         android:onClick="SiguienteElegirAsientos"
-        android:text="ELEGIR MIS ASIENTOS"
+        android:text="CHOOSE MY SEATS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -143,7 +143,7 @@
         android:layout_height="75dp"
         android:background="#FF00BBD3"
         android:onClick="SiguientePorPrecios"
-        android:text="POR PRECIOS"
+        android:text="BY PRICES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -162,8 +162,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/entradas_nicki_mayor_menor"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/nnmayormenor_ingles"
         tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
     <ImageButton
