@@ -20,8 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005"
-        app:srcCompat="@drawable/aceptarsol"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@drawable/solicitudes" />
+        app:srcCompat="@drawable/aceptarsolicitud_ingles"
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

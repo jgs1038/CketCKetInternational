@@ -164,4 +164,7 @@
     <string name="error404" />
     <string name="Error" />
     <string name="emote" />
+    <string name="sendmessage">Send Message\n</string>
+    <string name="add_file_malo">add file</string>
+    <string name="addfile">Add file\n</string>
 </resources>
