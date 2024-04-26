@@ -168,4 +168,5 @@
     <string name="add_file_malo">add file</string>
     <string name="addfile">Add file\n</string>
     <string name="eventoingles">Event</string>
+    <string name="introduceNombreUsuario">ENTER USER NAME</string>
 </resources>

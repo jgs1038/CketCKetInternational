@@ -24,7 +24,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView47"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/seleccion2"
+            app:srcCompat="@drawable/acdcmayormenor_ingles"
             tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
         <ImageButton
@@ -227,16 +227,16 @@
 
         <ImageView
             android:id="@+id/imageView47"
-            android:layout_width="434dp"
-            android:layout_height="50dp"
+            android:layout_width="211dp"
+            android:layout_height="27dp"
             android:importantForAccessibility="no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.37"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView18"
-            app:layout_constraintVertical_bias="0.132"
-            app:srcCompat="@drawable/ordenarpor"
+            app:layout_constraintVertical_bias="0.131"
+            app:srcCompat="@drawable/ordenarpor_ingles1"
             tools:ignore="ImageContrastCheck,VisualLintBounds" />
 
         <Button
@@ -246,7 +246,7 @@
             android:background="#CCCCCC"
             android:backgroundTint="#CCCCCCCC"
             android:onClick="SiguienteMenorMayor"
-            android:text="Mayor a Menor"
+            android:text="Highest to lowest"
             android:textColor="#000000"
             android:textColorLink="#CCCCCC"
             android:textSize="12sp"
@@ -277,7 +277,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="44dp"
-            android:text="mié, 29 may 2024, 21:30mié | Estadio La Cartuja de Sevilla, Sevilla"
+            android:text="wed, 29 May 2024, 9:30pm | Stadium La Cartuja de Sevilla, Sevilla"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             android:textStyle="bold"
@@ -325,7 +325,7 @@
             android:id="@+id/Cabecera1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Inicio/Música/Hard Rock/Metal/AC/DC"
+            android:text="Start/Music/Hard Rock/Metal/AC/DC"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -345,7 +345,7 @@
         android:layout_height="75dp"
         android:background="#FF00BBD3"
         android:onClick="SiguienteMayorMenor"
-        android:text="POR PRECIOS"
+        android:text="BY PRICES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -360,7 +360,7 @@
         android:layout_height="74dp"
         android:background="#00BBD3"
         android:onClick="SiguienteElegirAsientos"
-        android:text="ELEGIR MIS ASIENTOS"
+        android:text="CHOOSEN MY SEATS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
