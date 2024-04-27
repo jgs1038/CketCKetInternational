@@ -19,17 +19,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/forordudad"
+        app:srcCompat="@drawable/forodedudas_ingles"
         tools:ignore="VisualLintBounds" />
 
     <Button
         android:id="@+id/añadirarchivo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/a_adir_archivo"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:text="@string/addfile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="0.876"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.939" />
@@ -38,7 +38,7 @@
         android:id="@+id/Enviarmensaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/enviar_mensaje_fd"
+        android:text="@string/enviaMensajeIngles"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"

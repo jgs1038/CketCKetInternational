@@ -100,7 +100,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Languaje:"
+        android:text="Language:"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/boton1"
         app:layout_constraintEnd_toEndOf="parent"

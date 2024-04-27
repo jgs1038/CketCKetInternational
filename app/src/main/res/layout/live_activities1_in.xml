@@ -28,7 +28,7 @@
     <ImageView
         android:id="@+id/acdc"
         android:layout_width="408dp"
-        android:layout_height="554dp"
+        android:layout_height="623dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005"
-        app:srcCompat="@drawable/liveactivities27"
+        app:srcCompat="@drawable/liveactivities_ingles"
         tools:ignore="VisualLintBounds" />
 
     <ImageButton
@@ -49,11 +49,11 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
-        app:srcCompat="@drawable/directo" />
+        app:layout_constraintVertical_bias="0.626"
+        app:srcCompat="@drawable/desplegablela1_ingles" />
 
     <ImageButton
         android:id="@+id/encuestas"
@@ -65,11 +65,11 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toStartOf="@+id/acdc"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693"
-        app:srcCompat="@drawable/encuestas" />
+        app:layout_constraintVertical_bias="0.704"
+        app:srcCompat="@drawable/desplegablela2_ingles" />
 
     <ImageButton
         android:id="@+id/preguntasRespuestas"
@@ -81,11 +81,11 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.795"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78"
-        app:srcCompat="@drawable/pregutas_respuestas" />
+        app:layout_constraintVertical_bias="0.789"
+        app:srcCompat="@drawable/desplegablela3_ingles" />
 
     <ImageButton
         android:id="@+id/historia"
@@ -97,10 +97,11 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867"
-        app:srcCompat="@drawable/historia_intagram" />
+        app:layout_constraintVertical_bias="0.855"
+        app:srcCompat="@drawable/desplegablela4_ingles"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

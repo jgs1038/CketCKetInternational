@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text=" Disco Alma"
+        android:text=" Disk Alma"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.001"
-        app:srcCompat="@drawable/barrabusqueda"
+        app:srcCompat="@drawable/barrabusqueda_ingles"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
@@ -111,70 +111,70 @@
 
     <ImageButton
         android:id="@+id/botoncompra"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
         android:importantForAccessibility="no"
         android:onClick="SiguienteError"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gafas_mala_costumbre"
-        app:layout_constraintVertical_bias="0.118"
-        app:srcCompat="@drawable/boton"
-        tools:ignore="DuplicateIds,ImageContrastCheck" />
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/comprar_ingles"
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/botoncompra"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
         android:importantForAccessibility="no"
         android:onClick="SiguienteError"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/camiseta"
-        app:layout_constraintVertical_bias="0.118"
-        app:srcCompat="@drawable/boton"
-        tools:ignore="DuplicateIds,ImageContrastCheck" />
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/comprar_ingles"
+        tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/botoncompra"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
         android:contentDescription="TODO"
         android:onClick="SiguienteError"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98"
-        app:srcCompat="@drawable/boton"
-        tools:ignore="ContentDescription,DuplicateIds,HardcodedText,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+        app:layout_constraintVertical_bias="0.945"
+        app:srcCompat="@drawable/comprar_ingles"
+        tools:ignore="ContentDescription,DuplicateIds,HardcodedText,ImageContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/botoncompra"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
         android:importantForAccessibility="no"
         android:onClick="SiguienteError"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintHorizontal_bias="0.942"
         app:layout_constraintStart_toEndOf="@+id/botoncompra"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98"
-        app:srcCompat="@drawable/boton"
-        tools:ignore="DuplicateIds,ImageContrastCheck,NotSibling" />
+        app:layout_constraintVertical_bias="0.946"
+        app:srcCompat="@drawable/comprar_ingles"
+        tools:ignore="DuplicateIds,ImageContrastCheck,NotSibling,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/Gafasmc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Gafas Mala Costumbre"
+        android:text="Glasses Mala Costumbre"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -189,7 +189,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Camiseta Nicky Nicole"
+        android:text="T-Shirt Nicki Nicole"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -204,7 +204,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Gorra AC/DC"
+        android:text="Cap AC/DC"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
