@@ -10,15 +10,15 @@
         android:id="@+id/imageView14"
         android:layout_width="233dp"
         android:layout_height="87dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/infoacdcdc"
-        tools:ignore="ImageContrastCheck"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/acdcppbarra_ingles"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -35,48 +35,50 @@
 
     <ImageView
         android:id="@+id/imageView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="412dp"
+        android:layout_height="25dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/selecpago"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/seleccioneelmetododepago_ingles"
+        tools:ignore="VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="299dp"
         android:layout_height="111dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.008"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
-        app:srcCompat="@drawable/regcompraacdc"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/numerodeoperacion_ingles" />
 
     <ImageView
         android:id="@+id/imageView31"
         android:layout_width="415dp"
         android:layout_height="56dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/metodopago"
-        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/metodosdepago_ingles"
         tools:ignore="VisualLintBounds" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="412dp"
         android:layout_height="49dp"
-        android:text="Pago a contra reembolso"
+        android:text="Cash on delivery payment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -102,7 +104,7 @@
         android:id="@+id/checkBox4"
         android:layout_width="412dp"
         android:layout_height="49dp"
-        android:text="Tarjeta de Regalo"
+        android:text="Gift card"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -180,7 +182,7 @@
         android:id="@+id/button99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Introducir Datos"
+        android:text="Introduce data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -207,7 +209,7 @@
         android:id="@+id/checkBox1"
         android:layout_width="412dp"
         android:layout_height="49dp"
-        android:text="Tarjeta de crédito/ débito"
+        android:text="Credit/debit card"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -10,15 +10,15 @@
         android:id="@+id/imageView14"
         android:layout_width="233dp"
         android:layout_height="87dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.099"
-        app:srcCompat="@drawable/infoacdcdc"
-        tools:ignore="ImageContrastCheck"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/acdcppbarra_ingles"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -37,33 +37,33 @@
         android:id="@+id/imageView28"
         android:layout_width="299dp"
         android:layout_height="111dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.008"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
-        app:srcCompat="@drawable/regcompraacdc"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/numerodeoperacion_ingles" />
 
     <ImageView
         android:id="@+id/imageView40"
         android:layout_width="415dp"
         android:layout_height="56dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/confirmacompra"
-        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/esperandocompra_ingles"
         tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Por favor confirme la compra a través de PayPal"
+        android:text="Please confirm the purchase through PayPal"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +76,7 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="(Esto puede llevar unos instantes)"
+        android:text="(This may take a few moments)"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,6 +102,7 @@
         android:layout_width="413dp"
         android:layout_height="48dp"
         android:background="#333333"
+        android:importantForAccessibility="no"
         android:onClick="SiguienteFin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,8 +110,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/redirpaypal"
-        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/irapaypal_ingles"
         tools:ignore="VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
