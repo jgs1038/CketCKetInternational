@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/busqueda"
+        app:srcCompat="@drawable/emotebusquedano_ingles"
         tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.995"
-        app:srcCompat="@drawable/inicio_noazul"
+        app:srcCompat="@drawable/emoteiniciono_ingles"
         tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998"
-        app:srcCompat="@drawable/perfil_azul"
+        app:srcCompat="@drawable/emoteperfilsi_ingles"
         tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageView
@@ -74,7 +74,7 @@
         android:id="@+id/EvebtoPricipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/evento_pricipal_del_artista"
+        android:text="@string/artist_main_event"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/EventoKiki"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/otros_eventos_del_artista"
+        android:text="@string/other_events_of_the_artist"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/eventoNickiNicole"
         app:layout_constraintEnd_toEndOf="parent"

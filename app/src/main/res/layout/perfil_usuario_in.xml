@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993"
-        app:srcCompat="@drawable/busqueda"
+        app:srcCompat="@drawable/emotebusquedano_ingles"
         tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"
-        app:srcCompat="@drawable/inicio_noazul"
+        app:srcCompat="@drawable/emoteiniciono_ingles"
         tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.996"
-        app:srcCompat="@drawable/perfil_azul"
+        app:srcCompat="@drawable/emoteperfilsi_ingles"
         tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
     <ImageView
@@ -77,21 +77,22 @@
         android:id="@+id/otrosEvetosNicki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/eventos_a_los_que_sigue"
+        android:text="EVENTS YOU FOLLOW"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679" />
+        app:layout_constraintVertical_bias="0.679"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/Enviar"
         android:layout_width="156dp"
         android:layout_height="48dp"
         android:onClick="Chat"
-        android:text="@string/enviar_mensaje"
+        android:text="@string/sendmessage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
@@ -105,14 +106,14 @@
         android:layout_width="156dp"
         android:layout_height="48dp"
         android:onClick="Bloqueado"
-        android:text="@string/bloquear"
+        android:text="Block"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nnicki"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="VisualLintOverlap" />
+        tools:ignore="HardcodedText,VisualLintOverlap" />
 
     <ImageButton
         android:id="@+id/EventoNickiPU"
@@ -198,7 +199,7 @@
         android:id="@+id/EvebtoPricipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/artistas_a_los_que_sigue"
+        android:text="ARTISTS YOU FOLLOW"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -206,6 +207,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.442"
-        tools:ignore="VisualLintOverlap" />
+        tools:ignore="HardcodedText,VisualLintOverlap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

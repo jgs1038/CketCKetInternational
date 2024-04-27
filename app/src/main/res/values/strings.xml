@@ -170,4 +170,21 @@
     <string name="eventoingles">Event</string>
     <string name="introduceNombreUsuario">ENTER USER NAME</string>
     <string name="enviaMensajeIngles">Send message</string>
+    <string name="canjearPuntos">Redeem points</string>
+    <string name="movements">Movements</string>
+    <string name="_100_points_daily_login">100 points - Daily login</string>
+    <string name="_250_points_review_registered">250 points- Review registered</string>
+    <string name="_500_points_purchase_tickets">500 points- Purchase tickets</string>
+    <string name="_4500_points">4500 points</string>
+    <string name="movements1">Movements:</string>
+    <string name="managed_events">MANAGED EVENTS</string>
+    <string name="artist_main_event">ARTIST MAIN EVENT</string>
+    <string name="other_events_of_the_artist">OTHER EVENTS OF THE ARTIST</string>
+    <string name="images_of_the_event">IMAGES OF THE EVENT</string>
+    <string name="location">LOCATION</string>
+    <string name="price">PRICE</string>
+    <string name="date">DATE</string>
+    <string name="social_networks_of_the_event">SOCIAL NETWORKS OF THE EVENT</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="_29_04_24">29/04/24</string>
 </resources>

@@ -84,7 +84,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ARTISTAS ASOCIADOS"
+        android:text="ASSOCIATED ARTISTS"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/eventoNickiNicole"
         app:layout_constraintEnd_toEndOf="parent"

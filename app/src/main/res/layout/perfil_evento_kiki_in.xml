@@ -12,7 +12,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/descripcion"
+        android:text="@string/description"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,13 +27,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="SiguienteError3"
-        android:text="@string/comprar"
+        android:text="BUY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
-        app:layout_constraintVertical_bias="0.68" />
+        app:layout_constraintVertical_bias="0.68"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/rrss"
@@ -52,7 +53,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/redes_sociales_del_evento"
+        android:text="@string/social_networks_of_the_event"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/rrss"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="152dp"
-        android:text="@string/ubicacion_pe"
+        android:text="@string/location"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/googleMaps"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,7 +148,7 @@
         android:id="@+id/imagenesEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/imagenes_del_evento_pe"
+        android:text="@string/images_of_the_event"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/estadio"
         app:layout_constraintEnd_toEndOf="parent"
@@ -160,7 +161,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/precio"
+        android:text="@string/price"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -174,7 +175,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fecha"
+        android:text="@string/date"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -188,25 +189,27 @@
         android:id="@+id/Fecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_27_04_2024"
+        android:text="27/04/24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/estadio"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintVertical_bias="0.397"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/desde_30"
+        android:text="From £23"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.662"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/estadio"
-        app:layout_constraintVertical_bias="0.513" />
+        app:layout_constraintVertical_bias="0.513"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/estadio"

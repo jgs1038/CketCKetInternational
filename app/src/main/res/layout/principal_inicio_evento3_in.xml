@@ -75,7 +75,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.976"
-            app:srcCompat="@drawable/inicio_icono"
+            app:srcCompat="@drawable/emoteiniciosi_ingles"
             tools:ignore="DuplicateIds,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
         <ImageButton
@@ -92,7 +92,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.975"
-            app:srcCompat="@drawable/busqueda"
+            app:srcCompat="@drawable/emotebusquedano_ingles"
             tools:ignore="DuplicateIds,DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
         <ImageButton
@@ -109,7 +109,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.978"
-            app:srcCompat="@drawable/perfil"
+            app:srcCompat="@drawable/emoteperfilno_ingles"
             tools:ignore="DuplicateIds,ImageContrastCheck,TouchTargetSizeCheck" />
 
         <ImageButton

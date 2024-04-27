@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/canjear"
+        app:srcCompat="@drawable/puntos_ingles"
         tools:ignore="VisualLintBounds,ImageContrastCheck" />
 
     <ImageView
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045"
-        app:srcCompat="@drawable/barrabusqueda"
+        app:srcCompat="@drawable/barrabusqueda_ingles"
         tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.widget.Barrier

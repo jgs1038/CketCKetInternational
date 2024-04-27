@@ -12,7 +12,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/descripcion"
+        android:text="@string/description"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,14 +27,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="SiguienteError2"
-        android:text="@string/comprar"
+        android:text="BUY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rrss"
         app:layout_constraintVertical_bias="0.616"
-        tools:ignore="VisualLintBounds" />
+        tools:ignore="HardcodedText,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/rrss"
@@ -53,7 +53,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/redes_sociales_del_evento"
+        android:text="@string/social_networks_of_the_event"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +94,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ubicacion_pe"
+        android:text="@string/location"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/googleMaps"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,13 +122,13 @@
         android:layout_width="84dp"
         android:layout_height="29dp"
         android:layout_marginTop="4dp"
-        android:text="@string/parte_dos"
+        android:text="PART TWO"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.648"
         app:layout_constraintStart_toEndOf="@+id/nickiNicole"
         app:layout_constraintTop_toBottomOf="@+id/Nicki"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/Nicki"
@@ -148,7 +148,7 @@
         android:id="@+id/imagenesEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/imagenes_del_evento_pe"
+        android:text="@string/images_of_the_event"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/wizin"
         app:layout_constraintEnd_toEndOf="parent"
@@ -160,7 +160,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/precio"
+        android:text="@string/price"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -174,7 +174,7 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fecha"
+        android:text="@string/date"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -188,25 +188,27 @@
         android:id="@+id/Fecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_16_03_2024"
+        android:text="16/03/24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintVertical_bias="0.55"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/desde_7_90"
+        android:text="From £4.60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.682"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
+        app:layout_constraintVertical_bias="0.639"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/estadio"
