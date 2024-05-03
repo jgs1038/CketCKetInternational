@@ -27,15 +27,15 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="150dp"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/chat1cr_ingles" />
 
     <ImageButton
@@ -100,13 +100,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.827"
-        app:srcCompat="@drawable/desplegable3_ingles" />
+        app:srcCompat="@drawable/desplegable3_ingles"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageButton
         android:id="@+id/Vendidas"
         android:layout_width="327dp"
         android:layout_height="57dp"
-        android:background="#EDECEC"
+        android:background="#FFFEFE"
         android:importantForAccessibility="no"
         android:onClick="EntradasVendidas"
         android:scaleType="centerInside"
