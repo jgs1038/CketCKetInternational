@@ -376,35 +376,35 @@
         <activity
             android:name=".InicioPrincipalIN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipal2IN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipal3IN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipal4IN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipal5IN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipalEventoIN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipalEvento2IN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".InicioPrincipalEvento3IN"
             android:exported="false"
-            android:label="Main Satart"/>
+            android:label="Main Start"/>
         <activity
             android:name=".PerfilEventoNickiIN"
             android:exported="false"
