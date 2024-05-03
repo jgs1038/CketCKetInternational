@@ -20,6 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/misentradas_ingles" />
+        app:srcCompat="@drawable/misentradas_ingles_bueno" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
