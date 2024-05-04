@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:background="#F3EEEE"
         android:importantForAccessibility="no"
+        android:onClick="LiveActivities"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -52,24 +52,26 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.484"
         app:srcCompat="@drawable/esperandocompra_ingles"
         tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="398dp"
+        android:layout_height="45dp"
         android:text="Please confirm the purchase through the associated email"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView40"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView12"
@@ -80,22 +82,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.892"
-        tools:ignore="DuplicateIds,HardcodedText" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="0.204"
+        tools:ignore="DuplicateIds,HardcodedText,VisualLintOverlap" />
 
     <ImageView
         android:id="@+id/imageView43"
         android:layout_width="241dp"
         android:layout_height="178dp"
         android:layout_centerInParent="true"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.784"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40"
+        app:layout_constraintVertical_bias="0.294"
         app:srcCompat="@drawable/carga"
-        android:importantForAccessibility="no" />
+        tools:ignore="VisualLintBounds" />
 
     <ImageButton
         android:id="@+id/imageButton7"

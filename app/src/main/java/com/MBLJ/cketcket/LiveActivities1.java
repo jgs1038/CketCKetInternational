@@ -237,4 +237,8 @@ public class LiveActivities1 extends AppCompatActivity  {
         Intent siguiente = new Intent(this, AnadirHistoria.class);
         startActivity(siguiente);
     }
+    public void LiveActivities(View view) {
+        Intent siguiente = new Intent(this, LiveActivities.class);
+        startActivity(siguiente);
+    }
 }
