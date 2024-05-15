@@ -16,7 +16,7 @@ public class FormularioIN extends AppCompatActivity {
     }
     protected void onStop(){
         super.onStop();
-        Toast.makeText(this, "Resgistro Terminado", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Registration Completed", Toast.LENGTH_SHORT).show();
     }
     public void InicioOrganizador(View view) {
         Intent siguiente = new Intent(this, InicioPrincipalIN.class);

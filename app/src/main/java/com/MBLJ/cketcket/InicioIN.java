@@ -18,7 +18,7 @@ public class InicioIN extends AppCompatActivity {
     @Override
     protected void onStart(){
         super.onStart();
-        Toast.makeText(this, "Iniciando", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Starting", Toast.LENGTH_SHORT).show();
     }
     public void SiguienteRegistro(View view) {
         Intent siguiente = new Intent(this, RegistroIN.class);

@@ -87,7 +87,7 @@ public class Registro1IN extends AppCompatActivity {
         guardarTipoUsuario();
         //String tipoUsuario = tipo.getText().toString();
         if (tipoUsuario==1 || tipoUsuario==2 || tipoUsuario==4 ) {
-            Toast.makeText(this, "Resgistro Terminado", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Registration Completed", Toast.LENGTH_SHORT).show();
             }
 
         }
