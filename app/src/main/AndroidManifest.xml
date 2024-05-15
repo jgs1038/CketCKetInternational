@@ -734,6 +734,34 @@
             android:exported="false"
             android:label="Buy Tickets"/>
         <activity
+            android:name=".TutorialIN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial1IN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial2IN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial3IN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial4IN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial5IN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial6IN"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
             android:name=".Error404IN"
             android:exported="false"
             android:label="Error"/>

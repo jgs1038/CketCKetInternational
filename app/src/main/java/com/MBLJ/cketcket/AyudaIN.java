@@ -216,5 +216,9 @@ public class AyudaIN extends AppCompatActivity  {
         Intent siguiente = new Intent (this, ForoDudasIN.class);
         startActivity(siguiente);
     }
+    public void Tutorial(View view){
+        Intent siguiente = new Intent (this, TutorialIN.class);
+        startActivity(siguiente);
+    }
 
 }

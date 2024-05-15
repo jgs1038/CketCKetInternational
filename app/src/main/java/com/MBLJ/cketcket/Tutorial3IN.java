@@ -6,20 +6,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-//imports del menu
+//import android.widget.Toast;
 
-
-public class Ayuda extends AppCompatActivity  {
+public class Tutorial3IN extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ayuda);
-    }
+        setContentView(R.layout.tutorial3_in);
 
+    }
     public int obtenerTipoUsuario() {
         SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
         return prefs.getInt("tipoUsuario", 0);
@@ -202,20 +200,6 @@ public class Ayuda extends AppCompatActivity  {
             }
         }
         return true;
-    }
-
-    public void AsistenciaTecnica(View view){
-        Intent siguiente = new Intent (this, AsistenciaTecnica.class);
-        startActivity(siguiente);
-    }
-
-    public void ForoDudas(View view){
-        Intent siguiente = new Intent (this, ForoDudas.class);
-        startActivity(siguiente);
-    }
-    public void Tutorial(View view){
-        Intent siguiente = new Intent (this, TutorialIN.class);
-        startActivity(siguiente);
     }
 
 }
