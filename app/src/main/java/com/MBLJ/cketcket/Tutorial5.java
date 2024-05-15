@@ -207,7 +207,7 @@ public class Tutorial5 extends AppCompatActivity  {
         startActivity(siguiente);
     }
     public void Omitir(View view) {
-        Intent siguiente = new Intent(this, InicioPrincipal.class);
+        Intent siguiente = new Intent(this, Ayuda.class);
         startActivity(siguiente);
     }
 }

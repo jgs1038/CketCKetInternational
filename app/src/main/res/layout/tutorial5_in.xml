@@ -9,6 +9,32 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="-42dp">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Omitir_1"
+        android:text="Omit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chat2"
+        app:layout_constraintVertical_bias="0.884"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Paso7_1"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chat2"
+        app:layout_constraintVertical_bias="0.753"
+        tools:ignore="HardcodedText" />
+
     <ImageView
         android:id="@+id/chat2"
         android:layout_width="411dp"
