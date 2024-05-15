@@ -355,6 +355,34 @@
             android:exported="false"
             android:label="Comprar Entradas"/>
         <activity
+            android:name=".Tutorial"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial1"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial2"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial3"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial4"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial5"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
+            android:name=".Tutorial6"
+            android:exported="false"
+            android:label="Tutorial"/>
+        <activity
             android:name=".Error404"
             android:exported="false"
             android:label="Error"/>
