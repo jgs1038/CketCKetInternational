@@ -359,6 +359,10 @@
             android:exported="false"
             android:label="Error"/>
         <activity
+            android:name=".Ayuda"
+            android:exported="false"
+            android:label="Ayuda"/>
+        <activity
             android:name=".InicioIN"
             android:exported="false"/>
         <activity
@@ -705,7 +709,10 @@
             android:name=".Error404IN"
             android:exported="false"
             android:label="Error"/>
-
+        <activity
+            android:name=".AyudaIN"
+            android:exported="false"
+            android:label="Help"/>
 
         <activity
             android:name=".Inicio"

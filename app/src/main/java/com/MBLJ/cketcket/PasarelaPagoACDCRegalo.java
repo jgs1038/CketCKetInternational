@@ -46,20 +46,12 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
         int id = item.getItemId();
-        int tipoUsuario = obtenerTipoUsuario();
-        if (tipoUsuario == 1) {
+        int tipoUsuario=obtenerTipoUsuario();
+        if (tipoUsuario==1) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -80,20 +72,16 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
             }
             if (id == R.id.merchandising) {
                 Intent siguiente = new Intent(this, Merchandising.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
                 startActivity(siguiente);
             }
         }
-        if (tipoUsuario == 2) {
+        if (tipoUsuario==2) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -101,7 +89,7 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosArtista.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -116,27 +104,23 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
                 Intent siguiente = new Intent(this, Merchandising.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.solicitud_evento) {
-                Intent siguiente = new Intent(this, SolicitudEventoArtista.class);
+            if (id == R.id.solicitud_evento){
+                Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.datos_evento) {
-                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
+            if (id == R.id.datos_evento){
+                Intent siguiente = new Intent (this, ModificarDatosEvento.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
                 startActivity(siguiente);
             }
         }
 
-        if (tipoUsuario == 3) {
+        if (tipoUsuario==3) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -144,7 +128,7 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -167,19 +151,15 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
                 Intent siguiente = new Intent(this, ModificarDatosEvento.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
+                startActivity(siguiente);
+            }
         }
 
-        if (tipoUsuario == 4) {
+        if (tipoUsuario==4) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -187,7 +167,7 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
@@ -218,10 +198,11 @@ public class PasarelaPagoACDCRegalo extends AppCompatActivity {
                 Intent siguiente = new Intent(this, CrearDescuentos.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
+                startActivity(siguiente);
+            }
         }
-
-        //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
-        //return super.onOptionsItemSelected(item);
         return true;
     }
 

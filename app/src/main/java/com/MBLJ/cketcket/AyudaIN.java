@@ -1,4 +1,5 @@
 package com.MBLJ.cketcket;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,14 +13,12 @@ import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
 
 
-public class CompraEntradasNicki2IN extends AppCompatActivity {
-
+public class AyudaIN extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.compra_entradas_nicki_2_in);
+        setContentView(R.layout.ayuda_in);
     }
-
 
     public int obtenerTipoUsuario() {
         SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
@@ -31,16 +30,16 @@ public class CompraEntradasNicki2IN extends AppCompatActivity {
         int tipoUsuario=obtenerTipoUsuario();
 
         if (tipoUsuario == 1) {
-            menuInflater.inflate(R.menu.tres_rayas_in, menu);
+            menuInflater.inflate(R.menu.tres_rayas, menu);
         }
         if (tipoUsuario == 2) {
-            menuInflater.inflate(R.menu.tres_rayas_artista_in, menu);
+            menuInflater.inflate(R.menu.tres_rayas_artista, menu);
         }
         if (tipoUsuario == 3) {
-            menuInflater.inflate(R.menu.tres_rayas_organizador_in, menu);
+            menuInflater.inflate(R.menu.tres_rayas_organizador, menu);
         }
         if (tipoUsuario == 4) {
-            menuInflater.inflate(R.menu.tres_rayas_administrador_in, menu);
+            menuInflater.inflate(R.menu.tres_rayas_administrador, menu);
         }
         return true;
     }
@@ -208,16 +207,14 @@ public class CompraEntradasNicki2IN extends AppCompatActivity {
         return true;
     }
 
-    public void PerfilNicki(View view) {
-        Intent siguiente = new Intent(this, PerfilEventoNickiIN.class);
+    public void AsistenciaTecnica(View view){
+        Intent siguiente = new Intent (this, AsistenciaTecnicaIN.class);
         startActivity(siguiente);
     }
-    public void SiguientePorPrecios(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasNickiPrecioIN.class);
+
+    public void ForoDudas(View view){
+        Intent siguiente = new Intent (this, ForoDudasIN.class);
         startActivity(siguiente);
     }
-    public void SiguienteCompra3(View view) {
-        Intent siguiente = new Intent(this, CompraEntradasNicki3IN.class);
-        startActivity(siguiente);
-    }
+
 }

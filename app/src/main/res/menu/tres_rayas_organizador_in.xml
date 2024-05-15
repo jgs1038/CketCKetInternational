@@ -10,18 +10,6 @@
         android:title="My tickets"
         tools:ignore="HardcodedText" />
     <item
-        android:id="@+id/ForoDudas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:title="Doubts Forum"
-        tools:ignore="HardcodedText" />
-    <item
-        android:id="@+id/asistencia_tecnica"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:title="Technical Assistance"
-        tools:ignore="HardcodedText" />
-    <item
         android:id="@+id/chat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,5 +46,9 @@
     <item
         android:id="@+id/modificar_evento"
         android:title="Modify Event"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/ayuda"
+        android:title="Help"
         tools:ignore="HardcodedText" />
 </menu>

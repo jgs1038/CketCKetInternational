@@ -53,14 +53,6 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 Intent siguiente = new Intent(this, MisEntradas.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
-                startActivity(siguiente);
-            }
             if (id == R.id.chat) {
                 Intent siguiente = new Intent(this, Chat1.class);
                 startActivity(siguiente);
@@ -81,18 +73,14 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 Intent siguiente = new Intent(this, Merchandising.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
+                startActivity(siguiente);
+            }
         }
         if (tipoUsuario==2) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -123,19 +111,15 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 Intent siguiente = new Intent (this, ModificarDatosEvento.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
+                startActivity(siguiente);
+            }
         }
 
         if (tipoUsuario==3) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -166,19 +150,15 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 Intent siguiente = new Intent(this, ModificarDatosEvento.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
+                startActivity(siguiente);
+            }
         }
 
         if (tipoUsuario==4) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudas.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnica.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -217,10 +197,11 @@ public class InicioPrincipal2 extends AppCompatActivity {
                 Intent siguiente = new Intent(this, CrearDescuentos.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, Ayuda.class);
+                startActivity(siguiente);
+            }
         }
-
-        //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
-        //return super.onOptionsItemSelected(item);
         return true;
     }
 

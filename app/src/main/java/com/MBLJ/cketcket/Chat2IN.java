@@ -49,14 +49,6 @@ public class Chat2IN extends AppCompatActivity  {
                 Intent siguiente = new Intent(this, MisEntradasIN.class);
                 startActivity(siguiente);
             }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnicaIN.class);
-                startActivity(siguiente);
-            }
             if (id == R.id.chat) {
                 Intent siguiente = new Intent(this, Chat1IN.class);
                 startActivity(siguiente);
@@ -77,18 +69,14 @@ public class Chat2IN extends AppCompatActivity  {
                 Intent siguiente = new Intent(this, MerchandisingIN.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, AyudaIN.class);
+                startActivity(siguiente);
+            }
         }
         if (tipoUsuario==2) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnicaIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -119,19 +107,15 @@ public class Chat2IN extends AppCompatActivity  {
                 Intent siguiente = new Intent (this, ModificarDatosEventoIN.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, AyudaIN.class);
+                startActivity(siguiente);
+            }
         }
 
         if (tipoUsuario==3) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnicaIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -162,19 +146,15 @@ public class Chat2IN extends AppCompatActivity  {
                 Intent siguiente = new Intent(this, ModificarDatosEventoIN.class);
                 startActivity(siguiente);
             }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, AyudaIN.class);
+                startActivity(siguiente);
+            }
         }
 
         if (tipoUsuario==4) {
             if (id == R.id.mis_entradas) {
                 Intent siguiente = new Intent(this, MisEntradasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.ForoDudas) {
-                Intent siguiente = new Intent(this, ForoDudasIN.class);
-                startActivity(siguiente);
-            }
-            if (id == R.id.asistencia_tecnica) {
-                Intent siguiente = new Intent(this, AsistenciaTecnicaIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
@@ -211,6 +191,10 @@ public class Chat2IN extends AppCompatActivity  {
             }
             if (id == R.id.crear_descuentos) {
                 Intent siguiente = new Intent(this, CrearDescuentosIN.class);
+                startActivity(siguiente);
+            }
+            if (id == R.id.ayuda) {
+                Intent siguiente = new Intent(this, AyudaIN.class);
                 startActivity(siguiente);
             }
         }
