@@ -5,10 +5,14 @@ package com.MBLJ.cketcket;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +23,26 @@ public class PerfilEventoNickiIN extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.perfil_evento_nicki_in);
+
+        Button myButton = findViewById(R.id.compra_nicki);
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+        public void onClick(View v) {
+            // Mostrar el Toast
+            Toast.makeText(PerfilEventoNickiIN.this, "This button takes you to the shopping page", Toast.LENGTH_SHORT).show();
+
+            // Usar un Handler para retrasar la siguiente acción
+            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    // Cambiar a la siguiente Activity después de 20 segundos
+                    Intent intent = new Intent(PerfilEventoNickiIN.this, CompraEntradasNickiIN.class);
+                    startActivity(intent);
+                    finish(); // Finalizar la Activity actual si no quieres que el usuario regrese a ella
+                }
+            }, 2000); // 20000 milisegundos = 20 segundos
+        }
+    });
 
     }
 

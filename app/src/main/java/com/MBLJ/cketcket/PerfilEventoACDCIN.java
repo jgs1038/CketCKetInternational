@@ -3,10 +3,14 @@ package com.MBLJ.cketcket;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +23,26 @@ public class PerfilEventoACDCIN extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.perfil_evento_acdc_in);
+
+        Button myButton = findViewById(R.id.compra_nicki);
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(PerfilEventoACDCIN.this, "This button takes you to the shopping page", Toast.LENGTH_SHORT).show();
+
+
+                new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                        Intent intent = new Intent(PerfilEventoACDCIN.this, CompraEntradasACDCIN.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                }, 2000);
+            }
+        });
     }
 
     public int obtenerTipoUsuario() {

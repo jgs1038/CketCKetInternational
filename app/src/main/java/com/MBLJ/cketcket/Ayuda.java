@@ -214,7 +214,7 @@ public class Ayuda extends AppCompatActivity  {
         startActivity(siguiente);
     }
     public void Tutorial(View view){
-        Intent siguiente = new Intent (this, TutorialIN.class);
+        Intent siguiente = new Intent (this, Tutorial.class);
         startActivity(siguiente);
     }
 
