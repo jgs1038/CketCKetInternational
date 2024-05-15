@@ -2,10 +2,14 @@ package com.MBLJ.cketcket;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +22,24 @@ public class PasarelaPagoACDCTarjetaIN extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pasarela_pago_acdc_tarjeta_in);
+
+        Button myButton = findViewById(R.id.button8);
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(PasarelaPagoACDCTarjetaIN.this, "The established amount of money will be retired from the credit card", Toast.LENGTH_SHORT).show();
+
+                new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(PasarelaPagoACDCTarjetaIN.this, PasarelaPagoACDCTarjeta2IN.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                }, 2000);
+            }
+        });
     }
 
 
@@ -208,8 +230,5 @@ public class PasarelaPagoACDCTarjetaIN extends AppCompatActivity {
         return true;
     }
 
-    public void SiguienteConfirmacionGmail(View view) {
-        Intent siguiente = new Intent(this, PasarelaPagoACDCTarjeta2IN.class);
-        startActivity(siguiente);
-    }
+
 }
