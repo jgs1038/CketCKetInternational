@@ -115,6 +115,10 @@
             android:exported="false"
             android:label="Foro Dudas"/>
         <activity
+            android:name=".ForoDudas1"
+            android:exported="false"
+            android:label="Foro Dudas-Entradas"/>
+        <activity
             android:name=".AsistenciaTecnica"
             android:exported="false"
             android:label="Asistencia Técnica"/>
@@ -493,6 +497,10 @@
             android:name=".ForoDudasIN"
             android:exported="false"
             android:label="Doubts Forum"/>
+        <activity
+            android:name=".ForoDudas1IN"
+            android:exported="false"
+            android:label="Doubts Forum-Tickets"/>
         <activity
             android:name=".AsistenciaTecnicaIN"
             android:exported="false"

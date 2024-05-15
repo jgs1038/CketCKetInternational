@@ -6,23 +6,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-//import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.view.View;
+
 //import android.widget.Toast;
 
-public class ForoDudas extends AppCompatActivity  {
+public class ForoDudas1IN extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.foro_dudas);
+        setContentView(R.layout.foro_dudas1_in);
     }
     public int obtenerTipoUsuario() {
         SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
@@ -34,16 +29,16 @@ public class ForoDudas extends AppCompatActivity  {
         int tipoUsuario=obtenerTipoUsuario();
 
         if (tipoUsuario == 1) {
-            menuInflater.inflate(R.menu.tres_rayas, menu);
+            menuInflater.inflate(R.menu.tres_rayas_in, menu);
         }
         if (tipoUsuario == 2) {
-            menuInflater.inflate(R.menu.tres_rayas_artista, menu);
+            menuInflater.inflate(R.menu.tres_rayas_artista_in, menu);
         }
         if (tipoUsuario == 3) {
-            menuInflater.inflate(R.menu.tres_rayas_organizador, menu);
+            menuInflater.inflate(R.menu.tres_rayas_organizador_in, menu);
         }
         if (tipoUsuario == 4) {
-            menuInflater.inflate(R.menu.tres_rayas_administrador, menu);
+            menuInflater.inflate(R.menu.tres_rayas_administrador_in, menu);
         }
         return true;
     }
@@ -53,164 +48,162 @@ public class ForoDudas extends AppCompatActivity  {
         int tipoUsuario=obtenerTipoUsuario();
         if (tipoUsuario==1) {
             if (id == R.id.mis_entradas) {
-                Intent siguiente = new Intent(this, MisEntradas.class);
+                Intent siguiente = new Intent(this, MisEntradasIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
-                Intent siguiente = new Intent(this, Chat1.class);
+                Intent siguiente = new Intent(this, Chat1IN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntos.class);
+                Intent siguiente = new Intent(this, MisPuntosIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
-                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                Intent siguiente = new Intent(this, UsuariosBloqueadosIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.live_activities) {
-                Intent siguiente = new Intent(this, LiveActivities.class);
+                Intent siguiente = new Intent(this, LiveActivitiesIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.merchandising) {
-                Intent siguiente = new Intent(this, Merchandising.class);
+                Intent siguiente = new Intent(this, MerchandisingIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.ayuda) {
-                Intent siguiente = new Intent(this, Ayuda.class);
+                Intent siguiente = new Intent(this, AyudaIN.class);
                 startActivity(siguiente);
             }
         }
         if (tipoUsuario==2) {
             if (id == R.id.mis_entradas) {
-                Intent siguiente = new Intent(this, MisEntradas.class);
+                Intent siguiente = new Intent(this, MisEntradasIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
-                Intent siguiente = new Intent(this, Chat1.class);
+                Intent siguiente = new Intent(this, Chat1IN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntosArtista.class);
+                Intent siguiente = new Intent(this, MisPuntosArtistaIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
-                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                Intent siguiente = new Intent(this, UsuariosBloqueadosIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.live_activities) {
-                Intent siguiente = new Intent(this, LiveActivities.class);
+                Intent siguiente = new Intent(this, LiveActivitiesIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.merchandising) {
-                Intent siguiente = new Intent(this, Merchandising.class);
+                Intent siguiente = new Intent(this, MerchandisingIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.solicitud_evento){
-                Intent siguiente = new Intent (this, SolicitudEventoArtista.class);
+                Intent siguiente = new Intent (this, SolicitudEventoArtistaIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.datos_evento){
-                Intent siguiente = new Intent (this, ModificarDatosEvento.class);
+                Intent siguiente = new Intent (this, ModificarDatosEventoIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.ayuda) {
-                Intent siguiente = new Intent(this, Ayuda.class);
+                Intent siguiente = new Intent(this, AyudaIN.class);
                 startActivity(siguiente);
             }
         }
 
         if (tipoUsuario==3) {
             if (id == R.id.mis_entradas) {
-                Intent siguiente = new Intent(this, MisEntradas.class);
+                Intent siguiente = new Intent(this, MisEntradasIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
-                Intent siguiente = new Intent(this, Chat1.class);
+                Intent siguiente = new Intent(this, Chat1IN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntosOrganizador.class);
+                Intent siguiente = new Intent(this, MisPuntosOrganizadorIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
-                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                Intent siguiente = new Intent(this, UsuariosBloqueadosIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.live_activities) {
-                Intent siguiente = new Intent(this, LiveActivities.class);
+                Intent siguiente = new Intent(this, LiveActivitiesIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.merchandising) {
-                Intent siguiente = new Intent(this, Merchandising.class);
+                Intent siguiente = new Intent(this, MerchandisingIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.publicar_evento) {
-                Intent siguiente = new Intent(this, SolicitudEventoOrganizador.class);
+                Intent siguiente = new Intent(this, SolicitudEventoOrganizadorIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.modificar_evento) {
-                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
+                Intent siguiente = new Intent(this, ModificarDatosEventoIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.ayuda) {
-                Intent siguiente = new Intent(this, Ayuda.class);
+                Intent siguiente = new Intent(this, AyudaIN.class);
                 startActivity(siguiente);
             }
         }
 
         if (tipoUsuario==4) {
             if (id == R.id.mis_entradas) {
-                Intent siguiente = new Intent(this, MisEntradas.class);
+                Intent siguiente = new Intent(this, MisEntradasIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.chat) {
-                Intent siguiente = new Intent(this, Chat1.class);
+                Intent siguiente = new Intent(this, Chat1IN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.mis_puntos) {
-                Intent siguiente = new Intent(this, MisPuntosAdministrador.class);
+                Intent siguiente = new Intent(this, MisPuntosAdministradorIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.usuarios_bloqueados) {
-                Intent siguiente = new Intent(this, UsuariosBloqueados.class);
+                Intent siguiente = new Intent(this, UsuariosBloqueadosIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.live_activities) {
-                Intent siguiente = new Intent(this, LiveActivities.class);
+                Intent siguiente = new Intent(this, LiveActivitiesIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.merchandising) {
-                Intent siguiente = new Intent(this, Merchandising.class);
+                Intent siguiente = new Intent(this, MerchandisingIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.publicar_evento) {
-                Intent siguiente = new Intent(this, SolicitudEventoOrganizador.class);
+                Intent siguiente = new Intent(this, SolicitudEventoOrganizadorIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.modificar_evento) {
-                Intent siguiente = new Intent(this, ModificarDatosEvento.class);
+                Intent siguiente = new Intent(this, ModificarDatosEventoIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.aceptar_solicitudes) {
-                Intent siguiente = new Intent(this, AceptarSolicitud.class);
+                Intent siguiente = new Intent(this, AceptarSolicitudIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.crear_descuentos) {
-                Intent siguiente = new Intent(this, CrearDescuentos.class);
+                Intent siguiente = new Intent(this, CrearDescuentosIN.class);
                 startActivity(siguiente);
             }
             if (id == R.id.ayuda) {
-                Intent siguiente = new Intent(this, Ayuda.class);
+                Intent siguiente = new Intent(this, AyudaIN.class);
                 startActivity(siguiente);
             }
         }
-        return true;
-    }
 
-    public void ForoDudas1(View view) {
-        Intent siguiente = new Intent(this, ForoDudas1.class);
-        startActivity(siguiente);
+        //Toast.makeText(this,"Fallo", Toast.LENGTH_SHORT).show();
+        //return super.onOptionsItemSelected(item);
+        return true;
     }
 
 }
