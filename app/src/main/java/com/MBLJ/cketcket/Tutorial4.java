@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -201,5 +202,12 @@ public class Tutorial4 extends AppCompatActivity  {
         }
         return true;
     }
-
+    public void Paso6(View view) {
+        Intent siguiente = new Intent(this, Tutorial5.class);
+        startActivity(siguiente);
+    }
+    public void Omitir(View view) {
+        Intent siguiente = new Intent(this, InicioPrincipal.class);
+        startActivity(siguiente);
+    }
 }
