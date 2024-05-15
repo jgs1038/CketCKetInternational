@@ -10,40 +10,31 @@
     tools:layout_editor_absoluteY="-42dp">
 
     <ImageView
-        android:id="@+id/acdc"
-        android:layout_width="399dp"
-        android:layout_height="544dp"
-        android:contentDescription="@string/todo"
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:onClick="ForoDudas1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/forodedudas_ingles"
-        tools:ignore="VisualLintBounds" />
+        app:srcCompat="@drawable/forodudas_buy" />
 
-    <Button
-        android:id="@+id/añadirarchivo"
-        android:layout_width="119dp"
-        android:layout_height="48dp"
-        android:text="@string/addfile"
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="408dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="-25dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
-
-    <Button
-        android:id="@+id/Enviarmensaje"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/enviaMensajeIngles"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/forodudas_options" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

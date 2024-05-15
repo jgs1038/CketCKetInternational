@@ -6,23 +6,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-//import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 //imports del menu
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
-import android.view.Menu;
-import android.view.View;
+
 //import android.widget.Toast;
 
-public class ForoDudas extends AppCompatActivity  {
+public class ForoDudas1 extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.foro_dudas);
+        setContentView(R.layout.foro_dudas1);
     }
     public int obtenerTipoUsuario() {
         SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
@@ -206,11 +201,6 @@ public class ForoDudas extends AppCompatActivity  {
             }
         }
         return true;
-    }
-
-    public void ForoDudas1(View view) {
-        Intent siguiente = new Intent(this, ForoDudas1.class);
-        startActivity(siguiente);
     }
 
 }
