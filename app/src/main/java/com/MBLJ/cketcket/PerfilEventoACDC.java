@@ -32,7 +32,7 @@ public class PerfilEventoACDC extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(PerfilEventoACDC.this, "Este botón te llava a la pagina de compra", Toast.LENGTH_SHORT).show();
+                Toast.makeText(PerfilEventoACDC.this, "Este botón te lleva a la página de compra", Toast.LENGTH_SHORT).show();
 
                 new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                     @Override
